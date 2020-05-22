@@ -1,13 +1,12 @@
-package l6;
+package hw6;
 
-public class HW6 {
+public class Work {
     public static void main(String[] args) {
-        System.out.println();
         sum1(5, 5);
-        System.out.println();
+
         int a = sum(3, 2);
         System.out.println(a);
-        System.out.println();
+
         boolean b = isOdd(5);
         System.out.println(b);
     }
