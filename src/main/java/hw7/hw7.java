@@ -13,6 +13,7 @@ public class hw7 {
 
 
 
+    
     public static int sumOfTwoNumbers(int a, int b){
         int d=a+b;
         return d;
