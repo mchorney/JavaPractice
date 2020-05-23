@@ -1,8 +1,11 @@
 package l6;
 
+/*
 public class App {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
+
+    }
 //        double rad = 5;
 //        double square = circleSquare(rad);
 //        System.out.println(square);
@@ -12,7 +15,7 @@ public class App {
 //        int infant = 1;
 //        int child = 5;
 //        int adult = 28;
-//        int senior = 69;
+//        int senior = 68;
 //
 //        System.out.println("passenger 1 = "+ticketPrice(infant));
 //        System.out.println("passenger 2 = "+ticketPrice(child));
@@ -25,10 +28,12 @@ public class App {
 //        System.out.println(sumOfThreeNumbers(55,55,69));
 //
 //        System.out.println(returnPi());
-        sayHello("Irina");
+      */
+/*  sayHello("Irina");
         sayHello("Misha");
         double ccc = ticketPrice(55);
-        sayHello("Suren");
+        sayHello("Suren");*//*
+
 
     }
 
@@ -64,3 +69,4 @@ public class App {
         return 0.8*price;
     }
 }
+*/
