@@ -9,7 +9,7 @@ package l6;
 //вызовите этот метод внутри функии main(), сохраните результат в переменной и выведите результат на экран
 
 
-public class Homework {
+public class Homework_6 {
     public static void main(String[] args) {
         sum1(1,2);
 
