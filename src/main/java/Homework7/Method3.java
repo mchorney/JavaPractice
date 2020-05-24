@@ -1,6 +1,6 @@
 package Homework7;
 
-public class method3 {
+public class Method3 {
     public static void main(String[] args) {
         boolean u=isOdd(6);
         System.out.println(u);
