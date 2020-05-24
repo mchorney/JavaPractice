@@ -2,46 +2,25 @@ package hw89;
 
 import java.util.Arrays;
 
+import static java.util.Arrays.sort;
+
 public class Hom89 {
     public static void main(String[] args) {
-
-//        int[] array={2,3,5,6,7,8};
-//        System.out.println(sum_of_array(array));
-
-
-//        int[] arr={3,9,1,8,4,8,5};
-//        System.out.println("\nSorted: \n");
-//        Arrays.sort(arr);
-//        for(int i=0;i<arr.length;i++){
-//            System.out.println(arr[i]+ " ");
+        int[] numbers = {2, 3, 5, 6, 7, 8};
+        System.out.println(sum_of_array(numbers));
 
 
+        int[] arr={3,9,1,8,4,8,5};
+        System.out.println(" ");
+        sort(arr);
 
 
-//        int[] array={3,9,1,8,4,8,5};
-//        for (int i = 0; i < array.length; i++) {
-//
-//        }
-//        double max = array[0];
-//        double min = array[0];
-//        double avg = 0;
-//        for (int i = 0; i < array.length; i++) {
-//            if (max < array[i])
-//                max = array[i];
-//            if (min > array[i])
-//                min = array[i];
-//            avg += array[i] / array.length;
-//        }
-//        System.out.println("max = " + max);
-//        System.out.println("min = " + min);
-//        System.out.println("avg = " + avg);
+        int[] array={3,9,1,8,4,8,5};
+        int result=max(array);
+        System.out.println(result);
 
-
-        int[] array = {2, 3, 5, 6, 7, 8};
-        System.out.println(sum_of_array(array));
 
     }
-
 
     public static int sum_of_array(int[] xx) {
         int sum = 0;
@@ -49,7 +28,30 @@ public class Hom89 {
             sum += v;
         }
         return sum;
-
-
     }
+
+
+    public static void sort(int[]yy){
+        Arrays.sort(yy);
+        for(int v:yy){
+            System.out.println(v);
+        }
+    }
+
+
+    public static int max(int[]xx){
+        int i=xx[0];
+        for(int v:xx){
+            if(v>i){
+                i=v;
+            }
+        }
+        return i;
+    }
+
+
+
+
+
+
 }
