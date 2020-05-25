@@ -51,6 +51,7 @@ public class work7 {
         }
         return max;
     }
+    //for ex3. min calculation
     public static int minimum (int[]mini){
         int min=mini[0];
         for (int x:mini) {
