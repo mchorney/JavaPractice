@@ -18,6 +18,7 @@ public class work7 {
         System.out.println(sum(array1));
         sort(array2);
         System.out.println(maximum(array3));
+        System.out.println(minimum(array3));
 
     }
     //ex1
@@ -49,5 +50,13 @@ public class work7 {
                 max=v;
         }
         return max;
+    }
+    public static int minimum (int[]mini){
+        int min=mini[0];
+        for (int x:mini) {
+            if (x<min)
+                min=x;
+        }
+        return min;
     }
 }
