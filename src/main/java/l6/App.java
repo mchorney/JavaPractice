@@ -3,11 +3,6 @@ package l6;
 public class App {
 
     public static void main(String[] args) {
-
-
-
-
-
 //        double rad = 5;
 //        double square = circleSquare(rad);
 //        System.out.println(square);
@@ -30,40 +25,40 @@ public class App {
 //        System.out.println(sumOfThreeNumbers(55,55,69));
 //
 //        System.out.println(returnPi());
-//        sayHello("Irina");
-//        sayHello("Misha");
-//
-//    }
-//
-//    public static void sayHello(String name){
-//        System.out.println("Hello, "+name);
-//    }
-//
-//    public static double returnPi(){
-//        return 3.14;
-//    }
-//
-//    public static int sumOfThreeNumbers(int a, int b, int c){
-//        int d=a+b+c;
-//        return d;
-//    }
-//
-//    public static double circleSquare(double radius){
-//        double square = 3.14*radius*radius;
-//        return square;
-//    }
-//
-//    public static double ticketPrice(int age){
-//        int price = 1000;
-//        if(age<=2){
-//            return 0;
-//        }
-//        if(age<=12){
-//            return price*0.5;
-//        }
-//        if(age<=65){
-//            return price;
-//        }
-//        return 0.8*price;
+        sayHello("Irina");
+        sayHello("Misha");
+
+    }
+
+    public static void sayHello(String name){
+        System.out.println("Hello, "+name);
+    }
+
+    public static double returnPi(){
+        return 3.14;
+    }
+
+    public static int sumOfThreeNumbers(int a, int b, int c){
+        int d=a+b+c;
+        return d;
+    }
+
+    public static double circleSquare(double radius){
+        double square = 3.14*radius*radius;
+        return square;
+    }
+
+    public static double ticketPrice(int age){
+        int price = 1000;
+        if(age<=2){
+            return 0;
+        }
+        if(age<=12){
+            return price*0.5;
+        }
+        if(age<=65){
+            return price;
+        }
+        return 0.8*price;
     }
 }
