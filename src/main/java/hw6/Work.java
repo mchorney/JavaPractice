@@ -13,8 +13,8 @@ public class Work {
         System.out.println(summa);
 
 //        exercise3
-        boolean res=isOdd(13);
-        System.out.println(res);
+//        boolean res=isOdd(13);
+        System.out.println(isOdd(12));
 
     }
     public static void summa1(int n1, int n2){
