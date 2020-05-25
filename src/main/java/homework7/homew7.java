@@ -1,8 +1,6 @@
-package hw7;
-
+package homework7;
 import java.util.Arrays;
-
-public class work7 {
+public class homew7 {
     public static void main(String[] args) {
 //        1. Создайте метод sum - который в качестве аргумента берет int[] и возвращает его сумму.
 //                вызовите этот метод из функции main() - подайте в качестве параматра {2,3,5,6,7,8}
@@ -25,21 +23,21 @@ public class work7 {
     public static int sum (int []nn){
         int summa=0;
         for (int v:nn) {
-        summa+=v;
+            summa+=v;
         }
         return summa;
     }
     //ex2
     public static void sort (int[]ss){
-      for(int i=ss.length-1;i>0;i--){
-          for(int j=0;j<i;j++){
-              if (ss[j]>ss[j+1]){
-                  int temp = ss[j];
-                  ss[j]=ss[j+1];
-                  ss[j+1]=temp;
-              }
-          }
-      }
+        for(int i=ss.length-1;i>0;i--){
+            for(int j=0;j<i;j++){
+                if (ss[j]>ss[j+1]){
+                    int temp = ss[j];
+                    ss[j]=ss[j+1];
+                    ss[j+1]=temp;
+                }
+            }
+        }
         System.out.println(Arrays.toString(ss));
     }
     //ex3
