@@ -2,6 +2,7 @@ package l8_9;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.List;
 
 public class Part2 {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class Part2 {
         String str1 = str.concat(" today is a rainy day");
         System.out.println(str1);
 
-        str1 = str.replace('e','E');
+        str1 = str.replace('e', 'E');
         System.out.println(str1);
 
         int index = str.indexOf('e');
@@ -27,15 +28,15 @@ public class Part2 {
         str1 = str.toUpperCase();
         System.out.println(str1);
 
-        str1=str.toLowerCase();
+        str1 = str.toLowerCase();
         System.out.println(str1);
 
         String ss = "today,is,a,sunny,day,and,I,can,see,a,blue,sky";
         String[] ss_array = ss.split(",");
         ss_array[3] = "sunny";
-        ss_array[7]="can";
-        var sss = Arrays.asList(ss_array);
-        str1 = String.join(" ",sss);
+        ss_array[7] = "can";
+        List<String> sss = Arrays.asList(ss_array);
+        str1 = String.join(" ", sss);
         System.out.println(str1);
 
         System.out.println(str.equals(str1));
@@ -43,8 +44,8 @@ public class Part2 {
         int res = str1.compareTo(str);
         System.out.println(res);
 
-        str1 = str.indent(5);
-        System.out.println(str1);
+//        str1 = str.indent(5);
+//        System.out.println(str1);
 
         String str2 = str1.trim();
         System.out.println(str2);
@@ -58,10 +59,10 @@ public class Part2 {
         str1 = str.substring(5);
         System.out.println(str1);
 
-        str1 = str.substring(2,8);
+        str1 = str.substring(2, 8);
         System.out.println(str1);
 
-        var dd = str.subSequence(2,5);
+        CharSequence dd = str.subSequence(2, 5);
         System.out.println(dd);
 
         char[] chars = str.toCharArray();
