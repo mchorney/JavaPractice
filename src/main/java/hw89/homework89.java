@@ -18,9 +18,9 @@ public class homework89 {
 
         public static void sort(int[] xx){
             int temp;
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < xx.length; i++)
             {
-                for (int j = i + 1; j < 7; j++) {
+                for (int j = i + 1; j < xx.length; j++) {
                     if (xx[i] > xx[j])
                     {
                         temp = xx[i];
@@ -29,7 +29,7 @@ public class homework89 {
                     }
                 }
             }
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < xx.length; i++)
             {
                 System.out.print(xx[i] + " ");
             }
