@@ -1,6 +1,6 @@
 package HW7;
 
-public class sum_void {
+public class sumOfTwoNum_Void {
     public static void main(String[] args) {
         sumOfTwoNumbers(78+13);
 
