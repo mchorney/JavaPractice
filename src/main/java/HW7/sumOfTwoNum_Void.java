@@ -7,5 +7,5 @@ public class sumOfTwoNum_Void {
     }
     //1. Создайте метод sum - который в качестве аргумента берет 2 целых числа и печатает их результат на экране.
 //вызовите этот метод из функции main() (подсказка - тип функции будет void)
-    public static void sumOfTwoNumbers(Integer numbers){System.out.println(" Sum = " +numbers);}
+    public static void sumOfTwoNumbers(Integer numbers){System.out.println("Sum = " +numbers);}
 }
