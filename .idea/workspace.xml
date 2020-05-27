@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f887a80-8663-48ec-913e-76fe02acbaa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/l6/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/l6/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/l8_9/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/l8_9/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/l8_9/Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/l8_9/Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,38 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/l6/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-              <folding>
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Homework6/Functions.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
-                <element signature="e#984#985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/l8_9/Part2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,15 +33,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/l8_9/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="137">
               <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
+                <element signature="e#917#918#0" expanded="true" />
                 <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
                 <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
                 <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
                 <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
                 <element signature="e#1374#1375#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -90,6 +80,11 @@
         <option value="$PROJECT_DIR$/src/main/java/l8_9/Part2.java" />
         <option value="$PROJECT_DIR$/src/main/java/l8_9/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Homework6/Functions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework7/FunctionsSecondLesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsSecondLesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java" />
       </list>
     </option>
   </component>
@@ -137,6 +132,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaCore3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCore3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="l8_9" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -146,8 +149,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590531851523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590606959718" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Functions">
+  <component name="RunManager" selected="Application.FunctionsAndStrings">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l6.App" />
       <module name="JavaCore3" />
@@ -188,6 +192,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionsAndStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework8_9.FunctionsAndStrings" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework8_9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson8_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8_9.Lesson8_9" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson8_9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l8_9.Part2" />
       <module name="JavaCore3" />
@@ -203,6 +233,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionsAndStrings" />
+        <item itemvalue="Application.Lesson8_9" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Part2" />
         <item itemvalue="Application.App" />
@@ -226,7 +258,7 @@
     <frame x="2739" y="67" width="2200" height="1373" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25208914" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25208914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -236,7 +268,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32985553" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32985553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,24 +294,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/l8_9/App.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="497">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/l8_9/Part2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -299,10 +324,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Homework6/Functions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/l8_9/Part2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/l8_9/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
           </folding>
         </state>
       </provider>
