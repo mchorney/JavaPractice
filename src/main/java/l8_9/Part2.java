@@ -65,5 +65,8 @@ public class Part2 {
         System.out.println(dd);
 
         char[] chars = str.toCharArray();
+
+        String str5 = "Hello";
+
     }
 }
