@@ -41,5 +41,7 @@ public class saturday_lesson_part2 {
         //System.out.println(str.substring(2,8));
         System.out.println(str.subSequence(2,5));
         System.out.println(str.toCharArray());
+
+
     }
 }
