@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f887a80-8663-48ec-913e-76fe02acbaa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework10/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework10/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson10/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson10/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson10/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework6/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework6/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework8_9/FunctionsAndStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson10/Lesson10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_9/Lesson8_9.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,44 +23,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework10/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="574">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/l8_9/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework10/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
               <folding>
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -83,8 +69,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Homework7/FunctionsSecondLesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsSecondLesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java" />
         <option value="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework10/JavaObjects.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson10/Fruit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson10/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson10/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson10/Lesson10.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework8_9/FunctionsAndStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework10/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework10/App.java" />
       </list>
     </option>
   </component>
@@ -138,7 +132,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="l8_9" type="462c0819:PsiDirectoryNode" />
+              <item name="homework6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCore3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCore3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homework8_9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCore3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCore3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homework10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590606959718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590619481101" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -165,13 +175,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionsAndStrings">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l6.App" />
+      <option name="MAIN_CLASS_NAME" value="homework10.App" />
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l6.*" />
+          <option name="PATTERN" value="homework10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +190,11 @@
       </method>
     </configuration>
     <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework6.Functions" />
+      <option name="MAIN_CLASS_NAME" value="homework6.Functions" />
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework6.*" />
+          <option name="PATTERN" value="homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +203,24 @@
       </method>
     </configuration>
     <configuration name="FunctionsAndStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework8_9.FunctionsAndStrings" />
+      <option name="MAIN_CLASS_NAME" value="homework8_9.FunctionsAndStrings" />
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework8_9.*" />
+          <option name="PATTERN" value="homework8_9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson10.Lesson10" />
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,24 +229,11 @@
       </method>
     </configuration>
     <configuration name="Lesson8_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8_9.Lesson8_9" />
+      <option name="MAIN_CLASS_NAME" value="lesson8_9.Lesson8_9" />
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson8_9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l8_9.Part2" />
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="l8_9.*" />
+          <option name="PATTERN" value="lesson8_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Lesson10" />
+        <item itemvalue="Application.Functions" />
         <item itemvalue="Application.FunctionsAndStrings" />
         <item itemvalue="Application.Lesson8_9" />
-        <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Part2" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8_9/Lesson8_9.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
@@ -318,16 +328,6 @@
           <folding>
             <element signature="e#1126#1127#0" expanded="true" />
             <element signature="e#1192#1193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Homework6/Functions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#999#1000#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -361,21 +361,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson10/Fruit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="95">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson10/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="304">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson10/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson10/Lesson10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework8_9/FunctionsAndStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework6/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework10/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework10/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

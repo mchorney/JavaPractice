@@ -1,4 +1,4 @@
-package Homework8_9;
+package homework8_9;
 import java.util.Arrays;
 
 public class FunctionsAndStrings {
@@ -35,6 +35,7 @@ public class FunctionsAndStrings {
     public static void sort(int[] arr) {
         Arrays.sort(arr);
     }
+
     /* Создайте метод, который в качестве аргумента берет int[] и возвращает максимальное/минимальное значение
     (группа мак - макчимальное/ группа win - минимальное)
     подайте в качестве параматра {3,9,1,8,4,8,5}
@@ -52,15 +53,4 @@ public class FunctionsAndStrings {
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-}// end of class
+}
