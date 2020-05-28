@@ -17,7 +17,8 @@ public class homew7 {
         sort(array2);
         System.out.println(maximum(array3));
         System.out.println(minimum(array3));
-
+        Arrays.sort(array2);
+        System.out.println(Arrays.toString(array2));
     }
     //ex1
     public static int sum (int []nn){
