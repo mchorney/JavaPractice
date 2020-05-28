@@ -2,14 +2,13 @@ package homework10;
 
 public class Book {
 
-    String book_name;
-    String book_author;
-    String note;
-    int page_amount;
-    String cover_material;
-    int publicationDate;
-    String publisher;
-    String autograph_of_author;
+    public String book_name;
+    public String book_author;
+    public int page_amount;
+    public String cover_material;
+    public int publicationDate;
+    public String publisher;
+    public String autograph_of_author;
 
     public void showBooksWithLeatherCover(String cover_material) {
 
@@ -17,7 +16,6 @@ public class Book {
             System.out.println(book_name);
         }
     }
-
     public int pages_amount() {
         return page_amount;
     }
