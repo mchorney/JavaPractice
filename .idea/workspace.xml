@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f887a80-8663-48ec-913e-76fe02acbaa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework10/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework10/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson10/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson10/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson10/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework10/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework10/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework10/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework6/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework6/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework8_9/FunctionsAndStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework8_9/FunctionsAndStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson10/Lesson10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson10/Lesson10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8_9/Lesson8_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_9/Lesson8_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/BankAccount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +21,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework10/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="532">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework10/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#468#469#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework10/MusicPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework10/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -34,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework10/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
               <folding>
                 <element signature="e#196#197#0" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
@@ -77,6 +103,9 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson10/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson10/Lesson10.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework8_9/FunctionsAndStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework10/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework10/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework10/MusicPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework10/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework10/App.java" />
       </list>
@@ -89,7 +118,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2739" />
     <option name="y" value="67" />
     <option name="width" value="2200" />
@@ -159,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590619481101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590626794784" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -265,10 +294,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2739" y="67" width="2200" height="1373" extended-state="0" />
+    <frame x="2625" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25208914" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22172315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,7 +307,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32985553" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3120729" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework10/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
           <folding>
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
@@ -432,10 +461,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework10/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework10/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework10/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework10/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="532">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
