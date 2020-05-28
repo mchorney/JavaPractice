@@ -18,5 +18,7 @@ public class Clothes {
         System.out.println("Type = " +type);
         System.out.println("Size = " +size);
         System.out.println("Color = " +color);
+        System.out.println("************************");
+
     }
 }

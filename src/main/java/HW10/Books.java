@@ -4,8 +4,8 @@ public class Books {
     public String name;
     public String type;
     public String author;
-    public int rating;
-    public boolean familyFriendly;
+    public double rating;
+    public double price;
 
     public void printMe(){
         if(rating>4){
@@ -16,6 +16,9 @@ public class Books {
         System.out.println("Name = " +name);
         System.out.println("Type = " +type);
         System.out.println("Author = " +author);
-        System.out.println("Family Friendly = " +familyFriendly);
+        System.out.println("Rating = " +rating);
+        System.out.println("Price = " +price);
+        System.out.println("************************");
+
     }
 }
