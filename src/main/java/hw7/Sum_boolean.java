@@ -1,6 +1,6 @@
-package HW7;
+package hw7;
 
-public class sum_boolean {
+public class Sum_boolean {
     public static void main(String[] args) {
 //3. Создайте метод isOdd - который в качестве аргумента берет целое число и если оно четное возвращает true
 //        если нечетное - возвращает false

@@ -1,6 +1,6 @@
-package HW7;
+package hw7;
 
-public class work {
+public class Work {
     public static void main(String[] args) {
         sumOfTwoNumbers(78 + 13);
 

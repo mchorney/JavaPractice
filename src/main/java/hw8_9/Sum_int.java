@@ -1,16 +1,22 @@
-package HW8_9;
+package hw8_9;
 
-public class sum_int {
+public class Sum_int {
     public static void main(String[] args) {
 //        1. Создайте метод sum - который в качестве аргумента берет int[] и возвращает его сумму.
 //вызовите этот метод из функции main() - подайте в качестве параматра {2,3,5,6,7,8}
 
-        int summa = sum(2, 3, 5, 6, 7, 8);
-        System.out.println((summa));
+       int[] arr1 = {2,3,5,6,7,8};
+       int[] arr2 = {1,2};
     }
 
-    public static int sum(int a, int b, int c, int d, int e, int f) {
+    public static int sum(int[]numbers) {
+        int summa=0;
+        for(int v : numbers){
+            summa=summa+v;
+        }
+        return summa;
 
-        return (a + b + c + d + e + f);
+
+
     }
 }

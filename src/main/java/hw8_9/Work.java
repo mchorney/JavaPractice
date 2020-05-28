@@ -1,6 +1,6 @@
-package HW8_9;
+package hw8_9;
 
-public class work {
+public class Work {
     public static void main(String[] args) {
 
     }
