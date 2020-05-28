@@ -1,15 +1,15 @@
 package HW10;
 
 public class GroceryBasket {
-    int amount;
-    String productName;
-    double price;
-    boolean isPayed;
+    public int amount;
+    public String productName;
+    public double price;
+    public boolean isPayed;
 
-    double priceCalculator(GroceryBasket b) {
+    public double priceCalculator(GroceryBasket b) {
         return b.amount * b.price;
     }
-    void checkOut(GroceryBasket a) {
+    public void checkOut(GroceryBasket a) {
         if(a.isPayed) {
             System.out.println("You bought " + amount + " " + productName + " for " + a.priceCalculator(a));
         }else System.out.println("Your total price for " + amount + " " + productName + " is " + a.priceCalculator(a) + ". Please proceed to the cashier.");

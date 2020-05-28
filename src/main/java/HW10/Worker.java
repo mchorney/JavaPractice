@@ -1,9 +1,9 @@
 package HW10;
 
 public class Worker {
-    int id;
-    String department;
-    boolean isBusyStatus;
+    public int id;
+    public String department;
+    public boolean isBusyStatus;
 
     public void readyToWork() {
         System.out.println("Is worker id# " + id + " from " + department + " department ready to work?");

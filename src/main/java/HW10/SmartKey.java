@@ -1,14 +1,14 @@
 package HW10;
 
 public class SmartKey {
-    String firstName;
-    String lastName;
-    boolean membershipStatus;
+    public String firstName;
+    public String lastName;
+    public boolean membershipStatus;
 
-    boolean areYouMember(SmartKey b) {
+    public boolean areYouMember(SmartKey b) {
         return b.membershipStatus;
     }
-    void welcome(SmartKey a) {
+    public void welcome(SmartKey a) {
         if (a.areYouMember(a)) {
             System.out.println(firstName + " " + lastName + " you are welcome!");
         }else
