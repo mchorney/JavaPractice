@@ -5,8 +5,8 @@ public class SmartKey {
     String lastName;
     boolean membershipStatus;
 
-    boolean areYouMember(SmartKey a) {
-        return a.membershipStatus;
+    boolean areYouMember(SmartKey b) {
+        return b.membershipStatus;
     }
     void welcome(SmartKey a) {
         if (a.areYouMember(a)) {

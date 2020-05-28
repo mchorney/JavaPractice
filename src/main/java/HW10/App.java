@@ -2,10 +2,10 @@ package HW10;
 
 public class App {
     public static void main(String[] args) {
-        Worker worker1 = new Worker();
-        worker1.department = "Construction";
-        worker1.id = 112;
-        worker1.isBusyStatus = false;
+        Worker worker2 = new Worker();
+        worker2.department = "Construction";
+        worker2.id = 112;
+        worker2.isBusyStatus = false;
 
         Worker worker = new Worker();
         worker.department = "Delivery";
@@ -14,7 +14,7 @@ public class App {
 
         worker.readyToWork();
         worker.startWork(worker);
-        worker.startWork(worker1);
+        worker.startWork(worker2);
 
         SmartKey sm = new SmartKey();
         sm.lastName = "Parker";
@@ -35,7 +35,7 @@ public class App {
         table.desktop = 0;
         table.shelves = 2;
         Table table1 = new Table();
-        table1.material = table.material.Plastic;
+        table1.material = table.material.Steel;
         table1.legs = 4;
         table1.desktop = 1;
         table1.shelves = 2;

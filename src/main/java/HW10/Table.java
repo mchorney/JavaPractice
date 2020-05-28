@@ -14,6 +14,6 @@ public class Table {
         } else System.out.println("We are ready to place you order");
     }
     void yourOrder(Table a) {
-        System.out.println("Your order is " + a.material + " table with " + a.legs + " legs " + a.desktop + " desktop and " + shelves + " shelves." );
+        System.out.println("Your order is " + a.material + " table with " + a.legs + " legs " + a.desktop + " desktop and " + a.shelves + " shelves." );
     }
 }

@@ -8,8 +8,8 @@ public class Worker {
     public void readyToWork() {
         System.out.println("Is worker id# " + id + " from " + department + " department ready to work?");
     }
-    public void startWork(Worker a) {
-        if (a.isBusyStatus) {
+    public void startWork(Worker b) {
+        if (b.isBusyStatus) {
             System.out.println("Worker id# " + id + " from " + department + " department is ready.");
         } else
             System.out.println("Worker id#" + id + " from " + department + " department is busy and can't start new work.");

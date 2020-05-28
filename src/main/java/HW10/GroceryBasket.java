@@ -6,8 +6,8 @@ public class GroceryBasket {
     double price;
     boolean isPayed;
 
-    double priceCalculator(GroceryBasket a) {
-        return a.amount * a.price;
+    double priceCalculator(GroceryBasket b) {
+        return b.amount * b.price;
     }
     void checkOut(GroceryBasket a) {
         if(a.isPayed) {
