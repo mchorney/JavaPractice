@@ -10,8 +10,12 @@ public class Functions {
         int[] numbers1 = {3, 9, 1, 8, 4, 8, 5};
         sort(numbers1);
         System.out.println("*********************");
-        int[] numbers2={3,9,1,8,4,8,5};
-        int result= min(numbers2);
+        int[] numbers3 = {5, 48, 89, 66, 12, -2, 0};
+        sort1(numbers3);
+        printNumbers(numbers3);
+        System.out.println("*********************");
+        int[] numbers2 = {3, 9, 1, 8, 4, 8, 5};
+        int result = min(numbers2);
         System.out.println(result);
 
     }
@@ -26,8 +30,23 @@ public class Functions {
 
     static void sort(int[] xx) {
         Arrays.sort(xx);
-        for (int v : xx) {
-            System.out.println(v);
+        printNumbers(xx);
+    }
+
+    static void sort1(int[] xx) {
+        while (true) {
+            boolean swap = false;
+            for (int i = 0; i < xx.length - 1; i++) {
+                if (xx[i] > xx[i + 1]) {
+                    int tmp = xx[i];
+                    xx[i] = xx[i + 1];
+                    xx[i + 1] = tmp;
+                    swap = true;
+                }
+            }
+            if (!swap) {
+                break;
+            }
         }
     }
 
@@ -39,5 +58,12 @@ public class Functions {
             }
         }
         return i;
+    }
+
+    static void printNumbers(int[] xx) {
+        for (int v : xx) {
+            System.out.print(v+",");
+        }
+        System.out.println();
     }
 }
