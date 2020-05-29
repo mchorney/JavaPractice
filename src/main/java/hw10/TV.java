@@ -7,7 +7,7 @@ public class TV {
     public int motionRate;
     public double price;
 
-    public void BlackFriday(){
+    public void blackFriday(){
         double discount=price/2;
         if(SmartOrNot.startsWith("No")){
             SmartOrNot=SmartOrNot.concat(" though");

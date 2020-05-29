@@ -23,7 +23,7 @@ public class Work {
         samsung.sizeInches=65;
         samsung.motionRate=240;
         samsung.sale(30);
-        samsung.BlackFriday();
+        samsung.blackFriday();
 
         TV sony=new TV();
         sony.brand="Sony";
@@ -32,7 +32,7 @@ public class Work {
         sony.sizeInches=55;
         sony.motionRate=240;
         sony.sale(80);
-        sony.BlackFriday();
+        sony.blackFriday();
 
         System.out.println("------------------------------------------------------------");
 
