@@ -1,4 +1,4 @@
-package Homework10;
+package H10;
 
 public class TV {
     public String brand;

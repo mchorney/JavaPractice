@@ -1,13 +1,13 @@
-package Homework10;
+package H10;
 
-public class Camera {
+public class Phone {
     public String name;
     public String model;
-    public int price;
+    public int year;
 
     public void printMe(){
         System.out.println("name=" +name);
         System.out.println("model=" +model);
-        System.out.println(name +" "+ model + " " + "price=" +price);
+        System.out.println(name +" "+ model + " " + year);
     }
 }

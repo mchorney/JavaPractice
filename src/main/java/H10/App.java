@@ -1,4 +1,4 @@
-package Homework10;
+package H10;
 
 public class App {
     public static void main(String[] args) {
