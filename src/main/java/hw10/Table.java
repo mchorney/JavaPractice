@@ -1,4 +1,4 @@
-package HW10;
+package hw10;
 
 public class Table {
     public enum material {Wood, Plastic, Steel};

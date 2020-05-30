@@ -1,4 +1,4 @@
-package HW10;
+package hw10;
 
 public class GroceryBasket {
     public int amount;
