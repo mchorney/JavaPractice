@@ -13,5 +13,6 @@ public class Work {
         Dog dog1 = new Dog (new Colors[] {Colors.GRAY,Colors.BLACK,Colors.WHITE},"Doberman", "Hamburger");
         Dog dog2 = new Dog (new Colors[] {Colors.ORANGE,Colors.BLACK,Colors.WHITE},"Jack-Rassel", "Jassie");
         System.out.println(dog1.toString());
+        System.out.println(dog2.toString());
     }
 }
