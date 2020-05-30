@@ -26,7 +26,7 @@ public class McDonald {
     public McDonald(String regular_with_nuts, String s, int priceOfBugrger) {
     }
 
-    public void price(int priceOfBugrger){
+    public void setPriceOfBugrgerprice(int priceOfBugrger){
         if(priceOfBugrger<3){
             priceOfBugrger = 3;
         }
@@ -35,37 +35,37 @@ public class McDonald {
         }
         this.priceOfBugrger = priceOfBugrger;
     }
-    public void name(String name){
+    public void setName(String name){
         this.name = name;
     }
-    public void bread(String typeOfBread){
+    public void setTypeOfBread(String typeOfBread){
         this.typeOfBread = typeOfBread;
     }
-    public void salat(String typeOfSalat){
+    public void setTypeOfSalat(String typeOfSalat){
         this.typeOfSalat = typeOfSalat;
     }
-    public void onion(String typeOfOnion){
+    public void setTypeOfOnion(String typeOfOnion){
         this.typeOfOnion = typeOfOnion;
     }
     public void meat(String[] typeOfMeat){
         this.typeOfMeat = typeOfMeat;
     }
-    public int t1(){
+    public int getPriceOfBugrger(int priceOfBugrger){
         return priceOfBugrger;
     }
-    public String t2(){
+    public String getName(String name){
         return name;
     }
-    public String t3(){
+    public String getTypeOfBread(String typeOfBread){
         return typeOfBread;
     }
-    public String t4(){
+    public String getTypeOfSalat(String typeOfSalat){
         return typeOfSalat;
     }
-    public String t5(){
+    public String getTypeOfOnion(String typeOfOnion){
         return typeOfOnion;
     }
-    public String[] t6(){
+    public String[] getTypeOfMeat(String[] typeOfMeat){
         return typeOfMeat;
     }
     public  void printClass(){

@@ -9,11 +9,11 @@ public class Work {
 
         McDonald QTC = new McDonald();
         String[]e={"chicken","beaf","farsh"};
-        QTC.bread("regular");
-        QTC.name("quoter pound chease");
-        QTC.salat("regular with pice");
-        QTC.price(11);
-        QTC.onion(" = dash");
+        QTC.setTypeOfBread("regular");
+        QTC.setName("quoter pound chease");
+        QTC.setTypeOfSalat("regular with pice");
+        QTC.setPriceOfBugrgerprice(11);
+        QTC.setTypeOfOnion(" = dash");
         QTC.meat(e);
         QTC.printClass();
         System.out.println(" ");

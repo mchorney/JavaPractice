@@ -23,30 +23,26 @@ public class Snake1 {
         this.poison = poison;
 
     }
-    public void q1(){
+    public void setTpyeOfSnake(String tpyeOfSnake){
         this.tpyeOfSnake = tpyeOfSnake;
     }
-    public void q2(){
+    public void setName(String name){
         this.name = name;
     }
-    public void q3(){
-        this.nation= nation;
-    }
-    public void q4(){
+    public void setNation(String nation){ this.nation= nation; }
+    public void setFood(String food){
         this.food = food;
     }
-    public void q5(){
-        this.poison=poison;
-    }
-    public void q6(){
+    public void setPoison(String poison){ this.poison=poison; }
+    public void setAgeOfliving(int ageOfliving){
         this.ageOfliving = ageOfliving;
     }
-    public String w1(){return tpyeOfSnake;}
-    public String w2(){return  name;}
-    public String w3(){return nation;}
-    public String w4(){return food;}
-    public String w5(){return poison;}
-    public int w6(){return ageOfliving;}
+    public String getTpyeOfSnake(String tpyeOfSnake){return tpyeOfSnake;}
+    public String getName(String name){return  name;}
+    public String getNation(String nation){return nation;}
+    public String getFood(String food){return food;}
+    public String getPoison(String poison){return poison;}
+    public int getAgeOfliving(int ageOfliving){return ageOfliving;}
     public void printClass1(){
         System.out.println("type of snake "+tpyeOfSnake+"\nname "+name+"\nnation "+nation+"\nfood "+food+"\npoison "+poison+"\nage of the snake "+ageOfliving);
     }
