@@ -9,4 +9,6 @@ public class METHOD1 {
         int sum=a+b;
         System.out.println(sum);
     }
+
+
 }
