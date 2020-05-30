@@ -23,10 +23,7 @@ public class App {
         gb.setPrice(3.5);
         gb.setPayed(true);
 
-        GroceryBasket gb1 = new GroceryBasket();
-        gb1.setAmount(8);
-        gb1.setProductsName(pName);
-        gb1.setPrice(5.8);
+        GroceryBasket gb1 = new GroceryBasket(8, pName, 5.8);
         gb1.setPayed(false);
 
         gb.printClass(gb);
@@ -38,11 +35,8 @@ public class App {
         table.setLegs(3);
         table.setDesktop(1);
         table.setShelves(3);
-        Table table1 = new Table();
+        Table table1 = new Table(6, 3, 8);
         table1.setMaterial(mat);
-        table1.setLegs(6);
-        table1.setDesktop(3);
-        table1.setShelves(8);
 
         table.printClass(table);
         table1.printClass(table1);
