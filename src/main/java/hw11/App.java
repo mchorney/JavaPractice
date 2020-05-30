@@ -15,13 +15,19 @@ public class App {
     public static void main(String[] args) {
 
         // Cats
+
         Cat vaska = new Cat();
+        String[] toysForVaska = {"Bow", "Ball"};
         vaska.setName("Vaska");
         vaska.setAge(2);
         vaska.setColor("Grey");
+        vaska.setToys(toysForVaska);
         vaska.printClass();
+
         String[] colors = {"White", "Red", "Black", "Grey", "Brown", "Mix"};
-        Cat murka = new Cat("Murka", 3, colors[0]);
+        String[] toysForMurka = {"Mouse", "Ball"};
+
+        Cat murka = new Cat("Murka", 3, colors[0], toysForMurka);
         murka.printClass();
 
         // Dogs
@@ -36,12 +42,15 @@ public class App {
 
         // Persons
         Person carl = new Person();
+        String[] hobbiesOfCarl = {"Fishing", "Hiking"};
         carl.setFirstName("Carl");
         carl.setLastName("Smith");
         carl.setAge(28);
         carl.setHeight(185);
+        carl.setHobbies(hobbiesOfCarl);
         carl.printClass();
-        Person samantha = new Person("Samantha", "Peterson", 25, 175);
+        String[] hobbiesOfSamantha = {"Cooking", "Athletics"};
+        Person samantha = new Person("Samantha", "Peterson", 25, 175, hobbiesOfSamantha);
         samantha.printClass();
 
     }
