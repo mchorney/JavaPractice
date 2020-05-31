@@ -27,6 +27,8 @@ public class App {
 //        System.out.println(returnPi());
         sayHello("Irina");
         sayHello("Misha");
+        double ccc = ticketPrice(55);
+        sayHello("Suren");
 
     }
 
