@@ -7,11 +7,13 @@ public class Dog {
 
     public Dog(String name, String breed, int age){
         this.name=name;
-        this.breed=breed;
+        this.breed = breed;
         this.age=age;
+    }
+    public Dog(){};
+
+    public void printOut() {
+        System.out.println("Name = " + name + "\nBreed = " + this.breed + "\nAge= " + this.age);
 
     }
-    public Dog(){}
-
-    public void printOut();
 }

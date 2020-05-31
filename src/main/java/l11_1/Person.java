@@ -3,15 +3,36 @@ package l11_1;
 public class Person {
     public String name;
     public String lastName;
-    public String year;
+    public int year;
+
+    public Person(){
+
+    }
+
+    public Person(int y){
+
+        year=y;
+    }
+
+    public Person(int y, String n){
+        year=y;
+        name=n;
+    }
+
+    public Person(String n, String l){
+        name=n;
+        lastName=l;
+    }
+
 
     public Person(String n, String l, int y){
-        name = n;
-        lastName = l;
-        year = y;
+        name=n;
+        lastName=l;
+        year=y;
     }
 
     public void printOut(){
-        System.out.println("Name =" + name + "\+lastName = " +lastName+"\nYear=" +year);
+
+        System.out.println("Name = " + name + "\nLastName = "+lastName+"\nYear= "+year);
     }
 }
