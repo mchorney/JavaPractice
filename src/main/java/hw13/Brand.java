@@ -8,5 +8,7 @@ public enum Brand {
     ACER,
     SAMSUNG,
     NVIDIA,
-    AMD_RADEON
+    AMD_RADEON,
+    INTEL,
+    AMD
 }

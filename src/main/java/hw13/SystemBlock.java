@@ -27,6 +27,6 @@ public class SystemBlock {
     }
 
     public String printInfo() {
-        return "System Block {Processor = "+ processor + ";" + " Motherboard = "+ motherboard + '}';
+        return "System Block { "+ processor.printInfo() + ";" + motherboard.printInfo() + '}';
     }
 }
