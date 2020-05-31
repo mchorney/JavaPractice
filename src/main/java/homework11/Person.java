@@ -61,4 +61,8 @@ public class Person {
        public void printClass(){
         System.out.println("Name: " + name + "\nLast name: " + last_name + "\nAge: " + age + "\nPersons pets: " + persons_pets);
     }
+       public void printPerson(){
+           System.out.println();
+    }
+
 }

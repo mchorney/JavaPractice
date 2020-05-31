@@ -31,6 +31,7 @@ public class App {
         peter.setAge(77);
         peter.setName("Alan");
         peter.printClass();
+
         peter.setAge(170);
         peter.printClass();
 
@@ -46,5 +47,8 @@ public class App {
 
         Person masha = new Person();
         masha.printClass();
+
+        int[]arr = {1,2,3,4};
+        System.out.println(arr[arr.length-1]);
     }
 }
