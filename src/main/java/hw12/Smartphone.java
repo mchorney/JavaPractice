@@ -6,7 +6,7 @@ public class Smartphone {
     private Brands brands;
     private Providers providers;
     private Colors colors;
-    private Double[]screen_size;
+    private Double[] screen_size;
 
 
     public Smartphone(Brands brands, Providers providers, Colors colors, Double[] screen_size) {
@@ -40,6 +40,13 @@ public class Smartphone {
                 ", colors=" + colors +
                 ", screen_size=" + Arrays.toString(screen_size) +
                 '}';
+    }
+
+    public void printOut() {
+        System.out.println("Brands = " + this.brands + "\nProviders = " + this.providers + "\nColors =" + this.colors);
+        for (Double screen_size : this.screen_size) {
+            System.out.println(screen_size);
+        }
     }
 }
 
