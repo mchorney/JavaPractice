@@ -48,6 +48,9 @@ public class Floor {
     }
 
     public void printout() {
-        System.out.println("Type = " + this.type + "\nColor = " + this.color + "\nThickness = " + this.thickness);
+        System.out.println("Type = " + this.type + "\nColor = " + this.color);
+        for (int thickness : this.thickness){
+            System.out.println(thickness);
+        }
     }
 }

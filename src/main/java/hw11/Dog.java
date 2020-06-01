@@ -46,9 +46,9 @@ public class Dog {
     }
 
     public void printOut() {
-        System.out.println("Name = " + this.name + "\nBreed = " + this.breed + "\nHair_type = " + this.hair_type);
-        for (String v : hair_type) {
-            System.out.println("possible hair_type" + v);
+        System.out.println("Name = " + this.name + "\nBreed = " + this.breed);
+        for (String hair_type: this.hair_type) {
+            System.out.println(hair_type);
         }
 
     }

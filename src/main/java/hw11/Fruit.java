@@ -42,6 +42,10 @@ public class Fruit {
     }
 
     public void printOut() {
-        System.out.println("Name = " + this.name + "\nColor = " + this.color + "\nTaste = " + this.taste);
+        System.out.println("Name = " + this.name +"\nTaste = " + this.taste);
+        for(String color:this.color){
+            System.out.println(color);
+        }
+
     }
 }
