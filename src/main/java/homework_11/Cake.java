@@ -1,4 +1,4 @@
-package lesson_11;
+package homework_11;
 
 public class Cake {
     private String name;
