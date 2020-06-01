@@ -10,7 +10,9 @@ public class App {
         Mouse mouse = new Mouse(Brand.LOGITECH, Color.BLACK, CordPresence.CORDLESS, 2);
         Keyboard keyboard = new Keyboard(Brand.Razer, Color.BLACK, CordPresence.WITHCORD, "linear");
         Monitor monitor = new Monitor(Brand.DELL, Color.BLACK, "34 inch", "1920 x 1080");
-        SystemBlock new_computer = new SystemBlock(processor, motherboard, keyboard, mouse, monitor);
+        SystemBlock systemBlock = new SystemBlock(processor, motherboard);
+
+        Computer new_computer = new Computer(keyboard, mouse, monitor, systemBlock);
 
         System.out.println(new_computer.printInfo());
 
