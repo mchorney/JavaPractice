@@ -1,6 +1,5 @@
 package hw11;
 
-import org.w3c.dom.ls.LSOutput;
 
 public class Resort {
     private String country;
