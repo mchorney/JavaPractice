@@ -1,13 +1,13 @@
 package hw13;
 
 public class SystemBlock {
-    private ProcessorBrands processor;
-    private MotherboardBrands motherboard;
+    private Processor processor;
+    private Motherboard motherboard;
     private String cooler;
-    private SSDamount ssd;
+    private SSD ssd;
 
 
-    public SystemBlock(ProcessorBrands processor, MotherboardBrands motherboard, String cooler, SSDamount ssd) {
+    public SystemBlock(Processor processor, Motherboard motherboard, String cooler, SSD ssd) {
         this.processor = processor;
         this.motherboard = motherboard;
         this.cooler = cooler;

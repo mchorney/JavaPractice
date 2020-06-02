@@ -9,7 +9,7 @@ public class App {
 
         Mouse mymouse = new Mouse(Brands.RAZOR, Price.$150, MouseType.WIRELESS);
 
-        SystemBlock myblock = new SystemBlock(ProcessorBrands.INTEL, MotherboardBrands.ASROCK, "150 watt", SSDamount.GB256);
+        SystemBlock myblock = new SystemBlock("INTEL", "MSI", "150 watt", 128);
 
 
         Computer mycomputer = new Computer(myscreen, mykeys, mymouse, myblock);
