@@ -40,5 +40,6 @@ public class App {
 
         table.printClass(table);
         table1.printClass(table1);
+
     }
 }
