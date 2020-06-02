@@ -23,7 +23,7 @@ public class App {
         mazda.setYear(2023);
         System.out.println(mazda.toString());
 
-        String [] col = {"Green","Red", "Black"};
+        String [] col = {"Green","RED", "Black"};
         Snickers nikeWonder = new Snickers("Wonder",col);
 
         String[] c = nikeWonder.getColor();
