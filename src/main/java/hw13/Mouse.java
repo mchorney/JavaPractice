@@ -36,6 +36,6 @@ public class Mouse {
         this.mouseType = mouseType;
     }
     public void printInfo(){
-        System.out.println("Brand ="+brand +"Model = "+model +"Type =" +mouseType);
+        System.out.println("Mouse Brand ="+brand +"Mouse Model = "+model +"Mouse Type =" +mouseType);
     }
 }

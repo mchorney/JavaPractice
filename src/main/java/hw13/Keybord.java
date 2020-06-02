@@ -36,6 +36,6 @@ public class Keybord {
         this.keyboardType = keyboardType;
     }
     public void printInfo(){
-        System.out.println("Brand ="+brand +"Model = "+model +"Type =" +keyboardType);
+        System.out.println("Keyboard Brand ="+brand +"Keyboard Model = "+model +"Keyboard Type =" +keyboardType);
     }
 }
