@@ -1,10 +1,10 @@
 package hw13;
 
-public class BadRoom {
+public class BedRoom {
     private int windows;
     private double square;
 
-    public BadRoom(int windows, double square) {
+    public BedRoom(int windows, double square) {
         this.windows = windows;
         this.square = square;
     }
