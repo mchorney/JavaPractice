@@ -1,31 +1,31 @@
 package hw13;
 
 public class Mouse {
-    private String brand;
-    private String model;
+    private Brands brands;
+    private Price price;
     private MouseType mouseType;
 
 
-    public Mouse(String brand, String model, MouseType mouseType) {
-        this.brand = brand;
-        this.model = model;
+    public Mouse(Brands brands, Price price, MouseType mouseType) {
+        this.brands = brands;
+        this.price = price;
         this.mouseType = mouseType;
     }
 
-    public String getBrand() {
-        return brand;
+    public Brands getBrands() {
+        return brands;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
+    public void setBrands(Brands brands) {
+        this.brands = brands;
     }
 
-    public String getModel() {
-        return model;
+    public Price getPrice() {
+        return price;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setPrice(Price price) {
+        this.price = price;
     }
 
     public MouseType getMouseType() {
@@ -35,7 +35,8 @@ public class Mouse {
     public void setMouseType(MouseType mouseType) {
         this.mouseType = mouseType;
     }
+
     public void printInfo(){
-        System.out.println("Mouse Brand ="+brand +"Mouse Model = "+model +"Mouse Type =" +mouseType);
+        System.out.println("Mouse Brand = " + brands + ", Mouse Price = " + price + ", Mouse Type = " + mouseType);
     }
 }

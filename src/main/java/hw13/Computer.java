@@ -47,7 +47,6 @@ public class Computer {
     }
 
     public void printInfo(){
-        System.out.println("_________");
         monitor.printInfo();
         keybord.printInfo();
         mouse.printInfo();

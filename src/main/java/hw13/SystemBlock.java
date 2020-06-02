@@ -1,12 +1,13 @@
 package hw13;
 
 public class SystemBlock {
-    private Processor processor;
-    private Motherboard motherboard;
+    private ProcessorBrands processor;
+    private MotherboardBrands motherboard;
     private String cooler;
-    private SSD ssd;
+    private SSDamount ssd;
 
-    public SystemBlock(Processor processor, Motherboard motherboard, String cooler, SSD ssd) {
+
+    public SystemBlock(ProcessorBrands processor, MotherboardBrands motherboard, String cooler, SSDamount ssd) {
         this.processor = processor;
         this.motherboard = motherboard;
         this.cooler = cooler;
@@ -14,6 +15,6 @@ public class SystemBlock {
     }
 
     public void printInfo() {
-        System.out.println("Processor=" + processor + "Motherboard = " + motherboard + "Cooler =" + cooler);
+        System.out.println("Processor = " + processor + ", Motherboard = " + motherboard + ", Cooler = " + cooler + ", SSD =" + ssd);
     }
 }

@@ -1,31 +1,30 @@
 package hw13;
 
 public class Keybord {
-    private String brand;
-    private String model;
+    private Brands brands;
+    private Price price;
     private KeyboardType keyboardType;
 
-
-    public Keybord(String brand, String model, KeyboardType keyboardType) {
-        this.brand = brand;
-        this.model = model;
+    public Keybord(Brands brands, Price price, KeyboardType keyboardType) {
+        this.brands = brands;
+        this.price = price;
         this.keyboardType = keyboardType;
     }
 
-    public String getBrand() {
-        return brand;
+    public Brands getBrands() {
+        return brands;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
+    public void setBrands(Brands brands) {
+        this.brands = brands;
     }
 
-    public String getModel() {
-        return model;
+    public Price getPrice() {
+        return price;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setPrice(Price price) {
+        this.price = price;
     }
 
     public KeyboardType getKeyboardType() {
@@ -35,7 +34,8 @@ public class Keybord {
     public void setKeyboardType(KeyboardType keyboardType) {
         this.keyboardType = keyboardType;
     }
+
     public void printInfo(){
-        System.out.println("Keyboard Brand ="+brand +"Keyboard Model = "+model +"Keyboard Type =" +keyboardType);
+        System.out.println("Keyboard Brand = " + brands + ", Keyboard Price = " + price + ", Keyboard Type = " + keyboardType);
     }
 }

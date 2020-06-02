@@ -2,14 +2,14 @@ package hw13;
 
 public class Monitor {
     private MonitorBrands monitorBrands;
-    private int size;
-    private int brightness;
+    private MonitorType monitorType;
+    private Price price;
 
 
-    public Monitor(MonitorBrands monitorBrands, int size, int brightness) {
+    public Monitor(MonitorBrands monitorBrands, MonitorType monitorType, Price price) {
         this.monitorBrands = monitorBrands;
-        this.size = size;
-        this.brightness = brightness;
+        this.monitorType = monitorType;
+        this.price = price;
     }
 
     public MonitorBrands getMonitorBrands() {
@@ -20,22 +20,23 @@ public class Monitor {
         this.monitorBrands = monitorBrands;
     }
 
-    public int getSize() {
-        return size;
+    public MonitorType getMonitorType() {
+        return monitorType;
     }
 
-    public void setSize(int size) {
-        this.size = size;
+    public void setMonitorType(MonitorType monitorType) {
+        this.monitorType = monitorType;
     }
 
-    public int getBrightness() {
-        return brightness;
+    public Price getPrice() {
+        return price;
     }
 
-    public void setBrightness(int brightness) {
-        this.brightness = brightness;
+    public void setPrice(Price price) {
+        this.price = price;
     }
+
     public void printInfo(){
-        System.out.println("Monitor Brand ="+monitorBrands+"Screen Size = "+size +"Monitor Brightness in NITS =" +brightness);
+        System.out.println("Monitor Brand = " + monitorBrands + ", Monitor Type = " + monitorType + ", Monitor Price = " + price);
     }
 }
