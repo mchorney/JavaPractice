@@ -4,13 +4,14 @@ public class App {
     public static void main(String[] args) {
 
         // horses
+        String[] colors1 = {"White", "Black", "Grey"};
+        String[] colors2 = {"Yellow", "Brown", "Chestnut"};
         Horse pirate = new Horse();
         pirate.setName("Pirate");
         pirate.setAge(8);
-        pirate.setColor("Black");
+        pirate.setColors(colors1);
         pirate.printClass();
-        String[] colors = {"White", "Black", "Grey", "Brown", "Chestnut"};
-        Horse apollon = new Horse("Apollon", 7, colors[0]);
+        Horse apollon = new Horse("Apollon", 7, colors2);
         apollon.printClass();
 
         // songs

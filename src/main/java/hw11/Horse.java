@@ -1,17 +1,19 @@
 package hw11;
 
+import java.util.Arrays;
+
 public class Horse {
     private String name;
     private int age;
-    private String color;
+    private String[] colors;
 
     public Horse() {
     }
 
-    public Horse(String name, int age, String color) {
+    public Horse(String name, int age, String[] colors) {
         this.name = name;
         this.age = age;
-        this.color = color;
+        this.colors = colors;
     }
 
     public String getName() {
@@ -22,8 +24,8 @@ public class Horse {
         return age;
     }
 
-    public String getColor() {
-        return color;
+    public String[] getColors() {
+        return colors;
     }
 
     public void setName(String name) {
@@ -34,13 +36,13 @@ public class Horse {
         this.age = age;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setColors(String[] colors) {
+        this.colors = colors;
     }
 
     public void printClass() {
         System.out.println("Name of the horse: " + name + "\n" +
                 "Age of the horse: " + age + "\n" +
-                "Color of the horse: " + color);
+                "Color of the horse: " + Arrays.toString(colors));
     }
 }
