@@ -37,14 +37,14 @@ public class SystemBlock {
 
     public void printInfo(){
         System.out.println("PC Brand = " + getBrand() + "\n" +
-                "Processor brand: " + getProcessor().getBrand() + ", clock frequency: " + getProcessor().getClockFrequency() + ", core count: " +
-                getProcessor().getCoreCount() + ", year model: " + getProcessor().getYearModel() + "\n" +
-                "Motherboard brand: " + getMotherboard().getBrand() + ", amount of Ports " + getMotherboard().getPortsAmount() + ", year of model: " + getMotherboard().getYearModel() + ", isCompatible: " + getMotherboard().isCompatible());
+                "Processor brand: " + processor.getBrand() + ", clock frequency: " + processor.getClockFrequency() + ", core count: " +
+                processor.getCoreCount() + ", year model: " + processor.getYearModel() + "\n" +
+                "Motherboard brand: " + motherboard.getBrand() + ", amount of Ports " + motherboard.getPortsAmount() + ", year of model: " + motherboard.getYearModel() + ", isCompatible: " + motherboard.isCompatible());
     }
     public String toPrintSystemBlock() {
         return " Brand = " + getBrand() + "\n" +
-                "Processor brand: " + getProcessor().getBrand() + ", clock frequency: " + getProcessor().getClockFrequency() + ", core count: " +
-                getProcessor().getCoreCount() + ", year model: " + getProcessor().getYearModel() + "\n" +
-                "Motherboard brand: " + getMotherboard().getBrand() + ", amount of Ports " + getMotherboard().getPortsAmount() + ", year of model: " + getMotherboard().getYearModel() + ", isCompatible: " + getMotherboard().isCompatible();
+                "Processor brand: " + processor.getBrand() + ", clock frequency: " + processor.getClockFrequency() + ", core count: " +
+                processor.getCoreCount() + ", year model: " + processor.getYearModel() + "\n" +
+                "Motherboard brand: " + motherboard.getBrand() + ", amount of Ports " + motherboard.getPortsAmount() + ", year of model: " + motherboard.getYearModel() + ", isCompatible: " + motherboard.isCompatible();
     }
 }

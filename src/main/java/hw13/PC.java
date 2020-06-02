@@ -56,7 +56,7 @@ public class PC {
     }
 
     public void printInfo(){
-        System.out.println("PC Brand = " + getBrand() + "\n" + "Keyboard " + getKeyboard().toPrintKeyboard() + "\n"
-                + "Monitor " + getMonitor().toPrintMonitor() + "\n" + "Mouse " + getMouse().toPrintMouse() + "\n" + "System Block " + getSystemBlock().toPrintSystemBlock());
+        System.out.println("PC Brand = " + brand + "\n" + "Keyboard " + keyboard.toPrintKeyboard() + "\n"
+                + "Monitor " + monitor.toPrintMonitor() + "\n" + "Mouse " + mouse.toPrintMouse() + "\n" + "System Block " + systemBlock.toPrintSystemBlock());
     }
 }

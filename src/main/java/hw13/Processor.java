@@ -46,7 +46,7 @@ public class Processor {
     }
 
     public void printInfo(){
-        System.out.println("Brand = " + getBrand() + " Clock Frequency = " + getClockFrequency()
-                + " Core Count = " + getCoreCount() + " Year Model = " + getYearModel());
+        System.out.println("Brand = " + brand + " Clock Frequency = " + clockFrequency
+                + " Core Count = " + coreCount + " Year Model = " + yearModel);
     }
 }

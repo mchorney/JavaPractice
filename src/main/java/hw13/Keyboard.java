@@ -40,6 +40,6 @@ public class Keyboard {
     }
 
     public String toPrintKeyboard() {
-        return "Brand = " + getBrand() + ", Model = " + getModel() + ", Key amount = " + getKeysAmount();
+        return "Brand = " + brand + ", Model = " + model + ", Key amount = " + keysAmount;
     }
 }
