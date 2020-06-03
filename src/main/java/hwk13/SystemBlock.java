@@ -19,9 +19,6 @@ public class SystemBlock {
 
 
     public void printInfo() {
-        System.out.println("SystemBlock{" +
-                "processor=" + processor +
-                ", motherboard=" + motherboard +
-                '}');
+        motherboard.printInfo();
     }
 }

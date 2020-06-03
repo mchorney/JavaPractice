@@ -38,10 +38,10 @@ public class Motherboard {
     public void printInfo() {
         System.out.println("Motherboard{" +
                 "ram=" + ram +
-                ", cpu=" + cpu +
                 ", chipset='" + chipset + '\'' +
                 ", formFactor='" + formFactor + '\'' +
                 ", name='" + name + '\'' +
                 '}');
+        cpu.printIfo();
     }
 }

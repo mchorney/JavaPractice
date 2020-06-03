@@ -19,8 +19,8 @@ public class Mouse{
 
     public void printInfo() {
         System.out.println("Mouse{" +
-                "type=" + type +
-                ", brand=" + brand +
+                "type=" + type.name() +
+                ", brand=" + brand.name() +
                 '}');
     }
 }

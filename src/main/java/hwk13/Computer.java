@@ -30,11 +30,9 @@ public class Computer {
     }
 
     public void printInfo() {
-        System.out.println("Computer{" +
-                "keyboard=" + keyboard +
-                ", mouse=" + mouse +
-                ", monitor=" + monitor +
-                ", sysblock=" + sysblock +
-                '}');
+        keyboard.printInfo();
+        mouse.printInfo();
+        monitor.printInfo();
+        sysblock.printInfo();
     }
 }

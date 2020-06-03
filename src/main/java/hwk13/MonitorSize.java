@@ -23,5 +23,7 @@ public enum MonitorSize {
         this.size=size;
     }
 
-
+    public int getSize() {
+        return size;
+    }
 }

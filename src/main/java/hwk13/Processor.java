@@ -25,7 +25,7 @@ public class Processor {
 
     public void printIfo() {
         System.out.println("Processor{" +
-                "maker=" + maker +
+                "maker=" + maker.name() +
                 ", speed=" + speed +
                 ", core=" + core +
                 '}');

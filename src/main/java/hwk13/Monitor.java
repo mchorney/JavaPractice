@@ -40,9 +40,9 @@ public class Monitor {
 
     public void printInfo() {
         System.out.println("Monitor{" +
-                "type=" + type +
-                ", brand=" + brand +
-                ", size=" + size +
+                "type=" + type.name() +
+                ", brand=" + brand.name() +
+                ", size=" + size.getSize()+
                 '}');
     }
 }

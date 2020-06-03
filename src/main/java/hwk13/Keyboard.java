@@ -13,7 +13,7 @@ public class Keyboard {
 
     public void printInfo() {
         System.out.println("Keyboard{" +
-                "type=" + type +
+                "type=" + type.name() +
                 '}');
     }
 }
