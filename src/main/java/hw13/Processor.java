@@ -25,8 +25,8 @@ public class Processor {
         this.price = price;
     }
 
-    public void printInfo(){
+    public String printInfo(){
+        return "Processor { Brand = "+ processorBrands +", Price ="+ price +'}';
 
-        System.out.println("Processor Brand = " + processorBrands + ", Processor Price = " + price);
     }
 }

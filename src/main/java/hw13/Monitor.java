@@ -36,7 +36,7 @@ public class Monitor {
         this.price = price;
     }
 
-    public void printInfo(){
-        System.out.println("Monitor Brand = " + monitorBrands + ", Monitor Type = " + monitorType + ", Monitor Price = " + price);
+    public String printInfo(){
+        return "Monitor {Brand = " + monitorBrands + ", Monitor Type = " + monitorType + ", Monitor Price = " + price +'}';
     }
 }

@@ -36,7 +36,7 @@ public class SSD {
         this.price = price;
     }
 
-    public void printInfo(){
-        System.out.println("SSD Type = " + ssDtype + ", SSD Amount= " + ssDamount + ", SSD Price = " + price);
+    public String printInfo(){
+        return "SSD { SSD = "+ ssDtype +", Amount ="+ ssDamount +", Price ="+price +'}';
     }
 }

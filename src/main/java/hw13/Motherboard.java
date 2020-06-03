@@ -1,33 +1,32 @@
 package hw13;
 
 public class Motherboard {
-    private Brands brands;
-    private MotherboardBrands motherboardType;
+    private MotherboardBrands motherboardBrands;
+    private Price price;
 
 
-    public Motherboard(Brands brands, MotherboardBrands motherboardType) {
-        this.brands = brands;
-        this.motherboardType = motherboardType;
+    public Motherboard(MotherboardBrands motherboardBrands, Price price) {
+        this.motherboardBrands = motherboardBrands;
+        this.price = price;
     }
 
-    public Brands getBrands() {
-        return brands;
+    public MotherboardBrands getMotherboardBrands() {
+        return motherboardBrands;
     }
 
-    public void setBrands(Brands brands) {
-        this.brands = brands;
+    public void setMotherboardBrands(MotherboardBrands motherboardBrands) {
+        this.motherboardBrands = motherboardBrands;
     }
 
-    public MotherboardBrands getMotherboardType() {
-        return motherboardType;
+    public Price getPrice() {
+        return price;
     }
 
-    public void setMotherboardType(MotherboardBrands motherboardType) {
-        this.motherboardType = motherboardType;
+    public void setPrice(Price price) {
+        this.price = price;
     }
 
-
-    public void printInfo(){
-        System.out.println("Motherboard Brand = " + brands + ", Motherboard Type = " + motherboardType);
+    public String printInfo(){
+        return "Mother Board { Brand = "+ motherboardBrands +", Price ="+ price +'}';
     }
 }

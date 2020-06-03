@@ -9,12 +9,16 @@ public class App {
 
         Mouse mymouse = new Mouse(Brands.RAZOR, Price.$150, MouseType.WIRELESS);
 
-        SystemBlock myblock = new SystemBlock("INTEL", "MSI", "150 watt", 128);
+        Processor pr = new Processor(ProcessorBrands.INTEL, Price.$300);
+        Motherboard mb = new Motherboard(MotherboardBrands.GIGABATE, Price.$150);
+        SSD ssd = new SSD(SSDtype.INTERNAL,SSDamount.GB256,Price.$50);
+        SystemBlock myblock = new SystemBlock(Processor.class, );
 
 
         Computer mycomputer = new Computer(myscreen, mykeys, mymouse, myblock);
 
-        mycomputer.printInfo();
+
+        mycomputer.printOut();
 
     }
 }

@@ -36,7 +36,7 @@ public class Mouse {
         this.mouseType = mouseType;
     }
 
-    public void printInfo(){
-        System.out.println("Mouse Brand = " + brands + ", Mouse Price = " + price + ", Mouse Type = " + mouseType);
+    public String printInfo(){
+        return "Mouse {Brand = " + brands + ", Price = " + price + ", Type = " + mouseType +'}';
     }
 }

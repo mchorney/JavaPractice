@@ -1,10 +1,12 @@
 package hw13;
 
 public class Computer {
+    private Brands brands;
+    private SystemBlock systemBlock;
     private Monitor monitor;
     private Keybord keybord;
     private Mouse mouse;
-    private SystemBlock systemBlock;
+
 
 
     public Computer(Monitor monitor, Keybord keybord, Mouse mouse, SystemBlock systemBlock) {
@@ -45,11 +47,14 @@ public class Computer {
     public void setSystemBlock(SystemBlock systemBlock) {
         this.systemBlock = systemBlock;
     }
-
-    public void printInfo(){
-        monitor.printInfo();
-        keybord.printInfo();
-        mouse.printInfo();
-        systemBlock.printInfo();
+    public void printOut(){
+        String computer = "Characteristics{ \n" +
+                "Brand = " + brands + '\n' +
+                systemBlock.printInfo() + '\n' +
+                monitor.printInfo() + '\n' +
+                keybord.printInfo() + '\n' +
+                mouse.printInfo();
+        System.out.println(computer);
     }
+
 }
