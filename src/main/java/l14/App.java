@@ -24,7 +24,6 @@ public class App {
 
 //        CountryHouse house3 = new House(homeAddress,5000,2,true);
 
-        house.printMe();
     }
 
 }
