@@ -36,6 +36,8 @@ public class Work {
         person2.setOccupation("SDET");
         System.out.println("Second printClass function:");
         person2.printClass1();
+        int[] x = {1,2};
+        x[2] = 4;
 
 
 
