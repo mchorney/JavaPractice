@@ -7,6 +7,7 @@ public class myPersonalAccount {
     protected String phone;
     protected String email;
 
+
     public myPersonalAccount(String name, String last_name, String address, String phone, String email) {
         this.name = name;
         this.last_name = last_name;
@@ -56,7 +57,7 @@ public class myPersonalAccount {
     }
 
     public void myAccountInfo() {
-        System.out.println("myPersonalAccount{" +
+        System.out.println("My PersonalAccount{" +
                 "name='" + name + '\'' +
                 ", last_name='" + last_name + '\'' +
                 ", address='" + address + '\'' +

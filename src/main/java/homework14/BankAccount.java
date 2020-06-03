@@ -1,10 +1,10 @@
 package homework14;
 
-public class myBankAccount extends myPersonalAccount {
+public class BankAccount extends myPersonalAccount {
     protected double balance;
     protected int account_number;
 
-    public myBankAccount(String name, String last_name, String address, String phone, String email, double balance, int account_number) {
+    public BankAccount(String name, String last_name, String address, String phone, String email, double balance, int account_number) {
         super(name, last_name, address, phone, email);
         this.balance = balance;
         this.account_number = account_number;
@@ -16,6 +16,14 @@ public class myBankAccount extends myPersonalAccount {
 
     public void setBalance(double balance) {
         this.balance = balance;
+    }
+
+    public int getAccount_number() {
+        return account_number;
+    }
+
+    public void setAccount_number(int account_number) {
+        this.account_number = account_number;
     }
 
     public void showStatement() {
