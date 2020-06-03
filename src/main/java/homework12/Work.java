@@ -24,7 +24,7 @@ public class Work {
         SystemBlock ac=new SystemBlock(asus,r7,"32Gb",1024);
 
 
-        PC dell = new PC(de,l,log,aoc);
+        PC dell = new PC(de,mouses[1],log,aoc);
         dell.printInfo();
     }
 }

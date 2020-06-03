@@ -17,11 +17,14 @@ public class App {
         CountryHouse countryHouse = new CountryHouse(homeAddress,5000,2,true,houseOwner,true);
 
 
+
         House house = new CountryHouse(homeAddress,5000,2,true,houseOwner,true);
         House house1 = new PrivateHouse(homeAddress,5000,2,true,houseOwner);
         PrivateHouse house2 = new CountryHouse(homeAddress,5000,2,true,houseOwner,true);
 
 //        CountryHouse house3 = new House(homeAddress,5000,2,true);
+
+        house.printMe();
     }
 
 }
