@@ -1,0 +1,33 @@
+"C:\Program Files\Java\jdk-14.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar=61228:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Elina\Projects\JavaCore3\target\classes hwLesson11_1.App
+************ Googles *****************
+Googles Brand =Oakley
+Google are for = Male
+Googles price = 150
+************ END of Googles *****************
+************ Googles *****************
+Googles Brand =Oakley
+Google are for = Female
+Googles price = 150
+************ END of Googles *****************
++++++++++++ Shoes +++++++++++
+Shoes Brand = Puma
+Shoes Available Size = Red
+Shoes price = 100
++++++++++++ END of Shoes +++++++++++
++++++++++++ Shoes +++++++++++
+Shoes Brand = Puma
+Shoes Available Size = Yellow
+Shoes price = 95
++++++++++++ END of Shoes +++++++++++
+vvvvvvvvvv Socks vvvvvvvvvvvv
+Socks Brand = Smartwool
+Socks Available Size = 5.0
+Socks price = 60
+^^^^^^^^^^^ END of Socks ^^^^^^^^^^^
+vvvvvvvvvv Socks vvvvvvvvvvvv
+Socks Brand = Smartwool
+Socks Available Size = 9.0
+Socks price = 70
+^^^^^^^^^^^ END of Socks ^^^^^^^^^^^
+
+Process finished with exit code 0
