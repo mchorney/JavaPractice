@@ -41,7 +41,6 @@ public class Accessory {
     public void printMe() {
         System.out.println("Accessory: color is " + color +
                 ", fabric is " + fabric +
-                ", price=" + price +
-                '}');
+                ", price=" + price);
     }
 }
