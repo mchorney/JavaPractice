@@ -9,6 +9,10 @@ public class App {
         ((BankAccount) bankAccount).showStatement();
         myPersonalAccount amazonAccount = new AmazonAccount("Petr", "Petrov", "King str", "234-65-67", "email@email.com", 343);
         amazonAccount.myAccountInfo();
-
+        String[] persons = {"Anna", "Maria", "Martin"};
+        String[] countries = {"Russia", "Japan", "USA"};
+        myPersonalAccount westerUnionAccount = new WesternUnionAccount("Veronika", "Smith", "Maple str", "456-65-89",
+                "email@email.com", 567.0, 456723, persons, countries);
+        ((WesternUnionAccount) westerUnionAccount).showStatement();
     }
 }
