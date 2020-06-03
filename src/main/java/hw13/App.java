@@ -11,7 +11,7 @@ dell.prinInfo() - will print info about EVERYTHING
 public class App {
 
     public static void main(String[] args) {
-        
+
         Processor i7 = new Processor("Intel", "Core i7", 1000);
         Motherboard rogStrix = new Motherboard("Asus", "Rog Strix B450", 150);
         SystemBlock powerEdge = new SystemBlock("Dell", i7, rogStrix, 500);
