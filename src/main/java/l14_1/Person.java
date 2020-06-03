@@ -39,6 +39,10 @@ public class Person {
         this.year = year;
     }
 
+    public void introduce(String yourName){
+        System.out.println("Hi, " + yourName + " My name is "+name+" nice to meet you!");
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -47,7 +51,5 @@ public class Person {
                 ", year=" + year +
                 '}';
     }
-
-    public void Introduce(String yourName);
 
 }
