@@ -1,9 +1,5 @@
 package hw14;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
-import java.util.concurrent.Callable;
-
 public class Work {
     public static void main(String[] args) {
         Mechanism mechanism = new Mechanism("Scooter", "Ground");
