@@ -49,12 +49,12 @@ public class Address{
         this.town = town;
     }
 
-    public void print() {
-        System.out.println( "ADDRESS{" +
+    public String print() {
+        return "ADDRESS{" +
                 "streetAddress='" + streetAddress + '\'' +
                 ", town='" + town + '\'' +
                 ", state=" + state +
                 ", zip=" + zip +
-                '}');
+                '}';
     }
 }
