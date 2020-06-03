@@ -9,7 +9,10 @@ public enum Colors {
     WHITE,
     GREY,
     PINK,
+<<<<<<< HEAD
     VIOLET
 
 
+=======
+>>>>>>> remotes/origin/master
 }
