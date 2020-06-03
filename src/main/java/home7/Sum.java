@@ -1,4 +1,4 @@
-package hw7;
+package home7;
 
 public class Sum {
     public static void main(String[] args) {
