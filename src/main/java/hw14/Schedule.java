@@ -1,0 +1,12 @@
+package hw14;
+
+public enum Schedule {
+    MONDAY_8AM_9PM,
+    TUESDAY_8AM_9PM,
+    WEDNESDAY_7AM_10PM,
+    THURSDAY_8AM_10PM,
+    FRIDAY_7AM_11PM,
+    SATURDAY_7AM_11PM,
+    SUNDAY_CLOSED
+
+}
