@@ -4,7 +4,7 @@ package hm12;
 public class App {
 
     public static void main(String[] args) {
-        Bags prada = new Bags("Prada", Material.LEATHER, Colors.YELLOW);
+        Bags prada = new Bags("Prada", Material.LEATHER, ColorsHw.YELLOW);
         prada.printout();
 
 

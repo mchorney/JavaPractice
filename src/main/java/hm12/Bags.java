@@ -3,9 +3,9 @@ package hm12;
 public class Bags {
     private String brand;
     private Material material;
-    private Colors color;
+    private ColorsHw color;
 
-    public Bags(String brand, Material material, Colors color) {
+    public Bags(String brand, Material material, ColorsHw color) {
         this.brand = brand;
         this.material = material;
         this.color = color;
@@ -27,11 +27,11 @@ public class Bags {
         this.material = material;
     }
 
-    public Colors getColor() {
+    public ColorsHw getColor() {
         return color;
     }
 
-    public void setColor(Colors color) {
+    public void setColor(ColorsHw color) {
         this.color = color;
     }
 

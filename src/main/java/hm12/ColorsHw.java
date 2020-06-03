@@ -1,6 +1,6 @@
 package hm12;
 
-public enum Colors {
+public enum ColorsHw {
     BLACK,
     YELLOW,
     WHITE,
