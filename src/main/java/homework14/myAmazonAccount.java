@@ -1,6 +1,6 @@
 package homework14;
 
-public class myAmazonAccount extends myPersonalAccount{
+public class myAmazonAccount extends myPersonalAccount {
 
     private int list_of_purchases;
 
@@ -16,5 +16,4 @@ public class myAmazonAccount extends myPersonalAccount{
     public void setList_of_purchases(int list_of_purchases) {
         this.list_of_purchases = list_of_purchases;
     }
-
 }
