@@ -35,12 +35,12 @@ public class Company {
         this.phone_number = phone_number;
     }
 
-    @Override
-    public String toString() {
-        return "Company{" +
+
+    public void printMe() {
+        System.out.println("Company{" +
                 "name='" + compname + '\'' +
                 ", address='" + address + '\'' +
                 ", phone_number='" + phone_number + '\'' +
-                '}';
+                '}');
     }
 }

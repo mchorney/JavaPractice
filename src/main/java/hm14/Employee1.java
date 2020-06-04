@@ -26,13 +26,17 @@ public class Employee1 extends Company {
         this.lastName1 = lastName1;
     }
 
+
+
     public void printMe() {
         System.out.println("Employee1{" +
                 "firstName1='" + firstName1 + '\'' +
                 ", lastName1='" + lastName1 + '\'' +
-                ", name='" + compname + '\'' +
+                ", compname=" + compname +
                 ", address='" + address + '\'' +
                 ", phone_number='" + phone_number + '\'' +
                 '}');
     }
 }
+
+
