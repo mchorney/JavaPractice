@@ -1,6 +1,6 @@
 package hw14;
 
-public class Tv extends A1{
+public class Tv extends ShowTime{
     protected String tv_show;
 
     public Tv(String animeName, boolean kidType, Brand brand, int timeOfShow, String tv_show) {

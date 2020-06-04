@@ -1,6 +1,6 @@
 package hw14;
 
-public class Cartoon extends A1 {
+public class Cartoon extends ShowTime {
     private String name;
 
     public Cartoon(String animeName, boolean kidType, Brand brand, int timeOfShow, String name) {

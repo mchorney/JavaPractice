@@ -1,12 +1,12 @@
 package hw14;
 
-public class A1 {
+public class ShowTime {
     protected String animeName;
     protected boolean kidType;
     protected Brand brand;
     protected int timeOfShow;
 
-    public A1(String animeName, boolean kidType, Brand brand, int timeOfShow) {
+    public ShowTime(String animeName, boolean kidType, Brand brand, int timeOfShow) {
         this.animeName = animeName;
         this.kidType = kidType;
         this.brand = brand;
