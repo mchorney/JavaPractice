@@ -1,0 +1,5 @@
+Заполните содержимым классы Monitor, Keyboard, Mouse, SystemBlock
+Создайте как минимум 2 новых классса Processor, Motherboard fields in SystemBlock
+в каждый класс поместите метод printInfo()
+dell.prinInfo() - will print info about EVERYTHING
+Содайте 2 новых класса и сделайте их полями в 3м
