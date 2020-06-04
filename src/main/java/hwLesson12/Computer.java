@@ -50,4 +50,5 @@ public class Computer {
         String dell = String.format("Computer{systemBlock=%s, keyboard=%s, mouse=%s, monitor=%s}", systemBlock.printOut(), keyboard.printOut(), mouse.printOut(), monitor.printOut());
         System.out.println(dell);
     }
+
 }
