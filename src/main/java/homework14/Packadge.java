@@ -5,6 +5,7 @@ public final class Packadge extends WeightRoom{
     private Address address;
 
 //
+//
     public Packadge(double lenth, double width, double depth, double weigth, String name, Address address) {
         super(lenth, width, depth, weigth);
         Name = name;

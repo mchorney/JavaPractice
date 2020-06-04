@@ -9,7 +9,7 @@ public class Work {
 //        создать объекты
 //        2. Попробуйте создать функцию в супер классе и в произвлдном классе с
 //        одинаковым именем и разным функционалом
-
+//
         Address customer = new Address("2331 elm st","Charlotte",State.NC,28105);
         Address cust2 = new Address("123 central ave","Matthews",State.NC,28277);
         Box a = new Box(10,5.5,3);

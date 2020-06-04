@@ -4,6 +4,7 @@ public class WeightRoom extends Box{
     protected double weigth;
 
 //    public WeightRoom(){}
+//
 
     public WeightRoom(double lenth, double width, double depth, double weigth) {
         super(lenth, width, depth);

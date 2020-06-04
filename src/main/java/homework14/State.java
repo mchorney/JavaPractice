@@ -6,5 +6,6 @@ public enum State {
     TX,
     CA,
     FL,
-    GA
+    GA,
+    SC
 }
