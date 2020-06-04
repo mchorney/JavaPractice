@@ -1,21 +1,21 @@
 package hw13;
 
 public class  Processor {
-    private String  brand;
+    private ProcessorName  brand;
     private String  model;
     private double clockspeed;
 
-    public Processor(String brand, String model, double clockspeed) {
+    public Processor(ProcessorName brand, String model, double clockspeed) {
         this.brand = brand;
         this.model = model;
         this.clockspeed = clockspeed;
     }
 
-    public String getBrand() {
+    public ProcessorName getBrand() {
         return brand;
     }
 
-    public void setBrand(String brand) {
+    public void setBrand(ProcessorName brand) {
         this.brand = brand;
     }
 

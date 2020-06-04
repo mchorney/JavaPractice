@@ -2,15 +2,17 @@ package hw13;
 
 public class SystemBlock {
     private String  name;
-    private String  processor;
-    private String  motherboard;
-    private String gpu;
+    private Processor processor;
+    private Motherboard motherboard;
+    private GPU gpu;
+    private RAM ram;
 
-    public SystemBlock(String name, String processor, String motherboard, String gpu) {
+    public SystemBlock(String name, Processor processor, Motherboard motherboard, GPU gpu, RAM ram) {
         this.name = name;
         this.processor = processor;
         this.motherboard = motherboard;
         this.gpu = gpu;
+        this.ram = ram;
     }
 
     public String getName() {
@@ -21,31 +23,39 @@ public class SystemBlock {
         this.name = name;
     }
 
-    public String getProcessor() {
+    public Processor getProcessor() {
         return processor;
     }
 
-    public void setProcessor(String processor) {
+    public void setProcessor(Processor processor) {
         this.processor = processor;
     }
 
-    public String getMotherboard() {
+    public Motherboard getMotherboard() {
         return motherboard;
     }
 
-    public void setMotherboard(String motherboard) {
+    public void setMotherboard(Motherboard motherboard) {
         this.motherboard = motherboard;
     }
 
-    public String getGpu() {
+    public GPU getGpu() {
         return gpu;
     }
 
-    public void setGpu(String gpu) {
+    public void setGpu(GPU gpu) {
         this.gpu = gpu;
     }
 
+    public RAM getRam() {
+        return ram;
+    }
+
+    public void setRam(RAM ram) {
+        this.ram = ram;
+    }
+
     public void printOut() {
-        System.out.println("System block "+name+ " include: Motherboard " +motherboard+ ", processor " +processor+ " and GPU " +gpu+",");
+        System.out.println("System block "+name+ " include: Motherboard " +motherboard+ ", processor " +processor+ ", GPU " +gpu+" and RAM "+ram+",");
     }
 }

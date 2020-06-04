@@ -1,21 +1,21 @@
 package hw13;
 
 public class Mouse {
-    private String  brand;
+    private MouseBrand  brand;
     private String  model;
-    private String  connectionsType;
+    private String connectionsType;
 
-    public Mouse(String brand, String model, String connectionsType) {
+    public Mouse(MouseBrand brand, String model, String connectionsType) {
         this.brand = brand;
         this.model = model;
         this.connectionsType = connectionsType;
     }
 
-    public String getBrand() {
+    public MouseBrand getBrand() {
         return brand;
     }
 
-    public void setBrand(String brand) {
+    public void setBrand(MouseBrand brand) {
         this.brand = brand;
     }
 

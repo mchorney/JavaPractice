@@ -6,32 +6,40 @@ public class App {
 
         Monitor monitor = new Monitor("Samsung","SM21",21);
 
+        monitor.printOut();
+        System.out.println(monitor.getBrand());
+
         Keyboard keyboard = new Keyboard("TypeX","TN12","wireless");
 
-        Motherboard motherboard = new Motherboard("SpaceX","MB7","RAM1");
+        keyboard.printOut();
 
-        Mouse mouse = new Mouse("MouseX","MS1","wireless");
+        Mouse mouse = new Mouse(MouseBrand.LOGITECH,"MS1","wireless");
 
-        Processor processor = new Processor("INTEL", "I7", 3.0);
+        mouse.printOut();
 
-        RAM ram = new RAM("RamX","RAM1",16);
+        Processor processor = new Processor(ProcessorName.INTEL, "I7", 3.0);
 
-        SystemBlock DellX = new SystemBlock("DellX", "I7","MB7","GPU12");
+        processor.printOut();
+        System.out.println(processor.getBrand());
+
+        RAM ram = new RAM(RAMbrand.CORSAIR,"RAM1",16);
+
+        ram.printOut();
+
+
+        SystemBlock DellX = new SystemBlock("DellX",processor,Motherboard.BIOSTAR,GPU.BRAIN,ram);
         DellX.printOut();
 
-        Computer dell = new Computer("Dell","Dell13","TypeX","MouseX","Samsung");
-        dell.printOut();
+        Computer MyPC = new Computer("ValPC",DellX,keyboard,mouse,monitor);
+
+        MyPC.printOut();
+
+
+
+
 
 
 
     }
 }
-//    Заполните содержимым классы Monitor, Keyboard, Mouse, SystemBlock
-//    Создайте как минимум 2 новых классса Processor, Motherboard fields in SystemBlock
-//
-//        в каждый класс поместите метод printInfo()
-//
-//        dell.prinInfo() - will print info about EVERYTHING
-//
-//
-//        Содайте 2 новых класса и сделайте их полями в 3м
+

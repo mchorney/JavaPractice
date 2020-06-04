@@ -8,7 +8,7 @@ public class Monitor {
     public Monitor(String brand, String model, int size) {
         this.brand = brand;
         this.model = model;
-        size = size;
+        this.size = size;
     }
 
     public String getBrand() {
