@@ -22,10 +22,11 @@ public class App13 {
 
         Hospital mountSinai= new Hospital("Mount Sinai Hospital", mountSinaiAddress,doctors);
 
+        Hospital SacredHearts = new Hospital("Sacred Hearts",mountSinaiAddress,doctors);
+
+
         String maryLastn = mountSinai.getDoctors()[1].getName().getLastName();
         System.out.println(maryLastn);
 
-        String jayAdd = mountSinai.getDoctors()[0].getHomeAddress().getTown();
-        System.out.println(jayAdd);
     }
 }

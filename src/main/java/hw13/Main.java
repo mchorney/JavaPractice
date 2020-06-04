@@ -1,6 +1,6 @@
 package hw13;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         GraphicCard NVIDIA = new GraphicCard(Brand.NVIDIA,"AGH 1300");
         Keyboards ASUS = new Keyboards(Brand.ASUS,"L100",Type.MECHANICAL);
