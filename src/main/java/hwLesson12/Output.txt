@@ -2,3 +2,5 @@
 Computer{systemBlock=MotherBoard{brand='Intel', type='9th Gen Intel® Core™ i5 9400 ', memorySlots=4}Cpu{cpubrand=AMD, cpumodel=AMD_A_10_4600M}, keyboard=Keyboard{brand='Microsoft', model='X-Series', keyboardType=WIRELESS}, mouse=Mouse{brand='Microsoft', model='x-series', mouseType=WIRELESS}, monitor=Monitor{brand='Dell', size='24inch', model=CURVE}}
 
 Process finished with exit code 0
+
+

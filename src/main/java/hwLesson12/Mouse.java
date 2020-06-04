@@ -42,8 +42,5 @@ public class Mouse {
                 ", mouseType=" + mouseType +
                 '}';
     }
-    //
-//    public void printOut(){
-//        System.out.println("Mouse Brand = "+ brand + "Mouse Model =" + model + "Mouse Type = " + mouseType);
-//    }
+
 }

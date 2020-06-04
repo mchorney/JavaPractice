@@ -9,6 +9,7 @@ public class Cpu {
         this.cpumodel = cpumodel;
     }
 
+
     public CpuBrand getCpubrand() {
         return cpubrand;
     }

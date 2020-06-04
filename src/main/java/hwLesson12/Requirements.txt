@@ -3,3 +3,4 @@
 в каждый класс поместите метод printInfo()
 dell.prinInfo() - will print info about EVERYTHING
 Содайте 2 новых класса и сделайте их полями в 3м
+

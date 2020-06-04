@@ -24,16 +24,5 @@ public class App {
         Computer dell = new Computer(systemblock,keyboard,mouse,monitor);
         dell.printInfo();
 
-
-
-
-
-
-
-
-
-
-
-//    dell.prinInfo()
     }
 }
