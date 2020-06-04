@@ -1,0 +1,6 @@
+Brabus{soundSystem='BRABUS', engine='12cylinder', horsePower=900extraPower='POWERXTRA B40-700', exhausedSystem='SPORT EXHAUST SYSTEM', soundSystem='BRABUS', engine='12cylinder', horsePower=900}
+Amg{soundSystem='bose', engine='2.0L inline-4 turbo', horsePower=221bodySyle='*AMG body styling', boards='*AMG Illuminated running boards', roof=PANORAMA}
+THIS IS FUNCTION FROM PARENT Class
+THIS IS FUNCTION FROM Child CLASS
+
+Process finished with exit code 0
