@@ -5,10 +5,8 @@ public class SystemBlock {
     private Motherboard motherboard;
     private SSD ssd;
 
-    public SystemBlock() {
-    }
 
-    public SystemBlock(Processor processor, Motherboard motherboard, String cooler, SSD ssd) {
+    public SystemBlock(Processor processor, Motherboard motherboard, SSD ssd) {
         this.processor = processor;
         this.motherboard = motherboard;
         this.ssd = ssd;
@@ -30,7 +28,6 @@ public class SystemBlock {
         this.motherboard = motherboard;
     }
 
-
     public SSD getSsd() {
         return ssd;
     }
@@ -40,6 +37,6 @@ public class SystemBlock {
     }
 
     public String printInfo(){
-        return "System Block {"+ processor.printInfo() + "," +motherboard.printInfo() + "," +ssd.printInfo() +'}';
+        return "System Block - "+ processor.printInfo() +"," + motherboard.printInfo() + "," + ssd.printInfo();
     }
 }

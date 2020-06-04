@@ -48,8 +48,7 @@ public class Computer {
         this.systemBlock = systemBlock;
     }
     public void printOut(){
-        String computer = "Characteristics{ \n" +
-                "Brand = " + brands + '\n' +
+        String computer = "Computer: \n" +
                 systemBlock.printInfo() + '\n' +
                 monitor.printInfo() + '\n' +
                 keybord.printInfo() + '\n' +
