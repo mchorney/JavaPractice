@@ -1,6 +1,6 @@
 package hw15;
 
-public class Office extends Chairs {
+public class Office extends Chairs implements ConferenceChair, OfficeChair {
     private int numberOfChairs;
     private String usageTimes;
 
@@ -10,15 +10,10 @@ public class Office extends Chairs {
         this.numberOfChairs = numberOfChairs;
         this.usageTimes = usageTimes;
     }
-
-    @Override
-    public String toString() {
-        return "Office{" +
-                "numberOfChairs=" + numberOfChairs +
-                ", usageTimes='" + usageTimes + '\'' +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", price=" + price +
-                '}';
+    public void conferWonder (){
+        System.out.println("ConferWonder conference chair implemented for Office");
+    }
+    public void topOffice () {
+        System.out.println("TopOffice office chair implemented for Office");
     }
 }
