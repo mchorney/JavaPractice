@@ -15,5 +15,6 @@ public class Work {
         wheelMechanism.sayHi();
         car.sayHi();
         car1.sayHi();
+        //Sout
     }
 }
