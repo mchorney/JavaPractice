@@ -11,5 +11,8 @@ public class App {
         car.printOut();
         bicycle.printOut();
         plane.printOut();
+
+        String d = "Hello, World!";
+        System.out.println(d.replace('l', ' '));
     }
 }
