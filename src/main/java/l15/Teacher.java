@@ -47,7 +47,7 @@ public class Teacher implements Person {
     }
 
     @Override
-    public void Info() {
+    public void info() {
         System.out.println("Teacher name is " + getName());
         System.out.println("Teacher academic degree is " + getAcademicDegree());
         System.out.println("This class attempt to pass " + getStudentsAttendToPass() + " students.");
@@ -55,7 +55,7 @@ public class Teacher implements Person {
     }
 
     @Override
-    public int AverageScore() {
+    public int averageScore() {
         return getStudentsAttendToPass() - getStudentsPass();
     }
 }

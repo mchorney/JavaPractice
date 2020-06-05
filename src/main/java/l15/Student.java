@@ -38,14 +38,14 @@ public class Student implements Person{
     }
 
     @Override
-    public void Info() {
+    public void info() {
         System.out.println("Student name:" + getName());
         System.out.println("Student's score: " + Arrays.toString(getScore()));
-        if(getScore() != null) System.out.println("Average score:" + AverageScore());
+        if(getScore() != null) System.out.println("Average score:" + averageScore());
     }
 
     @Override
-    public int AverageScore() {
+    public int averageScore() {
         int sum = 0;
         int result = 0;
         int[] scores = getScore();
