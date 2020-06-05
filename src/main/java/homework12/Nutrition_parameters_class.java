@@ -1,8 +1,12 @@
 package homework12;
 
 public class Nutrition_parameters_class {
-    public static boolean isCalories;
+    public boolean isCalories;
     private Nutrition_parameters np;
+
+    public Nutrition_parameters_class(Nutrition_parameters np) {
+        this.np = np;
+    }
 
     public Nutrition_parameters getNp() {
         return np;
@@ -12,9 +16,6 @@ public class Nutrition_parameters_class {
         this.np = np;
     }
 
-    public Nutrition_parameters_class(Nutrition_parameters np) {
-        this.np = np;
-    }
 
     public String printInfo(){
         return "Parameter of choice: " +np;
