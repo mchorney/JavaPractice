@@ -1,11 +1,10 @@
 package hw15;
 
-public class Office extends Chairs {
+public class Home extends Chairs {
     private int numberOfChairs;
     private String usageTimes;
 
-
-    public Office(String brand, String model, int price, int numberOfChairs, String usageTimes) {
+    public Home(String brand, String model, int price, int numberOfChairs, String usageTimes) {
         super(brand, model, price);
         this.numberOfChairs = numberOfChairs;
         this.usageTimes = usageTimes;
@@ -13,7 +12,7 @@ public class Office extends Chairs {
 
     @Override
     public String toString() {
-        return "Office{" +
+        return "Home{" +
                 "numberOfChairs=" + numberOfChairs +
                 ", usageTimes='" + usageTimes + '\'' +
                 ", brand='" + brand + '\'' +
