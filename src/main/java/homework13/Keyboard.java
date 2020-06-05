@@ -24,6 +24,6 @@ public class Keyboard {
     }
 
     public void printInfo() {
-        System.out.println("Keyboard type = " + type + ", brand = " + brand + ", color =" + color);
+        System.out.println("Keyboard: type = " + type + ", brand = " + brand + ", color =" + color);
     }
 }

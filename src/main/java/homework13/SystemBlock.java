@@ -23,13 +23,15 @@ public class SystemBlock {
         return color;
     }
 
-    @Override
-    public String toString() {
-        return "SystemBlock{" +
-                "processors=" + processors +
-                ", motherboards=" + motherboards +
-                ", color='" + color + '\'' +
-                '}';
+
+    public void printInfo() {
+        System.out.print("SystemBlock (");
+        processors.printInfo();
+        System.out.print(" ; ");
+        motherboards.printInfo();
+        System.out.println("; color=" + color+")");
+
     }
 }
+
 

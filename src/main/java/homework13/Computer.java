@@ -31,6 +31,9 @@ public class Computer {
 
    public void printInfo(){
         keyboard.printInfo();
+        monitor.printInfo();
+        mouse.printInfo();
+        systemBlock.printInfo();
    }
 
 }

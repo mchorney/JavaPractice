@@ -26,6 +26,6 @@ public class Motherboard {
     }
 
     public void printInfo() {
-        System.out.println("Motherboard RAM = " + RAM + ", size = " + size);
+        System.out.print("Motherboard: RAM = " + RAM + ", size = " + size);
     }
 }

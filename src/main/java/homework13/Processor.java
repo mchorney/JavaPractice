@@ -18,7 +18,7 @@ public class Processor {
     }
 
     public void printInfo() {
-        System.out.println("Processor model = " + model + ", core = " + core);
+        System.out.print("Processor: model = " + model + ", core = " + core);
 
     }
 }

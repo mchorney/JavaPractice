@@ -24,5 +24,5 @@ public class Mouse {
     }
 
     public void printInfo() {
-        System.out.println("Mouse type = " + type + ", model = " + model + ", color =" + color);
+        System.out.println("Mouse: type = " + type + ", model = " + model + ", color =" + color);
 }}

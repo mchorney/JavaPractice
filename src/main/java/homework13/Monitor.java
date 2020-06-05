@@ -24,6 +24,6 @@ public class Monitor {
     }
 
     public void printInfo() {
-        System.out.println("Monitor model = " + model + ", size =" + size + ", resolution = " + resolution);
+        System.out.println("Monitor: model = " + model + ", size =" + size + ", resolution = " + resolution);
     }
 }
