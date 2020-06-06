@@ -6,33 +6,33 @@ public class App {
 
         Monitor monitor = new Monitor("Samsung","SM21",21);
 
-        monitor.printOut();
-        System.out.println(monitor.getBrand());
+//        monitor.printOut();
+//        System.out.println(monitor.getBrand());
 
         Keyboard keyboard = new Keyboard("TypeX","TN12","wireless");
 
-        keyboard.printOut();
+//        keyboard.printOut();
 
         Mouse mouse = new Mouse(MouseBrand.LOGITECH,"MS1","wireless");
 
-        mouse.printOut();
+//        mouse.printOut();
 
         Processor processor = new Processor(ProcessorName.INTEL, "I7", 3.0);
 
-        processor.printOut();
-        System.out.println(processor.getBrand());
+//        processor.printOut();
+//        System.out.println(processor.getBrand());
 
         RAM ram = new RAM(RAMbrand.CORSAIR,"RAM1",16);
 
-        ram.printOut();
+//        ram.printOut();
 
 
-        SystemBlock DellX = new SystemBlock("DellX",processor,Motherboard.BIOSTAR,GPU.BRAIN,ram);
-        DellX.printOut();
+        SystemBlock dellX = new SystemBlock("DellX",processor,Motherboard.BIOSTAR,GPU.BRAIN,ram);
+//        dellX.printOut();
 
-        Computer MyPC = new Computer("ValPC",DellX,keyboard,mouse,monitor);
+        Computer dell = new Computer(dellX, keyboard, mouse, monitor);
 
-        MyPC.printOut();
+        dell.printInfo();
 
 
 

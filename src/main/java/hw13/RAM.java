@@ -11,9 +11,31 @@ public class RAM {
         this.memorySize = memorySize;
     }
 
+    public RAMbrand getBrand() {
+        return brand;
+    }
 
+    public void setBrand(RAMbrand brand) {
+        this.brand = brand;
+    }
 
-    public void printOut() {
-        System.out.println("RAM " +brand+ "model, " +model+ "memory size " +memorySize+ " GB, ");
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getMemorySize() {
+        return memorySize;
+    }
+
+    public void setMemorySize(int memorySize) {
+        this.memorySize = memorySize;
+    }
+
+    public String printOut() {
+        return (" RAM " +brand+ " model " +model+ ", memory size " +memorySize+ " GB, ");
     }
 }

@@ -12,6 +12,6 @@ public class Keyboard {
     }
 
     public void printOut() {
-        System.out.println("Keyboard " +brand+ ", model " +model+ ", " +connectionsType+ " connection, ");
+        System.out.println ("Keyboard " +brand+ ", model " +model+ ", " +connectionsType+ " connection, ");
     }
 }

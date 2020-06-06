@@ -35,7 +35,7 @@ public class  Processor {
         this.clockspeed = clockspeed;
     }
 
-    public void printOut() {
-        System.out.println("Processor " +brand+ ",model " +model+ ", clock speed " +clockspeed+ " GHz, ");
+    public String printOut() {
+        return ("Processor " +brand+ " " +model+ ", clock speed " +clockspeed+ " GHz, ");
     }
 }

@@ -1,27 +1,17 @@
 package hw13;
 
 public class Computer {
-    private String name;
     private SystemBlock  systemBlock;
     private Keyboard  keyboard;
     private Mouse  mouse;
     private Monitor  monitor;
 
 
-    public Computer(String  name, SystemBlock systemBlock, Keyboard keyboard, Mouse mouse, Monitor monitor) {
-        this.name = name;
+    public Computer(SystemBlock systemBlock, Keyboard keyboard, Mouse mouse, Monitor monitor) {
         this.systemBlock = systemBlock;
         this.keyboard = keyboard;
         this.mouse = mouse;
         this.monitor = monitor;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public SystemBlock getSystemBlock() {
@@ -56,9 +46,17 @@ public class Computer {
         this.monitor = monitor;
     }
 
-    public void printOut() {
-        System.out.println("My new PC is "+name+ " and consist of: System Block " +systemBlock+ ", Monitor " +monitor+", Keyboard " +keyboard+" and mouse " +mouse+".");
+
+
+    public void printInfo() {
+        System.out.println("My new computer:");
+        keyboard.printOut();
+        monitor.printOut();
+        mouse.printOut();
+        systemBlock.printOut();
     }
+
+
 }
 
 

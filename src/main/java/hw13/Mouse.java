@@ -36,6 +36,6 @@ public class Mouse {
     }
 
     public void printOut() {
-        System.out.println("Mouse " +brand+ ", model " +model+ ", " +connectionsType+ " connection, ");
+        System.out.println ("Mouse " +brand+ ", model " +model+ ", " +connectionsType+ " connection, ");
     }
 }
