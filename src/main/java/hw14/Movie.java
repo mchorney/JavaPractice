@@ -1,4 +1,4 @@
-package hw14second;
+package hw14;
 
 public class Movie extends Film {
     private Genre genre;
@@ -26,7 +26,9 @@ public class Movie extends Film {
         this.cast = cast;
     }
 
-    public void printMe(){
+    @Override
+
+    public void description (String xx){
         System.out.println("Movie " + name + " By Producer "+ producer + " was released in " + year + ". This is great " + genre + " with " + cast + " in a cast!" );
     }
 

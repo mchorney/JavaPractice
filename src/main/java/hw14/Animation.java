@@ -1,4 +1,4 @@
-package hw14second;
+package hw14;
 
 public class Animation extends Film {
     private Genre genre;

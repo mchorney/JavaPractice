@@ -1,4 +1,4 @@
-package hw14second;
+package hw14;
 
 public class Show extends Film {
     private String Seasons;

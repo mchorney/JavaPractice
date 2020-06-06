@@ -1,4 +1,4 @@
-package hw14second;
+package hw14;
 
 public class Film {
         protected String name;
@@ -40,12 +40,5 @@ public class Film {
         System.out.println("Hi, " + yourName + " And the Oscar goes to... "+name+ " Please welcome and congratulations to the all who made the " + name + " happened... to Producer" + producer);
     }
 
-    @Override
-    public String toString() {
-        return "Film{" +
-                "name='" + name + '\'' +
-                ", producer='" + producer + '\'' +
-                ", year=" + year +
-                '}';
-    }
+
 }

@@ -1,4 +1,4 @@
-package hw14second;
+package hw14;
 
 public enum Genre {
     COMEDY,
