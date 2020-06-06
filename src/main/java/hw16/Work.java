@@ -67,15 +67,15 @@ public class Work {
         drinks.add(coctail);
 
         //list.forEach(x -> System.out.println(x));
-        drinks.forEach(x -> System.out.println(x.type + " size: " + x.size + "ml"));
+        drinks.forEach(x -> System.out.println(x.getType() + " size: " + x.getSize() + "ml"));
         System.out.println("-");
         drinks.remove(beer);
         Drinks latteMilk = new Drinks("Latte-milk", 350);
         drinks.add(latteMilk);
-        drinks.forEach(x -> System.out.println(x.type + " size: " + x.size + "ml"));
+        drinks.forEach(x -> System.out.println(x.getType() + " size: " + x.getSize() + "ml"));
         System.out.println("-");
         drinks.set(2,beer);
-        drinks.forEach(x -> System.out.println(x.type + " size: " + x.size + "ml"));
+        drinks.forEach(x -> System.out.println(x.getType() + " size: " + x.getSize() + "ml"));
         System.out.println("-");System.out.println("-");System.out.println("-");
 //-----------------------------------------------------------------------------------------
         ArrayList<String> list = new ArrayList<String>();
