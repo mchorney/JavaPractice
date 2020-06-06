@@ -56,6 +56,6 @@ public class SystemBlock {
     }
 
     public void printOut() {
-        System.out.println ("System block "+name+ " include: Motherboard " +motherboard+ ", " +processor.printOut()+ ", GPU " +gpu+" and "+ram.printOut()+" ");
+        System.out.println ("System block "+name+" with "+motherboard.printOut()+ ", " +processor.printOut()+ ", GPU " +gpu+" and "+ram.printOut()+" ");
     }
 }

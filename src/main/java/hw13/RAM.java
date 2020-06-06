@@ -36,6 +36,6 @@ public class RAM {
     }
 
     public String printOut() {
-        return (" RAM " +brand+ " model " +model+ ", memory size " +memorySize+ " GB, ");
+        return (" RAM " +brand+ " model " +model+ ", memory size " +memorySize+ " GB. ");
     }
 }
