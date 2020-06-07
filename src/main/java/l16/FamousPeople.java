@@ -1,10 +1,10 @@
 package l16;
 
 public class FamousPeople {
-    String firstName;
-    String lastName;
-    int age;
-    String famousFor;
+    private String firstName;
+    private String lastName;
+    private int age;
+    private String famousFor;
 
     public FamousPeople(String firstName, String lastName, int age, String famousFor) {
         this.firstName = firstName;
