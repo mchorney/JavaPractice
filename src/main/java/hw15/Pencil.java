@@ -12,16 +12,16 @@ public class Pencil implements Test {
     }
 
     @Override
-    public void NoCheating(String What) {
+    public void noCheating(String What) {
         System.out.println("This test is passed, it has 90% of right answers, it's completed with " + type + what + color + " color, and no Cheating was detected");
     }
 
 
-    public String Written() {
+    public String written() {
         return "This test is failed, because it was completed with" + what + color + " color";
     }
 
-    public void Rules() {
+    public void rules() {
         System.out.println("This test is must be written with " + what + ". Any Cheating will disqualify you");
 
 

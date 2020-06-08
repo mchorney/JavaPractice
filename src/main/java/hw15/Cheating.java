@@ -11,23 +11,23 @@ public class Cheating implements Test {
 
 
     @Override
-    public String Written() {
+    public String written() {
         return "Cheating was detected on" + when + "student cheated from " + how;
     }
 
     @Override
-    public void NoCheating(String What) {
+    public void noCheating(String What) {
         System.out.println("This test is failed because student was cheating on " + "from " + What);
 
     }
 
-    public void WhatToDo() {
+    public void whatToDo() {
         System.out.println("If you failed this test due to cheating from " + how + " please come back next semester");
 
 
     }
 
-    public void Passed() {
+    public void passed() {
         System.out.println("You passed the test!" + how + " was detected");
 
     }
