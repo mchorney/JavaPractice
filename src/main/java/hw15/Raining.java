@@ -4,6 +4,7 @@ public class Raining implements Storm {
     private RainTypes type;
     private int rainfall;
     private boolean isWet;
+    private static int count;
 
     public Raining() {
     }
@@ -12,6 +13,11 @@ public class Raining implements Storm {
         this.type = type;
         this.rainfall = rainfall;
         this.isWet = isWet;
+        count++;
+    }
+
+    public static int getCount() {
+        return count;
     }
 
     public RainTypes getType() {

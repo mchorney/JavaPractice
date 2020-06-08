@@ -5,6 +5,7 @@ public class Lightning implements Storm {
     private int voltageMlnV;
     private String thunderSound;
     private boolean thunderSoundIsPresented;
+    private static int count;
 
 
     public Lightning() {
@@ -15,6 +16,11 @@ public class Lightning implements Storm {
         this.voltageMlnV = voltageMlnV;
         this.thunderSound = thunderSound;
         this.thunderSoundIsPresented = thunderSoundIsPresented;
+        count++;
+    }
+
+    public static int getCount() {
+        return count;
     }
 
     public int getFlashAmount() {
