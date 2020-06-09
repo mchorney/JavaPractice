@@ -1,0 +1,17 @@
+"C:\Program Files\Java\jdk-14.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar=63817:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Elina\Projects\JavaCore3\target\classes hwLesson15.App
+-----------------------1----------------------------
+Dimensions of the product are :10 X 15
+The Product is Ice-Cream That will fit   10X15Box, it's weight is 2 pounds and Delivery type will be DOORDASH
+-----------------------2----------------------------
+Dimensions of the product are :20 X 50
+Your PACKAGE WILL BE DELIVERED in 24 hours
+The Product is Cake That will fit   20X50Box, it's weight is 78 pounds and Delivery type will be DOORDASH
+------------------------3---------------------------
+Dimensions of the box for our Clothes (Product)5X10
+The Product is Pens , That will fit 5X10 Box, it's weight is 2 pounds and Delivery type will bePRIORITY_MAIL
+------------------------4---------------------------
+Dimensions of the box for our Clothes (Product)2X2
+YOUR PACKAGE WILL BE DELIVERED in 2 hours
+The Product is Skirt , That will fit 2X2 Box, it's weight is 1 pounds and Delivery type will beFIRST_CLASS
+
+Process finished with exit code 0
