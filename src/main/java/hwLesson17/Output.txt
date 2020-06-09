@@ -1,0 +1,28 @@
+"C:\Program Files\Java\jdk-14.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar=51599:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Elina\Projects\JavaCore3\target\classes hwLesson17.App
+{1=Monday, 2=Tuesday, 3=Wednesday, 4=Thursday, 5=Saturday}
+{1=Monday, 2=Tuesday, 3=Wednesday, 4=Thursday}
+Printing the Value of the 1st Key is : Monday
+This is the Second HAsh Map
+FF0000=Red
+FFA500=Orange
+808000=Olive
+FFFF00=Yellow
+Print the Value of the first Key of type "Car"
+Car{carModel='A150', carPrice='15000'}
+Key
+Person{name='Tina', lastName='Turner', idNumber=54234.0}
+Value
+Car{carModel='B250', carPrice='20000'}
+------
+Key
+Person{name='James', lastName='Smith', idNumber=12345.0}
+Value
+Car{carModel='A150', carPrice='15000'}
+------
+Key
+Person{name='Ronald', lastName='Chou', idNumber=98762.0}
+Value
+Car{carModel='C350', carPrice='30000'}
+------
+
+Process finished with exit code 0

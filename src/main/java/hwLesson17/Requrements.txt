@@ -1,0 +1,4 @@
+Создайте 3 HashMap- <String,String>, <Integer,String> и произвольного класса <Class1,Class2> (придумайте сами)
+добавьте в каждый HashMap по 4 элемента
+попробуйте методы put/replace/remove/get/foreach
+Shared in
