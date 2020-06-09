@@ -1,12 +1,13 @@
 package homework17;
 
 import java.util.HashMap;
+import java.util.Map;
 
 import homework11.Dress;
 
 public class App {
     public static void main(String[] args) {
-        HashMap<String, String> currency = new HashMap<>();
+        Map<String, String> currency = new HashMap<>();
         currency.put("USA", "USD");
         currency.put("Russia", "RUB");
         currency.put("Czech Republic", "CZK");
@@ -40,7 +41,7 @@ public class App {
             System.out.println(currency.get(i));
         }
 
-        HashMap<Integer, String> scores = new HashMap<>();
+        Map<Integer, String> scores = new HashMap<>();
         scores.put(60, "D");
         scores.put(70, "C");
         scores.put(85, "B");
@@ -69,7 +70,7 @@ public class App {
             System.out.println(scores.get(i));
         }
 
-        HashMap<Person, Dress> person_dress = new HashMap<>();
+        Map<Person, Dress> person_dress = new HashMap<>();
         Dress dress1 = new Dress(46, "White", 400, "Casual", "Long", "V-Neck");
         Dress dress2 = new Dress(43, "Black", 100, "Casual", "Long", "V-Neck");
         Dress dress3 = new Dress(38, "Blue", 150, "Long", "V-Neck");

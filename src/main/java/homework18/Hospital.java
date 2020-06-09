@@ -1,16 +1,20 @@
 package homework18;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 public class Hospital {
     private String hospitalName;
     private Address address;
-    private ArrayList<Doctor>doctors;
-    private HashMap<Integer, String> rooms;
-    private ArrayList<InsuranceCompanies> acceptedInsuranses;
+    private List<Doctor> doctors;
+    private Map<Integer, Speciality> rooms;
+    private List<InsuranceCompanies> acceptedInsuranses;
 
-    public Hospital(String hospitalName, Address address, ArrayList<Doctor> doctors, HashMap<Integer, String> rooms, ArrayList<InsuranceCompanies> acceptedInsuranses) {
+    public Hospital(String hospitalName, Address address, List<Doctor> doctors, Map<Integer, Speciality> rooms, List<InsuranceCompanies> acceptedInsuranses) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.doctors = doctors;
@@ -18,10 +22,19 @@ public class Hospital {
         this.acceptedInsuranses = acceptedInsuranses;
     }
 
-    public Hospital(String hospitalName, Address address, ArrayList<InsuranceCompanies> acceptedInsuranses) {
+    public Hospital(String hospitalName, Address address, List<InsuranceCompanies> acceptedInsuranses) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.acceptedInsuranses = acceptedInsuranses;
+    }
+
+    public Hospital(Map<Integer, Speciality> rooms) {
+        this.rooms = rooms;
+    }
+
+
+    public Hospital(List<Doctor> doctors) {
+        this.doctors = doctors;
     }
 
     public String getHospitalName() {
@@ -40,35 +53,52 @@ public class Hospital {
         this.address = address;
     }
 
-    public ArrayList<Doctor> getDoctors() {
+    public List<Doctor> getDoctors() {
         return doctors;
     }
 
-    public void setDoctors(ArrayList<Doctor> doctors) {
+    public void setDoctors(List<Doctor> doctors) {
         this.doctors = doctors;
     }
 
-    public HashMap<Integer, String> getRooms() {
+    public Map<Integer, Speciality> getRooms() {
         return rooms;
     }
 
-    public void setRooms(HashMap<Integer, String> rooms) {
+    public void setRooms(Map<Integer, Speciality> rooms) {
         this.rooms = rooms;
     }
 
-    public ArrayList<InsuranceCompanies> getAcceptedInsuranses() {
+    public List<InsuranceCompanies> getAcceptedInsuranses() {
         return acceptedInsuranses;
     }
 
-    public void setAcceptedInsuranses(ArrayList<InsuranceCompanies> acceptedInsuranses) {
+    public void setAcceptedInsuranses(List<InsuranceCompanies> acceptedInsuranses) {
         this.acceptedInsuranses = acceptedInsuranses;
     }
 
     public void printInfo() {
+        System.out.println("Hospital name: " + hospitalName + "; " +
+                "Hospital address: " + address + "; " +
+                "Accepted Insuranses: " + acceptedInsuranses
+        );
+    }
 
-        System.out.println( "acceptedInsuranses=" + acceptedInsuranses +
-                "hospital name=" + hospitalName +
-                "hospital address=" + address );
+    public void printDoctors() {
+        System.out.println("Overlake Hospital doctors: ");
+        for (Doctor v : doctors) {
+            System.out.println(v);
+        }
+    }
 
+    public void printRooms() {
+        System.out.println("Room number and Doctor's name: ");
+
+        for (Integer i : rooms.keySet()) {
+            System.out.println("Room number: " + i + ", " + rooms.get(i));
+        }
     }
 }
+
+
+

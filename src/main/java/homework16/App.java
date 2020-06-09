@@ -4,11 +4,12 @@ import homework11.Dress;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class App {
     public static void main(String[] args) {
 
-        ArrayList<String> flowers = new ArrayList<>();
+        List<String> flowers = new ArrayList<>();
         flowers.add("Aster");
         flowers.add("Daisy");
         flowers.add("Irises");
@@ -54,7 +55,7 @@ public class App {
         flowers.set(6, "Lily");
         flowers.forEach(x -> System.out.println(x));
 
-        ArrayList<Integer> numbers = new ArrayList<>();
+        List<Integer> numbers = new ArrayList<>();
         numbers.add(1);
         numbers.add(2);
         numbers.add(3);
@@ -94,7 +95,7 @@ public class App {
             System.out.println(v);
         }
 
-        ArrayList<Dress> dresses = new ArrayList<>();
+        List<Dress> dresses = new ArrayList<>();
 
         dresses.add(new Dress(46, "White", 1000, "Casual", "Long", "V-Neck"));
         dresses.add(new Dress(48, "Red", 500));

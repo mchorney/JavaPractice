@@ -6,5 +6,4 @@ public enum InsuranceCompanies {
     KAISERFOUNDATION,
     CIGNA,
     PREMIERABLUECROSS
-
 }
