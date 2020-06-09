@@ -92,7 +92,7 @@ public class Hospital {
     }
 
     public void printRooms() {
-        System.out.println("Room number and Doctor's name: ");
+        System.out.println("Room number and Specialty: ");
 
         for (Integer i : rooms.keySet()) {
             System.out.println("Room number: " + i + ", " + rooms.get(i));
