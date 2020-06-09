@@ -8,6 +8,10 @@ public class TreeFruits implements Fruits{
         this.types = types;
     }
 
+    public String getName() {
+        return types.name();
+    }
+
     @Override
     public void getVitamins() {
         System.out.println(types.name() + " has lots of vitamins");

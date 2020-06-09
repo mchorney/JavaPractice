@@ -3,7 +3,7 @@ package hwk15;
 public enum TreeFruitTypes {
     APPLE,
     PEAR,
-    CHERRy,
+    CHERRY,
     PLUM,
     APPRICOT,
     FIG,
