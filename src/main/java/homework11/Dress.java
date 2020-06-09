@@ -78,4 +78,16 @@ public class Dress {
         System.out.println("Size: " + size + "\nColor: " + color + "\nPrice: " + price + "\nOccasion: " + occasion + "\nSleeve length:  "
                 + sleeve_length + "\nNeckline: " + neckline);
     }
+
+    @Override
+    public String toString() {
+        return "Dress{" +
+                "size=" + size +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                ", occasion='" + occasion + '\'' +
+                ", sleeve_length='" + sleeve_length + '\'' +
+                ", neckline='" + neckline + '\'' +
+                '}';
+    }
 }
