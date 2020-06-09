@@ -1,0 +1,12 @@
+"C:\Program Files\Java\jdk-14.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar=50156:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Elina\Projects\JavaCore3\target\classes hwLesson16.App
+Mercedes{modelNAme='A150', engine='I4 turbo', numOfcelinders=4}
+Mercedes{modelNAme='A180', engine='I4 turbo', numOfcelinders=4}
+Mercedes{modelNAme='C220', engine='3.0L', numOfcelinders=4}
+Mercedes{modelNAme='E330', engine='4.0L', numOfcelinders=8}
+Days{dayOfWeek=1, isThereABussToday=true}
+Days{dayOfWeek=2, isThereABussToday=true}
+Days{dayOfWeek=3, isThereABussToday=false}
+Days{dayOfWeek=4, isThereABussToday=true}
+Days{dayOfWeek=5, isThereABussToday=true}
+
+Process finished with exit code 0
