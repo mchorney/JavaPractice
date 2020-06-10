@@ -1,4 +1,8 @@
-package hw19;
+package hw19.farm;
+
+import hw19.farm.Address;
+import hw19.farm.AgreeCultural;
+import hw19.farm.Cattle;
 
 import java.util.ArrayList;
 import java.util.HashMap;

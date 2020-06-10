@@ -1,4 +1,4 @@
-package hw19;
+package hw19.farm;
 
 public enum Cattle {
     COWS,
