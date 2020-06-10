@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaCore3.iml" filepath="$PROJECT_DIR$/.idea/JavaCore3.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/JavaCore3.iml" filepath="$PROJECT_DIR$/JavaCore3.iml" />
+>>>>>>> remotes/origin/master
     </modules>
   </component>
 </project>
