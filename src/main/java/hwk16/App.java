@@ -13,7 +13,7 @@ public class App {
         /*
          -----------------CREATING TreeFruits ARRAYLIST -----------------------
          */
-        ArrayList<TreeFruits> fruitList = new ArrayList<>();
+        List<TreeFruits> fruitList = new ArrayList<>();
         TreeFruits apple = new TreeFruits(TreeFruitTypes.APPLE);
         TreeFruits pear = new TreeFruits(TreeFruitTypes.PEAR);
         TreeFruits plum = new TreeFruits(TreeFruitTypes.PLUM);
@@ -57,7 +57,7 @@ public class App {
         /*
          -----------------CREATING String ARRAYLIST -----------------------
          */
-        ArrayList <String> colors = new ArrayList<>();
+        List <String> colors = new ArrayList<>();
         colors.add("white");
         colors.add("brown");
         colors.add("yellow");
@@ -83,7 +83,7 @@ public class App {
          -----------------CREATING Integer ARRAYLIST -----------------------
          */
 
-        ArrayList<Integer> daysOfWeek = new ArrayList<>();
+        List<Integer> daysOfWeek = new ArrayList<>();
         System.out.println(daysOfWeek.isEmpty());
         for(int i = 1; i <=7; i++) {
             daysOfWeek.add(i);
@@ -122,7 +122,7 @@ public class App {
     }
 
         //creating static method to print TreeFruits elements names
-        public static void printFruitList(ArrayList<TreeFruits> list){
+        public static void printFruitList(List<TreeFruits> list){
             System.out.print("\nMy garden has the following trees: ");
             list.forEach(fruit -> System.out.print(fruit.getName() + " "));
         }
