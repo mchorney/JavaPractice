@@ -97,6 +97,7 @@ public class Hospital {
         for (Integer i : rooms.keySet()) {
             System.out.println("Room number: " + i + ", " + rooms.get(i));
         }
+
     }
 }
 
