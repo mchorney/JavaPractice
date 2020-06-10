@@ -1,0 +1,10 @@
+package les18;
+
+public class Doctor {
+    public void calculate(int a){
+        int x = 10/a;
+    }
+    public int sum_of_three(int a,int b,int c){
+        return a+b+c;
+    }
+}
