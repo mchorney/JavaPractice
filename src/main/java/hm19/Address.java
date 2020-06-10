@@ -47,6 +47,5 @@ public class Address {
 
     public String addressInfo(){
         return getStreetAddress() + ", " + getTown() + ", " + getState() + " " + getZip();
-
     }
 }

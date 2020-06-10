@@ -25,16 +25,7 @@ public class App {
         cattle.put(Cattle.CHICKENS, 100);
         cattle.put(Cattle.TURKEYS, 250);
 
-
-
         Farm farm = new Farm("The Farm at Del Mar Meadows", animalFarmAddress, cattle, agricultural);
         farm.farmInfo();
     }
-
-
-
-
-
-
-
 }
