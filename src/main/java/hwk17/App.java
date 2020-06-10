@@ -2,6 +2,7 @@ package hwk17;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class App {
         /*
          -----------------CREATING Integer, String HASHMAP -----------------------
          */
-        HashMap<Integer, String> months = new HashMap<>();
+        Map<Integer, String> months = new HashMap<>();
         months.put(1, "December");
         months.put(2, "January");
         months.put(3, "February");
@@ -33,7 +34,7 @@ public class App {
         /*
          -----------------CREATING String, String HASHMAP-----------------------
          */
-        HashMap<String, String> fruitColors = new HashMap<>();
+        Map<String, String> fruitColors = new HashMap<String, String>();
         fruitColors.put("Apple", "red");
         fruitColors.put("Banana", "yellow");
         fruitColors.put("Kiwi", "green");
@@ -59,7 +60,7 @@ public class App {
         /*
          -----------------CREATING Class, Class HASHMAP-----------------------
          */
-        HashMap<Fruits, Colors> favFruits = new HashMap<>();
+        Map<Fruits, Colors> favFruits = new HashMap<>();
         Fruits fruit1 = new Fruits(FruitTypes.CHERRY);
         Fruits fruit2 = new Fruits(FruitTypes.FIG);
         Fruits fruit3 = new Fruits(FruitTypes.PEAR);
