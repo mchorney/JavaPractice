@@ -8,6 +8,7 @@ public class Aapp {
         bluewhale.flesh();
         bluewhale.voice();
 
+
         System.out.println(" ");
         Lion lion = new Lion("blue Lion","boss");
 
