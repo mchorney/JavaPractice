@@ -9,6 +9,19 @@ public class Car {
         this.make = make;
         this.model = model;
         this.color = color;
+
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
     }
 
     public Color getColor() {
@@ -25,6 +38,6 @@ public class Car {
 
 
     public void printme(){
-        System.out.print(make +" " + model + ", color - " + color);
+        System.out.print(make +" " + model + ", color - " + color+" \n");
     }
 }
