@@ -44,7 +44,11 @@ public class App {
         Farm nf = new Farm(farmName,adr7,cattle,agriculturals);
 
         nf.printInfo();
+        System.out.println("****************************************");
+
         nf.printCattle();
+        System.out.println("****************************************");
+
         nf.printAgricultural();
 
 
