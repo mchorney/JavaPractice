@@ -2,21 +2,22 @@ package hw18;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
 public class Hospital {
     private String hospitalName;
     private Address address;
-    private ArrayList<Doctor> doctors;
-    private HashMap<Integer,String> rooms;
-    private ArrayList<InsuranceCompanies> acceptedInsurances;
+    private List<Doctor> doctors;
+    private Map<Integer,String> rooms;
+    private List<InsuranceCompanies> acceptedInsurances;
     private static int hospitalStatistic;
 
     public Hospital() {
     }
 
-    public Hospital(String hospitalName, Address address, ArrayList<Doctor> doctors, HashMap<Integer, String> rooms, ArrayList<InsuranceCompanies> acceptedInsuranses) {
+    public Hospital(String hospitalName, Address address, List<Doctor> doctors, Map<Integer, String> rooms, List<InsuranceCompanies> acceptedInsuranses) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.doctors = doctors;
@@ -41,15 +42,15 @@ public class Hospital {
         this.address = address;
     }
 
-    public ArrayList<Doctor> getDoctors() {
+    public List<Doctor> getDoctors() {
         return doctors;
     }
 
-    public void setDoctors(ArrayList<Doctor> doctors) {
+    public void setDoctors(List<Doctor> doctors) {
         this.doctors = doctors;
     }
 
-    public HashMap<Integer, String> getRooms() {
+    public Map<Integer, String> getRooms() {
         return rooms;
     }
 
@@ -57,11 +58,11 @@ public class Hospital {
         this.rooms = rooms;
     }
 
-    public ArrayList<InsuranceCompanies> getAcceptedInsurances() {
+    public List<InsuranceCompanies> getAcceptedInsurances() {
         return acceptedInsurances;
     }
 
-    public void setAcceptedInsurances(ArrayList<InsuranceCompanies> acceptedInsuranses) {
+    public void setAcceptedInsurances(List<InsuranceCompanies> acceptedInsuranses) {
         this.acceptedInsurances = acceptedInsuranses;
     }
 
