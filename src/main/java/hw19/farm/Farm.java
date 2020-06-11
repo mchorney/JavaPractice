@@ -1,11 +1,9 @@
 package hw19.farm;
 
-import hw19.farm.Address;
-import hw19.farm.AgreeCultural;
-import hw19.farm.Cattle;
-
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Farm {
     private String name;
@@ -13,11 +11,11 @@ public class Farm {
     private HashMap<Cattle, Integer> cattle;
     private ArrayList<AgreeCultural> agreeCultural;
 
-    public Farm(String name, Address address, HashMap<Cattle, Integer> cattle, ArrayList<AgreeCultural> agreeCultural) {
+    public Farm(String name, Address address, Map<Cattle, Integer> cattle, List<AgreeCultural> agreeCultural) {
         this.name = name;
         this.address = address;
-        this.cattle = cattle;
-        this.agreeCultural = agreeCultural;
+        this.cattle = (HashMap)cattle;
+        this.agreeCultural = (ArrayList)agreeCultural;
     }
 
     public String getName() {

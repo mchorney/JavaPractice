@@ -7,14 +7,14 @@ public class App {
 
         Address address = new Address("123 hampton St", "Sometown", "NY", 12345);
 
-        HashMap<Cattle, Integer> cattleMap = new HashMap<Cattle, Integer>();
+        Map<Cattle, Integer> cattleMap = new HashMap<Cattle, Integer>();
         cattleMap.put(Cattle.CHICKENS, 1);
         cattleMap.put(Cattle.COWS, 2);
         cattleMap.put(Cattle.PIGS, 3);
         cattleMap.put(Cattle.SHEEPS, 4);
         cattleMap.put(Cattle.TURKEYS, 5);
 
-        ArrayList<AgreeCultural> agreeCultural = new ArrayList<AgreeCultural>();
+        List<AgreeCultural> agreeCultural = new ArrayList<AgreeCultural>();
         AgreeCultural wheat = new AgreeCultural("Wheat", 2);
         AgreeCultural barley = new AgreeCultural("Barley", 4);
         AgreeCultural rye = new AgreeCultural("Rye", 3);
