@@ -6,7 +6,7 @@ import java.util.Map;
 public class App {
 
     public static void main(String[] args) {
-        HashMap<String,String> flowers=new HashMap<>();
+        Map<String,String> flowers=new HashMap<>();
         flowers.put("rose", "red");
         flowers.put("tulip", "yellow");
         flowers.put("lily","pink");
