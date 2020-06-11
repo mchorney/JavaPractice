@@ -1,6 +1,6 @@
 package home19;
 
-public class AgreeCultural {
+ class AgreeCultural {
     private String nameofCulture;
     private int fielsNumber;
 

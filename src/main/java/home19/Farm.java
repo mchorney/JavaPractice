@@ -1,18 +1,17 @@
 package home19;
 
-import java.awt.*;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Farm {
     private String name;
     private Address address;
-    private HashMap<Cattle,Integer> cattle;
-    private ArrayList<AgreeCultural> agreeCultural;
+    private Map<Cattle,Integer> cattle;
+    private List<AgreeCultural> agreeCultural;
 
-    public Farm(String name, Address adrdress, HashMap<Cattle, Integer> cattle, ArrayList<AgreeCultural> agreeCultural) {
+    public Farm(String name, Address adrdress, Map<Cattle, Integer> cattle, List<AgreeCultural> agreeCultural) {
         this.name = name;
         this.address = adrdress;
         this.cattle = cattle;
@@ -35,7 +34,7 @@ public class Farm {
         this.address = address;
     }
 
-    public HashMap<Cattle, Integer> getCattle() {
+    public Map<Cattle, Integer> getCattle() {
         return cattle;
     }
 
@@ -43,7 +42,7 @@ public class Farm {
         this.cattle = cattle;
     }
 
-    public ArrayList<AgreeCultural> getAgreeCultural() {
+    public List<AgreeCultural> getAgreeCultural() {
         return agreeCultural;
     }
 
