@@ -29,8 +29,8 @@ public class Homework_6 {
     }
 
     public static int sum(int a, int b){
-
-        return(a+b);
+        int s=a+b;
+        return(s);
     }
 
     public static boolean isEven(int c){
