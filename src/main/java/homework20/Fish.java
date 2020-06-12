@@ -1,6 +1,7 @@
 package homework20;
 
-public interface Fish {boolean hasCell();
+public interface Fish extends Vertebrates{
+    boolean hasCell();
     boolean hasNucleus();
     boolean isMulticellular();
     boolean hasVertebra();
