@@ -5,6 +5,7 @@ public class Doctor {
     private String last_name;
     private Position position;
 
+    public Doctor(){};
     public Doctor(String name, String last_name, Position position) {
         this.name = name;
         this.last_name = last_name;
@@ -33,6 +34,9 @@ public class Doctor {
 
     public void setPosition(Position position) {
         this.position = position;
+    }
+    public int sumOfThree(int a, int b, int c){
+        return a+b+c;
     }
 
     @Override
