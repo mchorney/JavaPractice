@@ -1,6 +1,8 @@
 package l14;
 
 public enum University {
-    COLAMBUS,
-
+    NYU,
+    BARUCH,
+    COLUMBUS,
+    HUNTER
 }

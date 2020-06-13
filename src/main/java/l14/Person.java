@@ -34,7 +34,17 @@ public class Person {
     public void setYear(int year) {
         this.year = year;
     }
-    public void Introduce() {
-        System.out.println("Hi" + name + "My name is" + name);
+
+    public void introduce(String yourName){
+        System.out.println("Hi, " + yourName + " My name is "+name+" nice to meet you!");
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", year=" + year +
+                '}';
     }
 }

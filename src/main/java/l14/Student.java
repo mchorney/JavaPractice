@@ -1,21 +1,21 @@
 package l14;
 
-public class Student extends Person{
-    private University University;
+public final class Student extends Person{
+    private University university;
     private Subject major;
 
-    public Student(String name, String lastName, int year, l14.University university, Subject major) {
+    public Student(String name, String lastName, int year, University university, Subject major) {
         super(name,lastName,year);
-        University = university;
+        this.university = university;
         this.major = major;
     }
 
-    public l14.University getUniversity() {
-        return University;
+    public University getUniversity() {
+        return university;
     }
 
-    public void setUniversity(l14.University university) {
-        University = university;
+    public void setUniversity(University university) {
+        this.university = university;
     }
 
     public Subject getMajor() {
@@ -26,7 +26,7 @@ public class Student extends Person{
         this.major = major;
     }
 
-    public void myInfo() {
-        System.out.println("Student {" + name + "Last Name" + lastName +"}");
+    public void myInfo(){
+        System.out.println("Student " + "name='" + name + '\'' + ", lastName='" + lastName + '\'' + ", year=" + year + ", university=" + university +", major=" + major);
     }
 }

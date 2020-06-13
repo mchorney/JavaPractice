@@ -1,9 +1,9 @@
 package l12;
 
 public class MenuOfTheDay {
-    private Fastfood favouriteFfReastaurant;
+    private Fastfood favoriteFfRestourant;
 
-    public MenuOfTheDay(Fastfood favouriteFfReastaurant) {
-        this.favouriteFfReastaurant = favouriteFfReastaurant;
+    public MenuOfTheDay(Fastfood favoriteFfRestourant) {
+        this.favoriteFfRestourant = favoriteFfRestourant;
     }
 }

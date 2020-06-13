@@ -2,10 +2,10 @@ package l13;
 
 public enum Specialization {
     PCP,
-    CARDIOLOGIST,
-    SURGERY,
+    CARDIOLOGYST,
+    SURGER,
     GASTROENTEROLOGY,
-    INTERNAL_DISEASES,
-    PEDIATRICIAN
-
+    INTERNAL_DEASISES,
+    PODIATRIC,
+    PEDIATRIC
 }

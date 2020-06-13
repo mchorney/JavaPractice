@@ -6,12 +6,4 @@ public class Lights {
     public Lights(int lumen) {
         this.lumen = lumen;
     }
-
-    public int getLumen() {
-        return lumen;
-    }
-
-    public void setLumen(int lumen) {
-        this.lumen = lumen;
-    }
 }

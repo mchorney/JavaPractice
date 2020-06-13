@@ -1,20 +1,20 @@
 package l13;
 
 public class Name {
-    private String Name;
+    private String name;
     private String lastName;
 
     public Name(String name, String lastName) {
-        this.Name = name;
+        this.name = name;
         this.lastName = lastName;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        this.Name = name;
+        this.name = name;
     }
 
     public String getLastName() {

@@ -2,8 +2,8 @@ package l12;
 
 public enum Fastfood {
     MCDONALDS,
-    KFS,
+    KFC,
     BURGERKING,
     WENDYS,
-    Fiveguys, FIVEGUYS
+    FIVEGUYS
 }

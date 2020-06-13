@@ -23,13 +23,12 @@ public class Doctor {
         return spec;
     }
 
-    public Address getHomeAddress() {
-        return homeAddress;
-    }
-
-
     public void setSpec(Specialization spec) {
         this.spec = spec;
+    }
+
+    public Address getHomeAddress() {
+        return homeAddress;
     }
 
     public void setHomeAddress(Address homeAddress) {

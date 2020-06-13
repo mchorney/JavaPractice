@@ -1,12 +1,14 @@
 package l14;
 
-public class Teacher extends Person {
-    private String name;
-    private String lastName;
-    private int year;
+public class Teacher extends Person{
     private University[] universities;
     private Subject subject;
 
+    public Teacher(String name, String lastName, int year, University[] universities, Subject subject) {
+        super(name,lastName,year);
+        this.universities = universities;
+        this.subject = subject;
+    }
 
     public University[] getUniversities() {
         return universities;
@@ -21,12 +23,6 @@ public class Teacher extends Person {
     }
 
     public void setSubject(Subject subject) {
-        this.subject = subject;
-    }
-
-    public Teacher(String name, String lastName, int year, University[] universities, Subject subject) {
-        super(name, lastName, year);
-        this.universities = universities;
         this.subject = subject;
     }
 }

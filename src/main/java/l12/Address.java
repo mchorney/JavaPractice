@@ -14,9 +14,12 @@ public class Address {
     }
 
     public void printOut() {
-        String address = "Address{" + "streetAddress='" + streetAddress + '\'' + ", town='" + town + '\'' + ", state=" + state + ", zip=" + zip + '}';
+        String address = "Address{" +
+                "streetAddress='" + streetAddress + '\'' +
+                ", town='" + town + '\'' +
+                ", state=" + state +
+                ", zip=" + zip +
+                '}';
         System.out.println(address);
     }
-
-
 }

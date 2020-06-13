@@ -3,8 +3,7 @@ package l14;
 public enum Subject {
     MATH,
     HISTORY,
-    FRENCH,
+    FRENCH_LITERATURE,
     BIOLOGY,
-    PHYSICS,
     COMPUTER_SCIENCE
 }
