@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="hw19" />
+    <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="hw19">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/modules.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +71,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olga\JavaCore3\src\test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -261,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591929445520</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="hw19">
+      <created>1592084259359</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592084259359</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,14 +395,14 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2450" y="180" key="extract.method.dialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1590545032303" />
-    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1590116705728">
+    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1592084284599">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1590116705728" />
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1591913973755">
+    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592084284599" />
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592084305935">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591913973755" />
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592084305935" />
     <state x="2563" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1591578235680">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
