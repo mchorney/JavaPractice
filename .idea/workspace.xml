@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f887a80-8663-48ec-913e-76fe02acbaa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UnitTests/TestLesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaCore3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework18/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework18/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +45,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2681" />
-    <option name="y" value="67" />
-    <option name="width" value="2439" />
-    <option name="height" value="1373" />
-  </component>
   <component name="ProjectId" id="1dCq9lyFyROPGtEdC8Ixy8J84P0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,6 +52,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591939158802" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Conditions" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -47,20 +63,7 @@
       <recent name="JavaExercises" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestLesson">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework17.App" />
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UdemyTest2.simpleTest2_ClickElephant_resultPageOpened">
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework18.App" />
       <module name="JavaCore3" />
@@ -117,13 +120,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UdemyTest2.simpleTest2_ClickElephant_resultPageOpened" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpletest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simpletest2" />
+      <option name="MAIN_CLASS_NAME" value="simpletest2.UdemyTest2" />
+      <option name="METHOD_NAME" value="simpleTest2_ClickElephant_resultPageOpened" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UdemyTest2.simpleTest2_ClickElephant_resultPageOpened" />
         <item itemvalue="TestNG.TestLesson" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +169,24 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2449" height="312" key="GridCell.Tab.0.bottom" timestamp="1592082053151">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2449" height="312" key="GridCell.Tab.0.bottom/2560.0.2560.1440/65.24.2495.1576@2560.0.2560.1440" timestamp="1592082053151" />
+    <state width="2449" height="312" key="GridCell.Tab.0.center" timestamp="1592082053151">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2449" height="312" key="GridCell.Tab.0.center/2560.0.2560.1440/65.24.2495.1576@2560.0.2560.1440" timestamp="1592082053151" />
+    <state width="2449" height="312" key="GridCell.Tab.0.left" timestamp="1592082053151">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2449" height="312" key="GridCell.Tab.0.left/2560.0.2560.1440/65.24.2495.1576@2560.0.2560.1440" timestamp="1592082053151" />
+    <state width="2449" height="312" key="GridCell.Tab.0.right" timestamp="1592082053151">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2449" height="312" key="GridCell.Tab.0.right/2560.0.2560.1440/65.24.2495.1576@2560.0.2560.1440" timestamp="1592082053151" />
   </component>
   <component name="masterDetails">
     <states>
