@@ -4,6 +4,7 @@ package h19;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+
 public class App {
     public static void main(String[] args) {
         Address address = new Address("1500 Marilla St","Dallas","TX",75201);
@@ -16,7 +17,7 @@ public class App {
         cattle.put(Cattle.SHEEPS,40);
         cattle.put(Cattle.HOURSE,10);
 
-        ArrayList<AgreeCultural>agreeCultural = new ArrayList<AgreeCultural>();
+        ArrayList<AgreeCultural> agreeCultural = new ArrayList<AgreeCultural>();
         AgreeCultural grain = new AgreeCultural("Grain",1);
         AgreeCultural sugarBeet = new AgreeCultural("SugarBeet",2);
         AgreeCultural sunflowerSeeds = new AgreeCultural("SunflowerSeeds",3);
