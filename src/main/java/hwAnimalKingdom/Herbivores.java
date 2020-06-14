@@ -1,6 +1,6 @@
 package hwAnimalKingdom;
 
-public abstract class Herbivores implements Vertebrates{
+public abstract class Herbivores implements Vertebrates, Mammals{
     private double lifeSpan;
     private int vertebraCount;
     private Sex sex;
@@ -35,5 +35,10 @@ public abstract class Herbivores implements Vertebrates{
     @Override
     public double getLifeSpan() {
         return lifeSpan;
+    }
+
+    @Override
+    public void feedMilk(Mammals[] baby) {
+
     }
 }
