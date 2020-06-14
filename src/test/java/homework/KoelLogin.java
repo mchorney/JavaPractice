@@ -53,10 +53,11 @@ public class KoelLogin {
         Assert.assertEquals(errors_elements.size(), 1);
 
         // ? так просто не находит элемент
-        //WebElement element1 = driver.findElement(By.className("error"));
+        WebElement element1 = driver.findElement(By.className("error"));
         //WebElement element2 = driver.findElement(By.xpath("//*[@class='error']"));
         //System.out.println(element1);
         //System.out.println(element2);
+        //Assert.assertTrue(element1.isDisplayed());
         driver.quit();
     }
 }
