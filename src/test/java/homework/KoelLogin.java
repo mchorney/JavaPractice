@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 
 public class KoelLogin {
@@ -36,7 +37,7 @@ public class KoelLogin {
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io/");
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Act
         WebElement email_field = driver.findElement(By.xpath("//*[@type='email']"));
         email_field.sendKeys("koellluser21@testpro.io");
@@ -45,19 +46,12 @@ public class KoelLogin {
         WebElement login_button = driver.findElement(By.xpath("//*[@type='submit']"));
         login_button.sendKeys(Keys.ENTER);
         //Assertion
-
-        // ? почему-то не могу достать class="error" value - и с использованием ClassName, и с Xpath
-        //List<WebElement> errors_elements = driver.findElements(By.xpath("//*[@class='error']"));
-        List<WebElement> errors_elements = driver.findElements(By.className("error"));
-        System.out.println(errors_elements.size());
-        Assert.assertEquals(errors_elements.size(), 1);
-
-        // ? так просто не находит элемент
-        WebElement element1 = driver.findElement(By.className("error"));
-        //WebElement element2 = driver.findElement(By.xpath("//*[@class='error']"));
-        //System.out.println(element1);
-        //System.out.println(element2);
-        //Assert.assertTrue(element1.isDisplayed());
+        Thread.sleep(5000);
+        WebElement error = driver.findElement(By.className("error"));
+        Assert.assertTrue(error.isDisplayed());
+//       Или так:
+//       List<WebElement> errors_elements = driver.findElements(By.className("error"));
+//       Assert.assertEquals(errors_elements.size(), 1);
         driver.quit();
     }
 }
