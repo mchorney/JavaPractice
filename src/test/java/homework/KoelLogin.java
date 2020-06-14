@@ -44,11 +44,9 @@ public class KoelLogin {
         WebElement login_button = driver.findElement(By.xpath("//*[@type='submit']"));
         login_button.sendKeys(Keys.ENTER);
         //Assertion
-        WebElement border_color = driver.findElement(By.xpath("//form"));
-        String border_element_color = border_color.getCssValue("background-color");
-        System.out.println(border_element_color); // Result of printing: rgba(255, 255, 255, 0.08)
-        String expected_color = "rgba(255, 255, 255, 0.08)";
-        Assert.assertEquals(border_element_color, expected_color);
+        WebElement element = driver.findElement(By.xpath("//*[@class='error']"));
+        System.out.println(element);
+        //Assert.assertTrue(element.isDisplayed());
         driver.quit();
     }
 }
