@@ -1,4 +1,4 @@
 package h20;
 
-public abstract class Herbivores {
+public abstract class Herbivores implements Mammals{
 }
