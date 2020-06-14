@@ -12,32 +12,28 @@ public class SimpleTest {
     @Test
     public void simpleTest_ClickElephant_PageOpened() throws InterruptedException {
         //Arrange
-        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         WebDriver driver = new ChromeDriver();
-
-        driver.get("https://udemy.com");
+        driver.get("https://www.udemy.com/");
         driver.manage().window().maximize();
         Thread.sleep(2000);
         //Act
         WebElement elephant = driver.findElement(By.xpath("//*[contains(@src,'762616')]"));
         elephant.click();
-
         String title = driver.getTitle();
-
         //Assert
-        Assert.assertEquals(title,"The Complete SQL Bootcamp for the Manipulation and Analysis of Data | Udemy");
-
-        Thread.sleep(5000);
+        Assert.assertEquals(title, "The Complete SQL Bootcamp for the Manipulation and Analysis of Data | Udemy");
+        Thread.sleep(2000);
         driver.quit();
     }
+
     @Test
     public void simpleTest_SearchJava_PageOpened() throws InterruptedException {
         //Arrange
-        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         WebDriver driver = new ChromeDriver();
-
         driver.get("https://udemy.com");
-//        driver.manage().window().maximize();
+        driver.manage().window().maximize();
         Thread.sleep(2000);
         //Act
         WebElement searchField = driver.findElement(By.xpath("(//*[@name='q'])[2]"));
@@ -45,14 +41,10 @@ public class SimpleTest {
         searchField.sendKeys(Keys.ENTER);
 //        WebElement searchButton = driver.findElement(By.xpath("(//*[@class='udi udi-search'])[3]"));
 //        searchButton.click();
-
-
         String title = driver.getTitle();
-//
-//        //Assert
-
-        Assert.assertEquals(title,"Online Courses - Anytime, Anywhere | Udemy");
-        Thread.sleep(5000);
+        //Assert
+        Assert.assertEquals(title, "Online Courses - Anytime, Anywhere | Udemy");
+        Thread.sleep(2000);
         driver.quit();
     }
 }
