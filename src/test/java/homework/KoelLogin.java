@@ -44,11 +44,11 @@ public class KoelLogin {
         WebElement login_button = driver.findElement(By.xpath("//*[@type='submit']"));
         login_button.sendKeys(Keys.ENTER);
         //Assertion
-        String border_color = driver.findElement(By.xpath("//form")). getCssValue("border-color");
-        System.out.println("Color code in rgb: " + border_color); // from this: rgb(51, 51, 51)
-        String expected_color = "rgb(51, 51, 51)";
-        Assert.assertEquals(color, expected_color);
-        Thread.sleep(2000);
+        WebElement border_color = driver.findElement(By.xpath("//form"));
+        String border_element_color = border_color.getCssValue("background-color");
+        System.out.println(border_element_color); // Result of printing: rgba(255, 255, 255, 0.08)
+        String expected_color = "rgba(255, 255, 255, 0.08)";
+        Assert.assertEquals(border_element_color, expected_color);
         driver.quit();
     }
 }
