@@ -46,9 +46,9 @@ public class App {
         Thread.sleep(4000);
 
         WebElement emailField = driver.findElement(By.xpath("//input[@type=\"email\"]"));
-        emailField.sendKeys("koeluser@testpro.io");
+        emailField.sendKeys("bautaru@testpro.io");
         WebElement passwordField = driver.findElement(By.xpath("//input[@type=\"password\"]"));
-        passwordField.sendKeys("te$t$");
+        passwordField.sendKeys("beibut123");
         WebElement submitButton = driver.findElement(By.xpath("//button[@type=\"submit\"]"));
         submitButton.click();
         Thread.sleep(9000);
