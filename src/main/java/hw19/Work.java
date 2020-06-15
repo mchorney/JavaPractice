@@ -5,6 +5,7 @@ import les13.States;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Work {
@@ -20,7 +21,7 @@ public class Work {
 
         метод printInfo() - выводит на печать всю информацию по ферме*/
 
-        HashMap<Cattle,Integer> cattle = new HashMap<>();
+        Map<Cattle,Integer> cattle = new HashMap<>();
         cattle.put(Cattle.COWS,60);
         cattle.put(Cattle.GOATS,25);
         cattle.put(Cattle.CHICKEN,50);
@@ -31,7 +32,7 @@ public class Work {
         cattle.put(Cattle.SHEEP,16);
         cattle.put(Cattle.GEESE,34);
 
-        ArrayList<AgriCultural> agriCulturals = new ArrayList<>();
+        List<AgriCultural> agriCulturals = new ArrayList<>();
         AgriCultural hemp = new AgriCultural("Hemp",1);
         AgriCultural flex = new AgriCultural("Flex",3);
         AgriCultural livestockFeed = new AgriCultural("Livestock Feed for animals",4);

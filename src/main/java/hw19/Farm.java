@@ -3,16 +3,19 @@ package hw19;
 import hw18.Address;
 import org.w3c.dom.ls.LSOutput;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Farm {
     private String name;
     private Address address;
-    private HashMap<Cattle,Integer> cattle;
-    private ArrayList<AgriCultural> agriCultural;
+    private Map<Cattle,Integer> cattle;
+    private List<AgriCultural> agriCultural;
 
-    public Farm(String name, Address address, HashMap<Cattle, Integer> cattle, ArrayList<AgriCultural> agriCultural) {
+    public Farm(String name, Address address, Map<Cattle, Integer> cattle, List<AgriCultural> agriCultural) {
         this.name = name;
         this.address = address;
         this.cattle = cattle;
@@ -36,7 +39,7 @@ public class Farm {
     }
 
     public HashMap<Cattle, Integer> getCattle() {
-        return cattle;
+        return (HashMap<Cattle, Integer>) cattle;
     }
 
     public void setCattle(HashMap<Cattle, Integer> cattle) {
@@ -44,7 +47,7 @@ public class Farm {
     }
 
     public ArrayList<AgriCultural> getAgriCultural() {
-        return agriCultural;
+        return (ArrayList<AgriCultural>) agriCultural;
     }
 
     public void setAgriCultural(ArrayList<AgriCultural> agriCultural) {

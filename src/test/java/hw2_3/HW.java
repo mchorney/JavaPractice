@@ -50,7 +50,7 @@ public class HW {
         Thread.sleep(3000);
 
         WebElement firstPage = driver.findElement(By.xpath("//*[@class=\"login-wrapper\"]"));
-        Assert.assertEquals(true,firstPage.isDisplayed()); 
+        Assert.assertEquals(true,firstPage.isDisplayed());
         driver.quit();
     }
     @Test
