@@ -1,0 +1,11 @@
+Site
+https://koelapp.testpro.io/
+user:
+testpro.user03@testpro.io
+password:
+te$t$tudent
+
+1 - Create a test to Login Koel app using correct credentials
+Assert
+2 - Optional. Create a test to Login Koel app using incorrectcorrect credentials
+Assert red frame
