@@ -31,6 +31,7 @@ public class KoelLogin {
         Assert.assertEquals(title, "Koel");
         driver.quit();
     }
+
     @Test
     public void LoginWithInvalidCredentials() throws InterruptedException {
         //Arrange
@@ -45,13 +46,20 @@ public class KoelLogin {
         password_field.sendKeys("teststudent");
         WebElement login_button = driver.findElement(By.xpath("//*[@type='submit']"));
         login_button.sendKeys(Keys.ENTER);
-        //Assertion
-        Thread.sleep(5000);
-        WebElement error = driver.findElement(By.className("error"));
-        Assert.assertTrue(error.isDisplayed());
-//       Или так:
+        //Assertion #1
+//        Thread.sleep(5000);
+//        WebElement error = driver.findElement(By.className("error"));
+//        Assert.assertTrue(error.isDisplayed());
+//       Assertion #2
 //       List<WebElement> errors_elements = driver.findElements(By.className("error"));
 //       Assert.assertEquals(errors_elements.size(), 1);
+//       Assertion #3
+        Thread.sleep(5000);
+        WebElement error = driver.findElement(By.className("error"));
+        String border_color = error.getCssValue("border-color");
+        System.out.println(border_color);
+        String expected_border_color = "rgb(142, 73, 71)";
+        Assert.assertEquals(expected_border_color, border_color);
         driver.quit();
     }
 }
