@@ -12,6 +12,7 @@ public class Work {
         System.out.println("****************************************");
 
 
+
         Wolf wolf = new Wolf("Arctic wolf", 7);
         System.out.println(wolf.toString());
         wolf.canBreathe();
@@ -20,6 +21,7 @@ public class Work {
         wolf.warmBloodedMilkFeed();
         wolf.haveBackbone();
         System.out.println("****************************************");
+
 
 
         BlueWhale bluewhale = new BlueWhale("Roni", 56);
