@@ -12,7 +12,7 @@ public class SimpleTest {
     @Test
     public void simpleTest_ClickElephant_PageOpened() throws InterruptedException {
         //Arrange
-        System.setProperty("webdriver.chrome.driver","chromedriver");
+        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://udemy.com");
@@ -33,7 +33,7 @@ public class SimpleTest {
     @Test
     public void simpleTest_SearchJava_PageOpened() throws InterruptedException {
         //Arrange
-        System.setProperty("webdriver.chrome.driver","chromedriver");
+        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://udemy.com");
