@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class login {
@@ -58,15 +57,15 @@ public class login {
         //Assert
         Thread.sleep(2000);
 
-            WebElement userName = driver.findElement(By.xpath("//span[@class='name']"));
-            String name = userName.getText();
-            try {
-                Assert.assertEquals(name, "koeluser");
-            } catch (AssertionError e) {
-                throw new AssertionError("Provided name doesn't match with expected. Test passed.");
-            } finally {
-                driver.quit();
-            }
+        WebElement userName = driver.findElement(By.xpath("//span[@class='name']"));
+        String name = userName.getText();
+        try {
+            Assert.assertEquals(name, "koeluser");
+        } catch (AssertionError e) {
+            throw new AssertionError("Provided name doesn't match with expected. Test passed.");
+        } finally {
+            driver.quit();
+        }
     }
 
     @Test
