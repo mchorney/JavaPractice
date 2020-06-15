@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class failedLogin {
+public class LoginRedFrame {
     @Test
     public void Test_EnterIncorrectPasswordAndLogin_RedFrame() throws InterruptedException {
         //Arrange

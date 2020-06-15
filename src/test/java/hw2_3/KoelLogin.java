@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class successfulLogin {
+public class KoelLogin {
     @Test
     public void Test_EnterPasswordAndLogin_PageOpened() throws InterruptedException {
         //Arrange
