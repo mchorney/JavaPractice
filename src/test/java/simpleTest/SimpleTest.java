@@ -16,6 +16,7 @@ public class SimpleTest {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://udemy.com");
+
         driver.manage().window().maximize();
         Thread.sleep(2000);
         //Act
