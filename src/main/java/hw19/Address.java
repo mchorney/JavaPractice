@@ -59,6 +59,6 @@ public class Address {
     }
 
     public String getObjectAddress() {
-        return streetAddress + " " + town + " " + state + " " + zip;
+        return streetAddress + " " + town + " " + state + " " + zip + " get address Static => " + Address.getAddressStatistic();
     }
 }
