@@ -38,7 +38,7 @@ public class firstTest {
         driver.quit();
 
     }
-
+    @Test
     public void incorrectLogin() throws InterruptedException{
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -65,6 +65,8 @@ public class firstTest {
         //expected border-color: #8e4947
 
         Assert.assertEquals(rgbBorder,"rgb(142, 73, 71)");
+        Thread.sleep(8000);
+        driver.quit();
 
     }
 }
