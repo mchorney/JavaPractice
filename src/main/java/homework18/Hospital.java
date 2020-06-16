@@ -12,7 +12,7 @@ public class Hospital {
     private Map<Integer,String> rooms;
     private List<Insuranse> acceptedInsurances;
 
-    public Hospital(String hospitalName, Address address, ArrayList<Doctor> doctors, HashMap<Integer, String> rooms, ArrayList<Insuranse> acceptedInsurances) {
+    public Hospital(String hospitalName, Address address, List<Doctor> doctors, Map<Integer, String> rooms, List<Insuranse> acceptedInsurances) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.doctors = doctors;

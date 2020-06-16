@@ -2,14 +2,16 @@ package homework19;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Farm {
     private String name;
     private Address address;
-    private HashMap<Cattle,Integer> cattle;
-    private ArrayList<Agreecultural> agreeCultural;
+    private Map<Cattle,Integer> cattle;
+    private List<Agreecultural>agreeCultural;
 
-    public Farm(String name, Address address, HashMap<Cattle, Integer> cattle, ArrayList<Agreecultural> agreeCultural) {
+    public Farm(String name, Address address, Map<Cattle, Integer> cattle, List<Agreecultural> agreeCultural) {
         this.name = name;
         this.address = address;
         this.cattle = cattle;
@@ -32,19 +34,19 @@ public class Farm {
         this.address = address;
     }
 
-    public HashMap<Cattle, Integer> getCattle() {
+    public Map<Cattle, Integer> getCattle() {
         return cattle;
     }
 
-    public void setCattle(HashMap<Cattle, Integer> cattle) {
+    public void setCattle(Map<Cattle, Integer> cattle) {
         this.cattle = cattle;
     }
 
-    public ArrayList<Agreecultural> getAgreeCultural() {
+    public List<Agreecultural> getAgreeCultural() {
         return agreeCultural;
     }
 
-    public void setAgreeCultural(ArrayList<Agreecultural> agreeCultural) {
+    public void setAgreeCultural(List<Agreecultural> agreeCultural) {
         this.agreeCultural = agreeCultural;
     }
 

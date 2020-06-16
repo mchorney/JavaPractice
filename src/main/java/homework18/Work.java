@@ -10,7 +10,7 @@ public class Work {
         Doctor john = new Doctor("John","White",Position.Phisician);
         Doctor sam = new Doctor ("Samuel","Black",Position.Dental);
         Doctor dave = new Doctor ("David","Morrison",Position.Pediatric);
-        List doctors = new ArrayList<>();
+        List doctors = new ArrayList();
         doctors.add(john);
         doctors.add(sam);
         doctors.add(dave);

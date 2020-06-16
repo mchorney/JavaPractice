@@ -2,13 +2,15 @@ package homework19;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Work {
     public static void main(String[] args) {
 
         Address farm = new Address("2331 Savannah hills ","Charlotte","NC",28277);
 
-        HashMap cattle = new HashMap();
+        Map <Cattle,Integer> cattle = new HashMap();
         cattle.put(Cattle.Chickens,1000);
         cattle.put(Cattle.Cows,100);
         cattle.put(Cattle.Pigs,200);
@@ -20,7 +22,7 @@ public class Work {
 
 
 
-        ArrayList agreecultural = new ArrayList();
+        List agreecultural = new ArrayList();
         agreecultural.add(rye);
         agreecultural.add(corn);
         agreecultural.add(wheat);
