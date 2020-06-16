@@ -1,23 +1,25 @@
 package homework17;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Work {
     public static void main(String[] args) {
 
-        HashMap<String,String> cars = new HashMap<>();
+        Map<String,String> cars = new HashMap<>();
         cars.put("Germany","Mercedes");
         cars.put("USA","Ford");
         cars.put("Japan","Toyota");
         cars.put("Japan","Honda");
         cars.put("Russia","Mercedes");
 
-        HashMap<String,Integer> salary = new HashMap<>();
+
+        Map<String,Integer> salary = new HashMap<>();
         salary.put("Petrov",100000);
         salary.put("Ivanov",110000);
         salary.put("Sidorov",85000);
 
-        HashMap<City,Hotel> rst = new HashMap<>();
+        Map<City,Hotel> rst = new HashMap<>();
         rst.put(new City("Miami"),new Hotel("Ritz"));
         rst.put(new City("Cancun"),new Hotel("Hilton"));
         rst.put(new City("Cancun"),new Hotel("Marriot"));

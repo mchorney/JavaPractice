@@ -2,13 +2,15 @@ package homework18;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Hospital {
     private String hospitalName;
     private Address address;
-    private ArrayList<Doctor> doctors;
-    private HashMap<Integer,String> rooms;
-    private ArrayList<Insuranse> acceptedInsurances;
+    private List<Doctor> doctors;
+    private Map<Integer,String> rooms;
+    private List<Insuranse> acceptedInsurances;
 
     public Hospital(String hospitalName, Address address, ArrayList<Doctor> doctors, HashMap<Integer, String> rooms, ArrayList<Insuranse> acceptedInsurances) {
         this.hospitalName = hospitalName;
@@ -34,7 +36,7 @@ public class Hospital {
         this.address = address;
     }
 
-    public ArrayList<Doctor> getDoctors() {
+    public List<Doctor> getDoctors() {
         return doctors;
     }
 
@@ -42,7 +44,7 @@ public class Hospital {
         this.doctors = doctors;
     }
 
-    public HashMap<Integer, String> getRooms() {
+    public Map<Integer, String> getRooms() {
         return rooms;
     }
 
@@ -50,7 +52,7 @@ public class Hospital {
         this.rooms = rooms;
     }
 
-    public ArrayList<Insuranse> getAcceptedInsurances() {
+    public List<Insuranse> getAcceptedInsurances() {
         return acceptedInsurances;
     }
 

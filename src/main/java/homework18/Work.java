@@ -10,19 +10,21 @@ public class Work {
         Doctor john = new Doctor("John","White",Position.Phisician);
         Doctor sam = new Doctor ("Samuel","Black",Position.Dental);
         Doctor dave = new Doctor ("David","Morrison",Position.Pediatric);
-        ArrayList doctors = new ArrayList<>();
+        List doctors = new ArrayList<>();
         doctors.add(john);
         doctors.add(sam);
         doctors.add(dave);
 
-       HashMap<Integer,String> rooms = new HashMap<>();
+
+       Map<Integer,String> rooms = new HashMap<>();
        rooms.put(22,"Physician room");
        rooms.put(33,"Dental room");
        rooms.put(44,"Gastro room");
        rooms.put(55,"Plastic room");
        rooms.put(11,"Pediatric room");
 
-       ArrayList insuranceCompanies = new ArrayList();
+
+       List insuranceCompanies = new ArrayList();
        insuranceCompanies.add (Insuranse.Aetna);
        insuranceCompanies.add (Insuranse.Atrium);
        insuranceCompanies.add (Insuranse.BlueCross);

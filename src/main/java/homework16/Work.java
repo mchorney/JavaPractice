@@ -1,22 +1,24 @@
 package homework16;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Work {
     public static void main(String[] args) {
 
 //        add
-        ArrayList<String> names = new ArrayList<>();
+        List<String> names = new ArrayList<>();
         names.add("Stany");
         names.add("Garry");
         names.add("Irina");
         System.out.println(names);
-        ArrayList<Integer> salary = new ArrayList<>();
+        List<Integer> salary = new ArrayList<>();
         salary.add(90000);
         salary.add(120000);
         salary.add(100000);
         System.out.println(salary);
-        ArrayList<Hotels> htl= new ArrayList<>();
+        List<Hotels> htl= new ArrayList<>();
         htl.add(new Hotels("Marriot"));
         htl.add(new Hotels("Hilton"));
         htl.add(new Hotels("Ritz"));
