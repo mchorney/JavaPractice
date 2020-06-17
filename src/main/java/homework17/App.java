@@ -49,7 +49,8 @@ public class App {
 //        employees.forEach((p,j) -> System.out.println(p.stAd() + j.phone()));
 
             for (Map.Entry<Address, PhoneNumbers> entry : employees.entrySet()) {
-                System.out.println(entry.getKey() + "  " + entry.getValue());
+                entry.getKey().stAd();
+                entry.getValue().phone();
 
 
             }

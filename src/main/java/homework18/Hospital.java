@@ -2,15 +2,17 @@ package homework18;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Hospital {
     private String hospitalName;
     private Address address;
-    private ArrayList<Doctor> doctors;
-    private HashMap<Integer,String> rooms;
-    private ArrayList<InsuranseCompanies> acceptedInsuranses;
+    private List<Doctor> doctors;
+    private Map<Integer,String> rooms;
+    private List<InsuranseCompanies> acceptedInsuranses;
 
-    public Hospital(String hospitalName, Address address, ArrayList<Doctor> doctors, HashMap<Integer, String> rooms, ArrayList<InsuranseCompanies> acceptedInsuranses) {
+    public Hospital(String hospitalName, Address address, List<Doctor> doctors, Map<Integer, String> rooms, List<InsuranseCompanies> acceptedInsuranses) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.doctors = doctors;
@@ -26,20 +28,20 @@ public class Hospital {
         return address;
     }
 
-    public ArrayList<Doctor> getDoctors() {
+    public List<Doctor> getDoctors() {
         return doctors;
     }
 
-    public HashMap<Integer, String> getRooms() {
+    public Map<Integer, String> getRooms() {
         return rooms;
     }
 
-    public ArrayList<InsuranseCompanies> getAcceptedInsuranses() {
+    public List<InsuranseCompanies> getAcceptedInsuranses() {
         return acceptedInsuranses;
     }
 
     public void printInfo(){
-        System.out.println(hospitalName+", address: "+address+"; Insurances "+acceptedInsuranses);
+        System.out.println(hospitalName+", address: "+address.address()+"; Insurances "+acceptedInsuranses);
     }
 
 

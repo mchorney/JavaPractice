@@ -43,10 +43,10 @@ public class App {
         honda.printme();
         volvo.printme();
         mazda.printme();
-//        System.out.println(cars);
-//        for (int i = 0; i < cars.size(); i++) {
-//            System.out.println(cars.get(i));
-//        }
+
+        for (int i = 0; i < cars.size(); i++) {
+            cars.get(i).printme();
+        }
         for (Car c : cars) {
             System.out.println(c.getMake()+" " + c.getModel()+" " + c.getColor());
         }
