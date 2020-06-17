@@ -58,7 +58,7 @@ public class Work {
 //            *private ArrayList<Doctor> doctors;
 //            *private HashMap<Integer,String> rooms;
 //           *private ArrayList<InsuranseCompamies> acceptedInsuranses;
-        ArrayList<Doctor> doctors = new ArrayList<Doctor>();
+        List<Doctor> doctors = new ArrayList<Doctor>();
         doctors.add(d1);doctors.add(d2);doctors.add(d3);doctors.add(d4);
         doctors.add(d5);doctors.add(d6);doctors.add(d7);doctors.add(d8);
 //---------------------------------

@@ -2,15 +2,16 @@ package hw18;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class Hospital {
     private String hospitalName;
     private Address address;
-    private ArrayList<Doctor> doctors;
+    private List<Doctor> doctors;
     private HashMap<Integer,String> rooms;
-    private ArrayList<InsuranseCompamies> acceptedInsuranses;
+    private List<InsuranseCompamies> acceptedInsuranses;
 
-    public Hospital(String hospitalName, Address address, ArrayList<Doctor> doctors, HashMap<Integer, String> rooms, ArrayList<InsuranseCompamies> acceptedInsuranses) {
+    public Hospital(String hospitalName, Address address, List<Doctor> doctors, HashMap<Integer, String> rooms, ArrayList<InsuranseCompamies> acceptedInsuranses) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.doctors = doctors;
@@ -34,7 +35,7 @@ public class Hospital {
         this.address = address;
     }
 
-    public ArrayList<Doctor> getDoctors() {
+    public List<Doctor> getDoctors() {
         return doctors;
     }
 
@@ -50,7 +51,7 @@ public class Hospital {
         this.rooms = rooms;
     }
 
-    public ArrayList<InsuranseCompamies> getAcceptedInsuranses() {
+    public List<InsuranseCompamies> getAcceptedInsuranses() {
         return acceptedInsuranses;
     }
 

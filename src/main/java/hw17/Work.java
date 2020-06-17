@@ -7,7 +7,7 @@ import java.util.Map;
 public class Work {
     public static void main(String[] args) {
         //HashMap<String,String>// <key, value>
-        HashMap<String, String> drink_map = new HashMap<String, String>();
+        Map<String, String> drink_map = new HashMap<String, String>();
         drink_map.put("Beer", "500");
         drink_map.put("Latte", "350");
         drink_map.put("Tea", "350");
@@ -48,7 +48,7 @@ public class Work {
 //        }
         System.out.println("---");System.out.println("---");System.out.println("---");
 
-        HashMap<Drink, Food> mapDrinkFood = new HashMap<Drink, Food>();
+        Map<Drink, Food> mapDrinkFood = new HashMap<Drink, Food>();
         Drink beer = new Drink("Beer", 5);
         Drink tea = new Drink("Black Tea", 3);
         Drink milkTea = new Drink("Milk Tea", 5);
