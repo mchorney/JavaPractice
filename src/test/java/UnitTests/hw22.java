@@ -20,7 +20,7 @@ public class hw22 {
         WebElement email = driver.findElement(By.xpath("//input[@type='email']"));
         email.sendKeys("testpro.user03@testpro.io");
         WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
-        password.sendKeys("te$t$tedent");
+        password.sendKeys("te$t$trdent");
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
         loginButton.click();
         Thread.sleep(7000);
@@ -35,11 +35,12 @@ public class hw22 {
 //        } finally {
 //            System.out.printf("anyway");
 //        }
-        boolean result;
+        boolean result = true;
         try {
             error1 = driver.findElement(By.xpath("//*[@class='error']"));
             result = false;
-        } finally {
+        } catch (Exception ex){
+            System.out.println("Loged in");
 
         }
 
