@@ -5,12 +5,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class SeleniumTestFirst {
+    private WebDriver driver;
+
+    @BeforeMethod
+    public void startUp() {
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        driver = new ChromeDriver();
+    }
+    @AfterMethod
+    public void tearDown() {
+        driver.quit();
+    }
+
     @Test
     public void loginToKoelappSuccess() throws InterruptedException {
-        WebDriver driver = new ChromeDriver();
+
         driver.get("https://koelapp.testpro.io/#!/home");
         Thread.sleep(3000);
         WebElement emailAddress = driver.findElement(By.xpath("//*[@type='email']"));
@@ -28,7 +42,6 @@ public class SeleniumTestFirst {
     }
     @Test
     public void loginToKoelappUnSuccessful() throws InterruptedException {
-        WebDriver driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io/#!/home");
         Thread.sleep(3000);
 
@@ -47,7 +60,7 @@ public class SeleniumTestFirst {
 
         Assert.assertNotEquals(loginFormFrame, loginFormFrameRed);
 
-        driver.quit();
+
         System.out.println("Test is passed");
     }
 }
