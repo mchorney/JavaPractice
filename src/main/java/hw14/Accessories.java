@@ -1,5 +1,6 @@
 package hw14;
 
+import java.sql.Types;
 import java.util.Arrays;
 
 public class Accessories extends Clothes {
