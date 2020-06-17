@@ -19,9 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="Homework19">
-      <change afterPath="$PROJECT_DIR$/src/test/java/simpleTestHome/SimpleTestH.java" afterDir="false" />
+    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome2_3">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCore3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTestHome/SimpleTestH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTestHome/SimpleTestH.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +76,7 @@
       <recent name="home14" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SimpleTestH.simpleTest_wrongEmail">
+  <component name="RunManager" selected="TestNG.SimpleTestH.simpleTest_Login">
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home19.App" />
       <module name="JavaCore3" />
@@ -167,8 +175,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SimpleTestH.simpleTest_wrongEmail" />
         <item itemvalue="TestNG.SimpleTestH.simpleTest_Login" />
+        <item itemvalue="TestNG.SimpleTestH.simpleTest_wrongEmail" />
         <item itemvalue="TestNG.SimpleTest.simpleTest_ClickElephant_PageOpened" />
         <item itemvalue="JUnit.SimpleTestH.simpleTest_Login" />
         <item itemvalue="Application.App (2)" />
@@ -326,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592086123615</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="SHome2_3">
+      <created>1592348539241</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1592348539241</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +371,8 @@
     <MESSAGE value="Homework18" />
     <MESSAGE value="Homework20" />
     <MESSAGE value="Homework19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework19" />
+    <MESSAGE value="SHome2_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="SHome2_3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="382" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1591841078580">
@@ -375,22 +391,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="248" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591488080660" />
-    <state width="1060" height="216" key="GridCell.Tab.0.bottom" timestamp="1592244580568">
+    <state width="1179" height="216" key="GridCell.Tab.0.bottom" timestamp="1592364085680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1060" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592244580568" />
-    <state width="1060" height="216" key="GridCell.Tab.0.center" timestamp="1592244580568">
+    <state width="1179" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085680" />
+    <state width="1179" height="216" key="GridCell.Tab.0.center" timestamp="1592364085679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1060" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592244580568" />
-    <state width="1060" height="216" key="GridCell.Tab.0.left" timestamp="1592244580568">
+    <state width="1179" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085679" />
+    <state width="1179" height="216" key="GridCell.Tab.0.left" timestamp="1592364085679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1060" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592244580568" />
-    <state width="1060" height="216" key="GridCell.Tab.0.right" timestamp="1592244580568">
+    <state width="1179" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085679" />
+    <state width="1179" height="216" key="GridCell.Tab.0.right" timestamp="1592364085679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1060" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592244580568" />
+    <state width="1179" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085679" />
     <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1592086161530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -399,10 +415,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590274521121" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591907532906">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592348542632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591907532906" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592348542632" />
     <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592086158064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
