@@ -11,7 +11,7 @@ import java.util.Base64;
 
 public class hwk21 {
     @Test
-    public static void main(String[] args) throws InterruptedException {
+    public void hwk21_CheckLogin() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\Program Files\\Selenium\\browser drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 

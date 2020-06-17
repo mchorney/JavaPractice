@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class hwk22 {
     @Test
-    public static void main(String[] args) throws InterruptedException {
+    public void hwk22_CheckError() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
