@@ -5,17 +5,32 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.List;
 
 public class Work {
+    private WebDriver driver;
+
+    @BeforeMethod
+    public void begining() {
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        driver = new ChromeDriver();
+    }
+
+    @AfterMethod
+    public void ending() throws InterruptedException {
+        Thread.sleep(2000);
+        driver.quit();
+        }
     @Test
-    public void log() throws InterruptedException {
+    public void logIn() throws InterruptedException {
 
         //Arrange
-        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io/");
         driver.manage().window().maximize();
         Thread.sleep(2000);
@@ -31,16 +46,16 @@ public class Work {
         String title = driver.getTitle();
 
         //Assert
-        Assert.assertEquals(title, "Koel", "Title not match expected!");
-        Thread.sleep(2000);
-        driver.quit();
+        Assert.assertEquals(title, "Koel", "Not expected");
+//        Thread.sleep(2000);
+//        driver.quit();
     }
 
     @Test
-    public void logerror() throws InterruptedException {
+    public void logError() throws InterruptedException {
         //Arrange
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io/");
         driver.manage().window().maximize();
         Thread.sleep(2000);
@@ -57,7 +72,7 @@ public class Work {
         List<WebElement> errs = driver.findElements(By.xpath("//*[@class=\"error\"]"));
 
         //Assert
-        Assert.assertTrue(errs.size() != 0, "Element is not present!");
-        driver.quit();
+        Assert.assertTrue(errs.size() != 0, "Not presenting");
+//        driver.quit();
     }
 }
