@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome2_3">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCore3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/simpleTestHome/SimpleTestH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTestHome/SimpleTestH.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +68,7 @@
       <recent name="home14" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SimpleTestH.simpleTest_Login">
+  <component name="RunManager" selected="TestNG.SimpleTestH.simpleTest_wrongEmail">
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home19.App" />
       <module name="JavaCore3" />
@@ -175,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SimpleTestH.simpleTest_Login" />
         <item itemvalue="TestNG.SimpleTestH.simpleTest_wrongEmail" />
+        <item itemvalue="TestNG.SimpleTestH.simpleTest_Login" />
         <item itemvalue="TestNG.SimpleTest.simpleTest_ClickElephant_PageOpened" />
         <item itemvalue="JUnit.SimpleTestH.simpleTest_Login" />
         <item itemvalue="Application.App (2)" />
@@ -341,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592348539241</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="SHome2_3">
+      <created>1592365013493</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1592365013493</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,22 +390,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="248" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591488080660" />
-    <state width="1179" height="216" key="GridCell.Tab.0.bottom" timestamp="1592364085680">
+    <state width="969" height="216" key="GridCell.Tab.0.bottom" timestamp="1592521722800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085680" />
-    <state width="1179" height="216" key="GridCell.Tab.0.center" timestamp="1592364085679">
+    <state width="969" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
+    <state width="969" height="216" key="GridCell.Tab.0.center" timestamp="1592521722800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085679" />
-    <state width="1179" height="216" key="GridCell.Tab.0.left" timestamp="1592364085679">
+    <state width="969" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
+    <state width="969" height="216" key="GridCell.Tab.0.left" timestamp="1592521722800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085679" />
-    <state width="1179" height="216" key="GridCell.Tab.0.right" timestamp="1592364085679">
+    <state width="969" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
+    <state width="969" height="216" key="GridCell.Tab.0.right" timestamp="1592521722800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1179" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592364085679" />
+    <state width="969" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
     <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1592086161530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -419,10 +418,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592348542632" />
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592086158064">
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592365058361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592086158064" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592365058361" />
     <state x="195" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591365751962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
