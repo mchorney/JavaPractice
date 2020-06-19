@@ -10,7 +10,7 @@ public class Main {
         int x= 0;
 
         try{
-            doc.calc(x);
+            doc.calculate(x);
         } catch (Exception ex){
             System.out.println(ex);
         }

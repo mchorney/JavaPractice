@@ -15,7 +15,7 @@ public class App13 {
         Address irinaAddress = new Address("93 Baker Street", "Saint-Peter", States.CA, 323596);
 
         Doctor pcp = new Doctor(jay,Specialization.PCP,jayAddress);
-        Doctor pediatrician = new Doctor(mary, Specialization.PEDIATRICIAN, maryAddress);
+        Doctor pediatrician = new Doctor(mary, Specialization.CARDIOLOGYST, maryAddress);
 
         Doctor[] doctors = new Doctor [] {pcp, pediatrician};
         Address mountSinaiAddress = new Address("150 E42nd St", "Mount Sinai", States.NY, 30056);
