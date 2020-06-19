@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="hw19">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/modules.xml" afterDir="false" />
+    <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="..">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaCore3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCore3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTest/SimpleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,79 +92,101 @@
       <recent name="homework12_13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework_19">
-    <configuration name="Homework12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework12.Homework12" />
+  <component name="RunManager" selected="TestNG.selenium_1.selenium_1_NegativeTest_PageOpened">
+    <configuration name="SimpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework12.*" />
+          <option name="PATTERN" value="simpleTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="simpleTest" />
+      <option name="MAIN_CLASS_NAME" value="simpleTest.SimpleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_16.homework_16" />
+    <configuration name="SimpleTest.simpleTest_SearchJava_PageOpened" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_16.*" />
+          <option name="PATTERN" value="simpleTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="simpleTest" />
+      <option name="MAIN_CLASS_NAME" value="simpleTest.SimpleTest" />
+      <option name="METHOD_NAME" value="simpleTest_SearchJava_PageOpened" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_17.homework_17" />
+    <configuration name="Test_Lesson_18_Doctor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_17.*" />
+          <option name="PATTERN" value="UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Test_Lesson_18_Doctor" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_18.homework_18" />
+    <configuration name="selenium_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_18.*" />
+          <option name="PATTERN" value="homework_selenium_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework_selenium_1" />
+      <option name="MAIN_CLASS_NAME" value="homework_selenium_1.selenium_1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_19.homework_19" />
+    <configuration name="selenium_1.selenium_1_NegativeTest_PageOpened" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_19.*" />
+          <option name="PATTERN" value="homework_selenium_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework_selenium_1" />
+      <option name="MAIN_CLASS_NAME" value="homework_selenium_1.selenium_1" />
+      <option name="METHOD_NAME" value="selenium_1_NegativeTest_PageOpened" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homework_19" />
-        <item itemvalue="Application.Homework12" />
-        <item itemvalue="Application.homework_18" />
-        <item itemvalue="Application.homework_17" />
-        <item itemvalue="Application.homework_16" />
+        <item itemvalue="TestNG.selenium_1.selenium_1_NegativeTest_PageOpened" />
+        <item itemvalue="TestNG.selenium_1" />
+        <item itemvalue="TestNG.SimpleTest" />
+        <item itemvalue="TestNG.SimpleTest.simpleTest_SearchJava_PageOpened" />
+        <item itemvalue="TestNG.Test_Lesson_18_Doctor" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +299,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592084259359</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hw19">
+      <created>1592090752373</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592090752373</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hw selenium 1">
+      <created>1592269646989</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592269646989</updated>
+    </task>
+    <task id="LOCAL-00017" summary="..">
+      <created>1592586571987</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592586571987</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +346,9 @@
     <MESSAGE value="hw15" />
     <MESSAGE value="hw16-17-18" />
     <MESSAGE value="hw19" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw19" />
+    <MESSAGE value="hw selenium 1" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2346" y="108" key="#Inspections" timestamp="1590995279627">
@@ -310,6 +359,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2312" y="88" key="#Intentions/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1590120795662" />
+    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592266846478">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592266846478" />
     <state x="2808" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1591928522306">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -340,38 +393,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="420" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590815136914" />
-    <state width="778" height="206" key="GridCell.Tab.0.bottom" timestamp="1591929407531">
+    <state width="1557" height="101" key="GridCell.Tab.0.bottom" timestamp="1592269353390">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="778" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591929407531" />
-    <state width="778" height="206" key="GridCell.Tab.0.center" timestamp="1591929407531">
+    <state width="1557" height="101" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
+    <state width="1557" height="101" key="GridCell.Tab.0.center" timestamp="1592269353390">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="778" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591929407531" />
-    <state width="778" height="206" key="GridCell.Tab.0.left" timestamp="1591929407531">
+    <state width="1557" height="101" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
+    <state width="1557" height="101" key="GridCell.Tab.0.left" timestamp="1592269353390">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="778" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591929407531" />
-    <state width="778" height="206" key="GridCell.Tab.0.right" timestamp="1591929407531">
+    <state width="1557" height="101" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
+    <state width="1557" height="101" key="GridCell.Tab.0.right" timestamp="1592269353390">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="778" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591929407531" />
+    <state width="1557" height="101" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1591927759665">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591927759665" />
-    <state x="1944" y="0" key="MergeDialog" timestamp="1591913769591">
+    <state x="1944" y="0" key="MergeDialog" timestamp="1592090788440">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="1944" y="0" key="MergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591913769591" />
-    <state x="2358" y="191" key="MultipleFileMergeDialog" timestamp="1591929477109">
+    <state x="1944" y="0" key="MergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592090788440" />
+    <state x="2358" y="191" key="MultipleFileMergeDialog" timestamp="1592090788445">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2358" y="191" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591929477109" />
+    <state x="2358" y="191" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592090788445" />
     <state x="2568" y="150" key="RollbackChangesDialog" timestamp="1591914056603">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -381,28 +434,28 @@
     </state>
     <state x="472" y="77" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590550034317" />
     <state x="2313" y="9" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591914073308" />
-    <state x="2312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1591929493341">
+    <state x="2312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1592269674261">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590821607637" />
-    <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591929493341" />
-    <state x="2529" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591913962396">
+    <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269674261" />
+    <state x="2529" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592587022816">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="731" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590821533761" />
-    <state x="2529" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591913962396" />
+    <state x="2529" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592587022816" />
     <state x="2450" y="180" key="extract.method.dialog" timestamp="1590545032303">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2450" y="180" key="extract.method.dialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1590545032303" />
-    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1592084284599">
+    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1592090762036">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592084284599" />
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592084305935">
+    <state x="2521" y="218" key="git4idea.merge.GitMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592090762036" />
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592586774792">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592084305935" />
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592586774792" />
     <state x="2563" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1591578235680">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>

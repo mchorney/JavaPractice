@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SimpleTest {
+    /*
     @Test
     public void simpleTest_ClickElephant_PageOpened() throws InterruptedException {
         //Arrange
@@ -29,7 +30,7 @@ public class SimpleTest {
 
         Thread.sleep(5000);
         driver.quit();
-    }
+    }*/
     @Test
     public void simpleTest_SearchJava_PageOpened() throws InterruptedException {
         //Arrange
@@ -40,7 +41,7 @@ public class SimpleTest {
 //        driver.manage().window().maximize();
         Thread.sleep(2000);
         //Act
-        WebElement searchField = driver.findElement(By.xpath("(//*[@name='q'])[2]"));
+        WebElement searchField = driver.findElement(By.xpath("(//*[@name='q'])"));
         searchField.sendKeys("Java");
         searchField.sendKeys(Keys.ENTER);
 //        WebElement searchButton = driver.findElement(By.xpath("(//*[@class='udi udi-search'])[3]"));
