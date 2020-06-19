@@ -28,7 +28,7 @@ public class hw23 {
     }
 
     @Test
-    public void clickOnSecondSlider() throws InterruptedException {
+    public void clickOnWomenButton() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         driver.manage().window().maximize();
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
