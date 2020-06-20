@@ -56,11 +56,12 @@ public class ScrollPage {
         List<WebElement> list = driver.findElements(By.xpath("//div[@class='category_footer toggle-footer']//ul[@class='tree dynamized']/li"));
         Assert.assertTrue(list.size()>0 );
         for (WebElement item:list) {
-            if (item.getText() == "Woman"){
-                item.click();
+            String itemText = item.getText().trim();
+            if (itemText.contains("Women")){
+                item.findElement(By.linkText(itemText)).click();
             }
-
         }
+        Assert.assertEquals(driver.getCurrentUrl(),"http://automationpractice.com/index.php?id_category=3&controller=category");
 
     }
 }
