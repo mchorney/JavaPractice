@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.List;
 
 public class KoelLogin {
@@ -47,19 +46,21 @@ public class KoelLogin {
         WebElement login_button = driver.findElement(By.xpath("//*[@type='submit']"));
         login_button.sendKeys(Keys.ENTER);
         //Assertion #1
-//        Thread.sleep(5000);
-//        WebElement error = driver.findElement(By.className("error"));
-//        Assert.assertTrue(error.isDisplayed());
+        Thread.sleep(5000);
+        WebElement error = driver.findElement(By.className("error"));
+        System.out.println(error);
+        Assert.assertTrue(error.isDisplayed());
 //       Assertion #2
 //       List<WebElement> errors_elements = driver.findElements(By.className("error"));
 //       Assert.assertEquals(errors_elements.size(), 1);
+         //Assert.assertNotEquals(errors_elements, 0);
 //       Assertion #3
-        Thread.sleep(5000);
-        WebElement error = driver.findElement(By.className("error"));
-        String border_color = error.getCssValue("border-color");
-        System.out.println(border_color);
-        String expected_border_color = "rgb(142, 73, 71)";
-        Assert.assertEquals(expected_border_color, border_color);
+//        Thread.sleep(5000);
+//        WebElement error = driver.findElement(By.className("error"));
+//        String border_color = error.getCssValue("border-color");
+//        //System.out.println(border_color);
+//        String expected_border_color = "rgb(142, 73, 71)";
+//        Assert.assertEquals(expected_border_color, border_color);
         driver.quit();
     }
 }
