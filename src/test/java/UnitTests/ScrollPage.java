@@ -14,11 +14,16 @@ import java.util.List;
 
 public class ScrollPage {
     private WebDriver driver;
+    JavascriptExecutor je;
 
     @BeforeMethod
-    public void startDriver() {
+    public void startDriver() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
+        je = (JavascriptExecutor) driver;
+        driver.get("http://automationpractice.com/index.php");
+        Thread.sleep(2000);
+
     }
 
     @AfterMethod
@@ -29,11 +34,7 @@ public class ScrollPage {
 
     @Test
     public void scrollPage_toWomen() throws InterruptedException{
-        driver.get("http://automationpractice.com/index.php");
-        Thread.sleep(2000);
         Assert.assertEquals(driver.getCurrentUrl(), "http://automationpractice.com/index.php" );
-
-        JavascriptExecutor je = (JavascriptExecutor) driver;
         WebElement women = driver.findElement(By.xpath("//*[@id='footer']//a[contains(text(), 'Women')]"));
         Assert.assertTrue(women.isDisplayed());
 
@@ -44,11 +45,7 @@ public class ScrollPage {
     }
 
     @Test
-    public void scrollPage_toCategories() throws InterruptedException {
-        driver.get("http://automationpractice.com/index.php");
-        Thread.sleep(2000);
-
-        JavascriptExecutor je = (JavascriptExecutor) driver;
+    public void scrollPage_toCategories(){
         WebElement categories = driver.findElement(By.xpath("//h4[contains(text(), 'Categories')]"));
         je.executeScript("arguments[0].scrollIntoView(true);", categories);
         Assert.assertTrue(categories.isDisplayed());
@@ -56,7 +53,7 @@ public class ScrollPage {
         List<WebElement> list = driver.findElements(By.xpath("//div[@class='category_footer toggle-footer']//ul[@class='tree dynamized']/li"));
         Assert.assertTrue(list.size()>0 );
         for (WebElement item:list) {
-            String itemText = item.getText().trim();
+            String itemText = item.getText();
             if (itemText.contains("Women")){
                 item.findElement(By.linkText(itemText)).click();
             }
