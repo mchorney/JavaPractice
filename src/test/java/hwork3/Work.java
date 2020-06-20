@@ -10,6 +10,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.awt.*;
+import java.net.URL;
+import java.util.List;
+
 public class Work {
 
     private WebDriver driver;
@@ -33,16 +37,14 @@ public class Work {
         Thread.sleep(2000);
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        //This will scroll the web page till end.
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 
         WebElement wm = driver.findElement(By.xpath("//*[contains(@title, 'You will find here')]"));
         wm.click();
 
-        Assert.
+        List<WebElement> verf = driver.findElements(By.xpath("//*[@class='navigation_page' and contains(text(),'Women')]"));
 
-
-
+        Assert.assertTrue(verf.size()!=0);
 
     }
 
