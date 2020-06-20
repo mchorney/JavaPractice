@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="..">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaCore3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework_selenium_2/Selenium_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCore3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTest/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/TryToFindSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTest/TryToFindSelector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,35 +90,18 @@
       <recent name="homework12_13" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.selenium_1.selenium_1_NegativeTest_PageOpened">
-    <configuration name="SimpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Selenium_2.scrollDownAndAddToCart">
+    <configuration name="Selenium_2.scrollDown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simpleTest.*" />
+          <option name="PATTERN" value="homework_selenium_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simpleTest" />
-      <option name="MAIN_CLASS_NAME" value="simpleTest.SimpleTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTest.simpleTest_SearchJava_PageOpened" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simpleTest" />
-      <option name="MAIN_CLASS_NAME" value="simpleTest.SimpleTest" />
-      <option name="METHOD_NAME" value="simpleTest_SearchJava_PageOpened" />
+      <option name="PACKAGE_NAME" value="homework_selenium_2" />
+      <option name="MAIN_CLASS_NAME" value="homework_selenium_2.Selenium_2" />
+      <option name="METHOD_NAME" value="scrollDown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,17 +109,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Lesson_18_Doctor" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_2.scrollDownAndAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.*" />
+          <option name="PATTERN" value="homework_selenium_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Test_Lesson_18_Doctor" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="homework_selenium_2" />
+      <option name="MAIN_CLASS_NAME" value="homework_selenium_2.Selenium_2" />
+      <option name="METHOD_NAME" value="scrollDownAndAddToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryToFindSelector.clickOnSecondSlider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simpleTest" />
+      <option name="MAIN_CLASS_NAME" value="simpleTest.TryToFindSelector" />
+      <option name="METHOD_NAME" value="clickOnSecondSlider" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium_2.scrollDownAndAddToCart" />
+        <item itemvalue="TestNG.TryToFindSelector.clickOnSecondSlider" />
+        <item itemvalue="TestNG.Selenium_2.scrollDown" />
         <item itemvalue="TestNG.selenium_1.selenium_1_NegativeTest_PageOpened" />
         <item itemvalue="TestNG.selenium_1" />
-        <item itemvalue="TestNG.SimpleTest" />
-        <item itemvalue="TestNG.SimpleTest.simpleTest_SearchJava_PageOpened" />
-        <item itemvalue="TestNG.Test_Lesson_18_Doctor" />
       </list>
     </recent_temporary>
   </component>
@@ -393,26 +393,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="420" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590815136914" />
-    <state width="1557" height="101" key="GridCell.Tab.0.bottom" timestamp="1592269353390">
+    <state width="1557" height="191" key="GridCell.Tab.0.bottom" timestamp="1592634268277">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="101" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
-    <state width="1557" height="101" key="GridCell.Tab.0.center" timestamp="1592269353390">
+    <state width="1557" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634268277" />
+    <state width="1557" height="191" key="GridCell.Tab.0.center" timestamp="1592634268277">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="101" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
-    <state width="1557" height="101" key="GridCell.Tab.0.left" timestamp="1592269353390">
+    <state width="1557" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634268277" />
+    <state width="1557" height="191" key="GridCell.Tab.0.left" timestamp="1592634268277">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="101" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
-    <state width="1557" height="101" key="GridCell.Tab.0.right" timestamp="1592269353390">
+    <state width="1557" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634268277" />
+    <state width="1557" height="191" key="GridCell.Tab.0.right" timestamp="1592634268277">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="101" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592269353390" />
+    <state width="1557" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634268277" />
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1591927759665">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>

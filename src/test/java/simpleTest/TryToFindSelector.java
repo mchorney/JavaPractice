@@ -48,7 +48,7 @@ public class TryToFindSelector {
         var plus = driver.findElement(By.xpath("//*[@class='icon-plus']"));
         plus.click();
         Select dropdown = new Select(driver.findElement(By.id("group_1")));
-        dropdown.selectByVisibleText("M");
+        dropdown.selectByVisibleText("L");
         var addToCart = driver.findElement(By.name("Submit"));
         addToCart.click();
 
