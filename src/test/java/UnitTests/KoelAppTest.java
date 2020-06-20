@@ -14,7 +14,7 @@ public class KoelAppTest {
 
     @BeforeMethod
     public void startDriver() {
-        System.setProperty("webdriver.chrome.driver", "D:\\Program Files\\Selenium\\browser drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
     }
 
