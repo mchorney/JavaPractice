@@ -45,8 +45,7 @@ public class ScrollDownPage {
         js.executeScript("arguments[0].scrollIntoView();", driver.findElement(By.xpath("//*[contains(@title, 'wardrobe and')]")));
         Thread.sleep(10000);
         driver.findElement(By.xpath("//*[contains(@title, 'wardrobe and')]")).click();
-        boolean assertion = driver.findElement(By.xpath("//*[@class='category-name']")).isDisplayed();
-        Assert.assertTrue(assertion);
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@class='category-name']")).isDisplayed());
         Thread.sleep(3000);
         System.out.println("Test is passed");
     }
