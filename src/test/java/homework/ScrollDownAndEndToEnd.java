@@ -44,7 +44,7 @@ public class ScrollDownAndEndToEnd {
 //        Assert.assertTrue(elements.size() == 1);
     }
     @Test
-    public void addDressFromBestSellersToCartAndCheckOut1() throws InterruptedException {
+    public void addDressFromBestSellersToCartAndCheckOut() throws InterruptedException {
         Thread.sleep(2000);
         WebElement bestSellers = driver.findElement(By.className("blockbestsellers"));
         bestSellers.click();
