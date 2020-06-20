@@ -19,12 +19,12 @@ public class Koel_login {
         driver.manage().window().maximize();
         Thread.sleep(2000);
         //Act
-        WebElement email = driver.findElement(By.xpath("//*[@id=\"app\"]/div/form/input[1]"));
+        WebElement email = driver.findElement(By.xpath("//*[@type='email']"));
         email.sendKeys("testpro.user03@testpro.io");
-        WebElement password = driver.findElement(By.xpath("//*[@id=\"app\"]/div/form/input[2]"));
+        WebElement password = driver.findElement(By.xpath("//*[@type='password']"));
         password.sendKeys("te$t$tudent");
 
-        WebElement loginBotton = driver.findElement(By.xpath("//*[@id=\"app\"]/div/form/button"));
+        WebElement loginBotton = driver.findElement(By.xpath("//*[@type='submit']"));
 
         loginBotton.click();
 
