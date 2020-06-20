@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome2_3">
+    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome2_3cor">
+      <change afterPath="$PROJECT_DIR$/src/test/java/simpleTestHome/WomenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTestHome/SimpleTestH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTestHome/SimpleTestH.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,33 +68,7 @@
       <recent name="home14" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SimpleTestH.simpleTest_wrongEmail">
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home19.App" />
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home17.App" />
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.WomenTest.clickOnWomen">
     <configuration name="SimpleTestH.simpleTest_Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
@@ -165,13 +139,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WomenTest.clickOnWomen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleTestHome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simpleTestHome" />
+      <option name="MAIN_CLASS_NAME" value="simpleTestHome.WomenTest" />
+      <option name="METHOD_NAME" value="clickOnWomen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WomenTest.clickOnWomen" />
         <item itemvalue="TestNG.SimpleTestH.simpleTest_wrongEmail" />
         <item itemvalue="TestNG.SimpleTestH.simpleTest_Login" />
         <item itemvalue="TestNG.SimpleTest.simpleTest_ClickElephant_PageOpened" />
         <item itemvalue="JUnit.SimpleTestH.simpleTest_Login" />
-        <item itemvalue="Application.App (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592365013493</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="SHome2_3cor">
+      <created>1592521802954</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1592521802954</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,7 +370,8 @@
     <MESSAGE value="Homework20" />
     <MESSAGE value="Homework19" />
     <MESSAGE value="SHome2_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="SHome2_3" />
+    <MESSAGE value="SHome2_3cor" />
+    <option name="LAST_COMMIT_MESSAGE" value="SHome2_3cor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="382" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1591841078580">
@@ -390,22 +390,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="248" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591488080660" />
-    <state width="969" height="216" key="GridCell.Tab.0.bottom" timestamp="1592521722800">
+    <state width="969" height="216" key="GridCell.Tab.0.bottom" timestamp="1592618688407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
-    <state width="969" height="216" key="GridCell.Tab.0.center" timestamp="1592521722800">
+    <state width="969" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592618688407" />
+    <state width="969" height="216" key="GridCell.Tab.0.center" timestamp="1592618688407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
-    <state width="969" height="216" key="GridCell.Tab.0.left" timestamp="1592521722800">
+    <state width="969" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592618688407" />
+    <state width="969" height="216" key="GridCell.Tab.0.left" timestamp="1592618688407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
-    <state width="969" height="216" key="GridCell.Tab.0.right" timestamp="1592521722800">
+    <state width="969" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592618688407" />
+    <state width="969" height="216" key="GridCell.Tab.0.right" timestamp="1592618688407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592521722800" />
+    <state width="969" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592618688407" />
     <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1592086161530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,10 +418,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592348542632" />
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592365058361">
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592538315848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592365058361" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592538315848" />
     <state x="195" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591365751962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
