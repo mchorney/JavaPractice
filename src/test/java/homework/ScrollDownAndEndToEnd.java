@@ -33,9 +33,8 @@ public class ScrollDownAndEndToEnd {
         js.executeScript("arguments[0].scrollIntoView();", element);
         Thread.sleep(1000);
         List<WebElement> elements = driver.findElements(By.className("icon-envelope-alt"));
-        assertTrue(elements.size() == 1);
+        Assert.assertTrue(element.isDisplayed());
 //        Assert.assertTrue(elements.size() > 0);
-//        Assert.assertTrue(element.isDisplayed());
         // Scenario 2: To scroll down the web page by pixel.
 //        JavascriptExecutor js = (JavascriptExecutor) driver;
 //        WebElement element = driver.findElement(By.className("icon-envelope-alt"));
