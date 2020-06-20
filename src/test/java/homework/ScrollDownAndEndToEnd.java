@@ -1,16 +1,16 @@
 package homework;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import sun.awt.windows.ThemeReader;
+import org.openqa.selenium.JavascriptExecutor;
+
 
 import java.util.List;
 
@@ -59,12 +59,35 @@ public class ScrollDownAndEndToEnd {
         // mouse hover on the last dress element:
         Actions builder = new Actions(driver);
         WebElement lastDresseElement = driver.findElement(By.xpath("//*[@title=\"Printed Chiffon Dress\"]"));
-        Thread.sleep(4000);
+        Thread.sleep(1000);
         builder.moveToElement(lastDresseElement).build().perform();
         Thread.sleep(3000);
-       // WebElement addButton = driver.findElement()
-        //Assert.assertTrue();
-        // Click on Add Button
+        // Click on Add Button - не получается. Эта кнопка, видимо, вызывается with JS event
+//        WebElement addButton = driver.findElement(By.xpath("//*[@title=\"Add to cart\"]"));
+//        ((JavascriptExecutor) driver).
+//                executeScript(String.valueOf(js), addButton);
+//        addButton.click(); // не работает
+
+//        new WebDriverWait(driver, 20).until(ExpectedConditions.
+//        elementToBeClickable(By.xpath("//*[@title=\"Add to cart\"]"))).click(); // не работает
+        //org.openqa.selenium.ElementClickInterceptedException: element click intercepted:
+        // Element <a class="button ajax_add_to_cart_button btn btn-default"
+        // href="http://automationpractice.com/index.php?controller=cart&amp;add=1&amp;id_product=1&amp;token=e817bb0705dd58da8db074c69f729fd8"
+        // rel="nofollow" title="Add to cart" data-id-product="1">...</a>
+        // is not clickable at point (60, 22).
+//
+//        WebDriverWait wait2 = new WebDriverWait(driver, 10);
+//        wait2.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@title=\"Add to cart\"]")));
+//        driver.findElement(By.xpath("//*[@title=\"Add to cart\"]")).click(); // org.openqa.selenium.ElementNotInteractableException:
+//        element not interactable
+
+        // Click on Add button!!!!
+        WebElement ele = driver.findElement(By.xpath("//*[@title=\"Add to cart\"]"));
+        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        executor.executeScript("arguments[0].click();", ele);
+        Thread.sleep(4000);
+
+
 
 
 
