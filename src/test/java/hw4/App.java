@@ -28,6 +28,7 @@ public class App {
         Thread.sleep(5000);
         driver.quit();
     }
+
     @Test
     public void secend() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
