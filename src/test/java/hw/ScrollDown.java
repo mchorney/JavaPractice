@@ -46,5 +46,4 @@ public class ScrollDown {
         WebElement womenTitle = driver.findElement(womenTitleElement);
         Assert.assertTrue(womenTitle.isDisplayed());
     }
-
 }
