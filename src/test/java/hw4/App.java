@@ -28,10 +28,17 @@ public class App {
     @Test
     public void secend() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
+
         driver.get("http://automationpractice.com/index.php");
-        driver.findElement(By.linkText("Women")).click();
-        Thread.sleep(2000);
-        String categoryName = driver.findElement(By.xpath("//span[@class='category-name']")).getText();
-        Assert.assertEquals(categoryName, "Women");
+
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+
+        driver.findElement(By.xpath("(//img[@alt='Blouse' and @width='250'])[1]")).click();
+        Thread.sleep(4000);
+        var addToCart = driver.findElement(By.name("Submit"));
+        addToCart.click();
+        Thread.sleep(4000);
+
+
     }
 }
