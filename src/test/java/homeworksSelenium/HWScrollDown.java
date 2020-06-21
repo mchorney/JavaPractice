@@ -14,73 +14,50 @@ import java.util.List;
 public class HWScrollDown {
     private WebDriver driver;
 
-//    @BeforeMethod
-//    public void startUp(){
-//        System.setProperty("webdriver.chrome.driver", "chromedriver");
-//        WebDriver driver = new ChromeDriver();
-//        driver.get("http://automationpractice.com/index.php");
-//        driver.manage().window().maximize();
-//    }
-//  --------------------------------------------------------------------------------------------------------------
-//  |  These two Methods don't work as expected for me somehow. The test wouldn't pass, when I have              |
-//  |  Before and After methods. It opens the page, then nothing happens, than test fails, and that's it.        |
-//  |  And the AfterMethod is not even running. But everything works as expected when everything is in one test. |
-//  --------------------------------------------------------------------------------------------------------------
-//    @AfterMethod
-//    public void end() throws InterruptedException{
-//        Thread.sleep(2000);
-//        driver.quit();
-//    }
-    @Test
-    public void scrollToTheBottom() throws InterruptedException{
+    @BeforeMethod
+    public void startUp(){
         System.setProperty("webdriver.chrome.driver", "chromedriver");
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.get("http://automationpractice.com/index.php");
         driver.manage().window().maximize();
+    }
+    @AfterMethod
+    public void end() throws InterruptedException{
+        Thread.sleep(2000);
+        driver.quit();
+    }
+    @Test
+    public void scrollToTheBottom(){
+
         var js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
         var categoriesWoman = driver.findElement(By.cssSelector("[title~='woman']"));
         categoriesWoman.click();
         List<WebElement> navigationPage = driver.findElements(By.className("navigation_page"));
         Assert.assertTrue(navigationPage.size()==1);
-        Thread.sleep(2000);
-        driver.quit();
+
     }
 
     @Test
-    public void scrollToTheElement() throws InterruptedException{
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://automationpractice.com/index.php");
-        driver.manage().window().maximize();
+    public void scrollToTheElement(){
+
         var js = (JavascriptExecutor) driver;
         var categoriesWoman = driver.findElement(By.cssSelector("[title~='woman']"));
         js.executeScript("arguments[0].scrollIntoView();", categoriesWoman);
         categoriesWoman.click();
         var navigationPage = driver.findElement(By.className("navigation_page"));
         Assert.assertEquals(true, navigationPage.isDisplayed());
-        Thread.sleep(2000);
-        driver.quit();
+
     }
 
     @Test
-    public void scrollByPixel() throws InterruptedException{
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://automationpractice.com/index.php");
-        driver.manage().window().maximize();
+    public void scrollByPixel() {
         var js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,500)");
-        Thread.sleep(2000);
-        driver.quit();
     }
 
     @Test
-    public void addToCart_and_checkOut() throws InterruptedException, AWTException {
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://automationpractice.com/index.php");
-        driver.manage().window().maximize();
+    public void addToCart_and_checkOut() throws InterruptedException {
         var js = (JavascriptExecutor) driver;
         var popularItems = driver.findElement(By.xpath("//*[@id='center_column']"));
         js.executeScript("arguments[0].scrollIntoView();", popularItems);
@@ -94,7 +71,6 @@ public class HWScrollDown {
         Thread.sleep(3000);
         var chooseSize = driver.findElement(By.className("selector"));
         chooseSize.click();
-       // var sizeOpen = driver.findElement(By.xpath("//*[@class='selector hover focus']"));
         Thread.sleep(3000);
      //                  |I DONT'T KNOW WHY BUT MY WAY OF CHOOSING THE SIZE IS NOT WORKING|
         Actions action = new Actions(driver); //_______________________
@@ -107,7 +83,7 @@ public class HWScrollDown {
         var addToCart = driver.findElement(By.xpath("//button[@name='Submit']//span"));
         addToCart.click();
 
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         var checkOutButton = driver.findElement(By.xpath("//*[@title='Proceed to checkout']//span"));
         checkOutButton.click();
@@ -152,11 +128,6 @@ public class HWScrollDown {
         var confirm = driver.findElement(By.xpath("(//*[@type='submit'])[2]"));
         js.executeScript("arguments[0].scrollIntoView();",confirm);
         confirm.click();
-
-
-        Thread.sleep(3000);
-        driver.quit();
-
 
     }
 
