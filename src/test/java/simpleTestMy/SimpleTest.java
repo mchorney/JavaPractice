@@ -19,7 +19,7 @@ public class SimpleTest {
     @BeforeMethod
     public void startUp(){
         System.setProperty("webdriver.chrome.driver", "chromedriver");
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
     }
     @AfterMethod
     public void tearDown() throws InterruptedException{
