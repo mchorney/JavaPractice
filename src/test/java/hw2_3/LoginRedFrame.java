@@ -7,6 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LoginRedFrame {
     @Test
     public void Test_EnterIncorrectPasswordAndLogin_RedFrame() throws InterruptedException {
@@ -32,6 +35,8 @@ public class LoginRedFrame {
         //Assert
 //        Positive - Pass
         Thread.sleep(5000);
+        List<WebElement> ListOfErrors = new ArrayList<>();
+        driver.findElements(By.className("error"));
         WebElement redFrame = driver.findElement(By.xpath("//*[@class=\"error\"]"));
         Assert.assertTrue(redFrame.isDisplayed());
 

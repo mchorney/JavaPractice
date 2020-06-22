@@ -17,7 +17,7 @@ public class TryToFindSelector {
     private WebDriver driver;
     @BeforeMethod
     public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.get("http://automationpractice.com/");
     }
