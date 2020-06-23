@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="ScrollDown and Shopping Cart">
+    <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="ююю">
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework_selenium_3/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,24 +73,62 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\olga\JavaCore3\src\test" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="homework_18" />
-      <recent name="homework_15" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="homework_19" />
       <recent name="homework_18" />
       <recent name="homework_13" />
       <recent name="homework12_13" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework_selenium_3" />
+      <recent name="seleniumTests" />
+      <recent name="homework_18" />
+      <recent name="homework_15" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olga\JavaCore3\src\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium_2.scrollDownAndAddToCart">
+  <component name="RunManager" selected="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)">
+    <configuration name="LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_selenium_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_selenium_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_selenium_3.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest_CorrectCredentials_LoggedToApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest_CorrectCredentials_LoggedToApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest_CorrectCredentials_LoggedToApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selenium_2.scrollDown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
@@ -143,48 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selenium_1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_selenium_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework_selenium_1" />
-      <option name="MAIN_CLASS_NAME" value="homework_selenium_1.selenium_1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="selenium_1.selenium_1_NegativeTest_PageOpened" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_selenium_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework_selenium_1" />
-      <option name="MAIN_CLASS_NAME" value="homework_selenium_1.selenium_1" />
-      <option name="METHOD_NAME" value="selenium_1_NegativeTest_PageOpened" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)" />
+        <item itemvalue="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp" />
         <item itemvalue="TestNG.Selenium_2.scrollDownAndAddToCart" />
         <item itemvalue="TestNG.TryToFindSelector.clickOnSecondSlider" />
         <item itemvalue="TestNG.Selenium_2.scrollDown" />
-        <item itemvalue="TestNG.selenium_1.selenium_1_NegativeTest_PageOpened" />
-        <item itemvalue="TestNG.selenium_1" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592634496632</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ююю">
+      <created>1592934213116</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1592934213116</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +366,8 @@
     <MESSAGE value="hw selenium 1" />
     <MESSAGE value=".." />
     <MESSAGE value="ScrollDown and Shopping Cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScrollDown and Shopping Cart" />
+    <MESSAGE value="ююю" />
+    <option name="LAST_COMMIT_MESSAGE" value="ююю" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2346" y="108" key="#Inspections" timestamp="1590995279627">
@@ -399,26 +412,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="420" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590815136914" />
-    <state width="1557" height="191" key="GridCell.Tab.0.bottom" timestamp="1592634675738">
+    <state width="1557" height="183" key="GridCell.Tab.0.bottom" timestamp="1592956100066">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634675738" />
-    <state width="1557" height="191" key="GridCell.Tab.0.center" timestamp="1592634675738">
+    <state width="1557" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100066" />
+    <state width="1557" height="183" key="GridCell.Tab.0.center" timestamp="1592956100065">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634675738" />
-    <state width="1557" height="191" key="GridCell.Tab.0.left" timestamp="1592634675738">
+    <state width="1557" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100065" />
+    <state width="1557" height="183" key="GridCell.Tab.0.left" timestamp="1592956100065">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634675738" />
-    <state width="1557" height="191" key="GridCell.Tab.0.right" timestamp="1592634675738">
+    <state width="1557" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100065" />
+    <state width="1557" height="183" key="GridCell.Tab.0.right" timestamp="1592956100065">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634675738" />
+    <state width="1557" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100065" />
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1591927759665">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -458,10 +471,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2521" y="218" key="git4idea.merge.GitMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592090762036" />
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592586774792">
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592934231565">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592586774792" />
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592934231565" />
     <state x="2563" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1591578235680">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>

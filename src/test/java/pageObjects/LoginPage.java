@@ -4,7 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+import java.util.List;
+
+public class LoginPage<isFound> {
     private WebDriver driver;
 
     public LoginPage(WebDriver driver) {
@@ -19,7 +21,7 @@ public class LoginPage {
     }
 
     public boolean isError(){
-        //Place some logic
+
         return true;
     }
     public WebElement getEmail() {
