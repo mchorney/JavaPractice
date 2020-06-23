@@ -5,14 +5,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class login {
+    private WebDriver driver;
+
+    @BeforeMethod
+    public void strartUp() {
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        driver = new ChromeDriver();
+    }
 
     @Test
-    public void successfulLogin() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+    public void successfullLogin() throws InterruptedException {
 
         //Arrange
         driver.get("https://koelapp.testpro.io/");
@@ -32,14 +39,10 @@ public class login {
         WebElement userName = driver.findElement(By.xpath("//span[@class='name']"));
         String name = userName.getText();
         Assert.assertEquals(name, "koeluser66");
-        driver.quit();
-
     }
 
     @Test
-    public void successfulLogin_WrongName() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+    public void successfullLogin_WrongName() throws InterruptedException {
 
         //Arrange
         driver.get("https://koelapp.testpro.io/");
@@ -55,23 +58,16 @@ public class login {
         buttonLogin.click();
 
         //Assert
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
         WebElement userName = driver.findElement(By.xpath("//span[@class='name']"));
         String name = userName.getText();
-        try {
-            Assert.assertEquals(name, "koeluser");
-        } catch (AssertionError e) {
-            throw new AssertionError("Provided name doesn't match with expected. Test passed.");
-        } finally {
-            driver.quit();
-        }
+        Assert.assertEquals(name, "koeluser6");
     }
 
     @Test
-    public void unsuccessfulLogin_FormRed() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+    public void unsuccessfullLogin_FormRed() throws InterruptedException {
+
 
         //Arrange
         driver.get("https://koelapp.testpro.io/");
@@ -92,13 +88,11 @@ public class login {
         Assert.assertNotNull(formRed);
         String colorRed = formRed.getCssValue("border-color");
         Assert.assertEquals(colorRed, "rgb(142, 73, 71)");
-        driver.quit();
+
     }
 
     @Test
-    public void unsuccessfulLogin_FormRedDisplayed() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+    public void unsuccessfullLogin_FormRedDisplayed() throws InterruptedException {
 
         //Arrange
         driver.get("https://koelapp.testpro.io/");
@@ -117,6 +111,11 @@ public class login {
         Thread.sleep(2000);
         WebElement formRed = driver.findElement(By.xpath("//form[@class='error']"));
         Assert.assertTrue(formRed.isDisplayed());
+    }
+
+    @AfterMethod
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(3000);
         driver.quit();
     }
 }

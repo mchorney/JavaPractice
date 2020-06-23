@@ -10,7 +10,7 @@ public class App {
         lion.voice();
 
         Wolf wolf = new Wolf("Bobbi", "Lox");
-        wolf.canBreath();
+        wolf. canBreath();
         wolf.evolution();
         wolf.food();
         wolf.flesh();
