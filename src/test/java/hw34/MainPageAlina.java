@@ -1,12 +1,12 @@
-package pageObjects;
+package hw34;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class MainPage {
+public class MainPageAlina {
     private WebDriver driver;
 
-    public MainPage(WebDriver driver) {
+    public MainPageAlina(WebDriver driver) {
         this.driver=driver;
     }
 

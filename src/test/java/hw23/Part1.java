@@ -47,8 +47,15 @@ public class Part1 {
 
         Thread.sleep(4000);
 
+        WebElement artistByParent = driver.findElement(By.xpath("//*[@class='header clear']/*[@class ='artist']"));
+        artistByParent.click();
+
+        Thread.sleep(4000);
+
 
         driver.quit();
+
+
 
     }
 

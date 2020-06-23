@@ -104,4 +104,6 @@ public class SimpleTest {
         listOfErrors = driver.findElements(By.cssSelector(".error"));
         Assert.assertEquals(listOfErrors.size(),1);
     }
+
+
 }
