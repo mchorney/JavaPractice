@@ -36,5 +36,6 @@ public class LoginPage {
         String border_color = getError().getCssValue("border-color");
         String expected_border_color = "rgb(142, 73, 71)";
         return expected_border_color.equals(border_color);
+        //return getError().isDisplayed();
     }
 }
