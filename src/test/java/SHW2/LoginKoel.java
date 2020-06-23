@@ -17,6 +17,7 @@ public class LoginKoel {
         WebDriver driver= new ChromeDriver();
 
         driver.get("https://koelapp.testpro.io");
+        driver.manage().window().maximize();
         Thread.sleep(2000);
         //Act
 
@@ -46,6 +47,7 @@ public class LoginKoel {
         WebDriver driver= new ChromeDriver();
 
         driver.get("https://koelapp.testpro.io");
+        driver.manage().window().maximize();
         Thread.sleep(2000);
         //Act
 

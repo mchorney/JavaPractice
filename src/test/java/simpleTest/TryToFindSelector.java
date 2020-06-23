@@ -38,22 +38,22 @@ public class TryToFindSelector {
         Assert.assertTrue(list.size()==1);
     }
 
-    @Test
-    public void clickOnSecondSlider() throws InterruptedException {
-        var product = driver.findElement(By.xpath("(//img[@alt='Faded Short Sleeve T-shirts' and @width='250'])[1]"));
-        product.click();
-        Thread.sleep(4000);
-        var element = driver.findElement(By.xpath("//iframe[contains(@id,'fancybox-frame')]"));
-        driver.switchTo().frame(element);
-        var plus = driver.findElement(By.xpath("//*[@class='icon-plus']"));
-        plus.click();
-        Select dropdown = new Select(driver.findElement(By.id("group_1")));
-        dropdown.selectByVisibleText("M");
-        var addToCart = driver.findElement(By.name("Submit"));
-        addToCart.click();
+//    @Test
+//    public void clickOnSecondSlider() throws InterruptedException {
+//        var product = driver.findElement(By.xpath("(//img[@alt='Faded Short Sleeve T-shirts' and @width='250'])[1]"));
+//        product.click();
+//        Thread.sleep(4000);
+//        var element = driver.findElement(By.xpath("//iframe[contains(@id,'fancybox-frame')]"));
+//        driver.switchTo().frame(element);
+//        var plus = driver.findElement(By.xpath("//*[@class='icon-plus']"));
+//        plus.click();
+//        Select dropdown = new Select(driver.findElement(By.id("group_1")));
+//        dropdown.selectByVisibleText("M");
+//        var addToCart = driver.findElement(By.name("Submit"));
+//        addToCart.click();
 
 
 
-    }
+//    }
 }
 
