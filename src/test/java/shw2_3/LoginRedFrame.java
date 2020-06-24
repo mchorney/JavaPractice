@@ -1,4 +1,4 @@
-package hw2_3;
+package shw2_3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,9 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class KoelLogin {
+import java.util.ArrayList;
+import java.util.List;
+
+public class LoginRedFrame {
     @Test
-    public void Test_EnterPasswordAndLogin_PageOpened() throws InterruptedException {
+    public void Test_EnterIncorrectPasswordAndLogin_RedFrame() throws InterruptedException {
         //Arrange
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -21,22 +24,24 @@ public class KoelLogin {
         //Act
         WebElement email = driver.findElement(By.xpath("//*[@type=\"email\"]"));
         email.sendKeys("koeluser03@testpro.io");
+
         WebElement password = driver.findElement(By.xpath("//*[@type=\"password\"]"));
-        password.sendKeys("te$t$tudent");
+        password.sendKeys("te$t$tudentt");
+
         WebElement loginButton = driver.findElement(By.xpath("//*[@type=\"submit\"]"));
         loginButton.click();
 
 
-        String title = driver.getTitle();
-
         //Assert
 //        Positive - Pass
-        Assert.assertEquals(title, "Koel");
-
-//        Negative - Fail
-//        Assert.assertEquals(title, "no-touchevents mac with-extra-panel");
-
         Thread.sleep(5000);
+        List<WebElement> ListOfErrors = new ArrayList<>();
+        driver.findElements(By.className("error"));
+        WebElement redFrame = driver.findElement(By.xpath("//*[@class=\"error\"]"));
+        Assert.assertTrue(redFrame.isDisplayed());
+
         driver.quit();
+
     }
+
 }

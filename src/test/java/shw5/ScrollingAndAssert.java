@@ -1,4 +1,4 @@
-package hw5;
+package shw5;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
