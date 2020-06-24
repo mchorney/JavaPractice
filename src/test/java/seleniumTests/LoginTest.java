@@ -44,9 +44,11 @@ public class LoginTest {
             Assert.assertTrue(check);
         }
 
-
-
-
-
-
+        @Test
+        public void playlistTests_createPlaylist_PlaylistCreated() {
+            LoginPage loginPage = new LoginPage(driver);
+            MainPage mainPage = loginPage.loginToApp("koeluser66@testpro.io","te$t$tudent");
+            mainPage.createPlaylist("Hello my friend");
+            Assert.assertTrue(mainPage.checkPlaylist("Hello my friend"));
+    }
 }
