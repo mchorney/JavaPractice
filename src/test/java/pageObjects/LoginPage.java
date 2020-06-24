@@ -1,6 +1,7 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -19,7 +20,13 @@ public class LoginPage {
     }
 
     public boolean isError(){
-        //Place some logic
+//        var errors = driver.findElements(By.xpath("//*[@class='error']"));
+//        return errors.size()==1;
+        try {
+            driver.findElement(By.xpath("//*[@class='error']"));
+        } catch (NoSuchElementException error){
+            return false;
+        }
         return true;
     }
     public WebElement getEmail() {
