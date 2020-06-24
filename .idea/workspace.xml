@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7f3cef-d241-4aec-aec5-887605fabd99" name="Default Changelist" comment="hw23">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw34/FindElementBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw34/LoginPageAlina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw34/MainPageAlina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumAlina/LoginTestAlina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw23/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw23/Part1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTest/SimpleTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce7f3cef-d241-4aec-aec5-887605fabd99" name="Default Changelist" comment="hw34Error" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592853732893</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="hw34Error">
+      <created>1592941364987</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592941364987</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +305,8 @@
     <MESSAGE value="HW1617" />
     <MESSAGE value="HW19" />
     <MESSAGE value="hw23" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw23" />
+    <MESSAGE value="hw34Error" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw34Error" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="138" key="#App_(2)" timestamp="1590982646047">
@@ -354,10 +353,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592674611996" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591828120348">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592941384861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591828120348" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592941384861" />
     <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592853746203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
