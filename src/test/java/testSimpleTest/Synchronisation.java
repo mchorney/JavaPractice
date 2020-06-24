@@ -24,6 +24,7 @@ public class Synchronisation {
     public void startUp() {
         driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io/#!/home");
+        wait = new WebDriverWait(driver,20);
         fluentWait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(20))
                 .pollingEvery(Duration.ofMillis(100))
@@ -62,9 +63,10 @@ public class Synchronisation {
         By passwordBy = By.xpath("//*[@type='password']");
         By clickBy = By.xpath("//*[contains(text(), 'Log In')]");
         By formBy = By.xpath("//form[@data-v-e0457900]");
+        By errorBy = By.xpath("//*[@class='error']");
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(formBy));
-        //fluentWait.until(x->x.findElement(formBy));
+        //wait.until(ExpectedConditions.elementToBeClickable(clickBy));
+        fluentWait.until(x->x.findElement(formBy));
         //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         //Thread.sleep(3000);
 
@@ -75,8 +77,8 @@ public class Synchronisation {
         driver.findElement(passwordBy).sendKeys("qwerty");
         driver.findElement(clickBy).click();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(formBy));
-        //fluentWait.until(x->x.findElement(formBy));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(errorBy));
+        fluentWait.until(x->x.findElement(errorBy));
         //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         //Thread.sleep(3000);
 

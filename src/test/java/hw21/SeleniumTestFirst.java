@@ -13,9 +13,12 @@ public class SeleniumTestFirst {
     private WebDriver driver;
 
     @BeforeMethod
-    public void startUp() {
+    public void startUp() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
+        driver.get("https://koelapp.testpro.io/#!/home");
+        Thread.sleep(3000);
+
     }
     @AfterMethod
     public void tearDown() {
@@ -25,41 +28,36 @@ public class SeleniumTestFirst {
     @Test
     public void loginToKoelappSuccess() throws InterruptedException {
 
-        driver.get("https://koelapp.testpro.io/#!/home");
-        Thread.sleep(3000);
         WebElement emailAddress = driver.findElement(By.xpath("//*[@type='email']"));
         emailAddress.sendKeys("koeluser03@testpro.io");
         WebElement password = driver.findElement(By.xpath("//*[@type='password']"));
         password.sendKeys("te$t$tudent");
-        WebElement loginButton = driver.findElement(By.xpath("//*[@type='submit']"));
+        WebElement loginButton = driver.findElement(By.xpath("//*[contains(text(), 'Log In')]"));
         loginButton.click();
         Thread.sleep(3000);
         String title = driver.getTitle();
         Assert.assertEquals(title, "Koel");
         Thread.sleep(3000);
-        driver.quit();
+
         System.out.println("Test is passed");
     }
     @Test
     public void loginToKoelappUnSuccessful() throws InterruptedException {
-        driver.get("https://koelapp.testpro.io/#!/home");
-        Thread.sleep(3000);
 
         String loginFormFrame = driver.findElement(By.xpath("//form[@data-v-e0457900]")).getAttribute("class");
 
         WebElement emailAddress = driver.findElement(By.xpath("//*[@type='email']"));
         emailAddress.sendKeys("koeluser03@testpro.io");
-        WebElement password = driver.findElement(By.xpath("//*[@type='password']"));
+        WebElement password = driver.findElement(By.xpath("(//*[@type='password'])[1]"));
         password.sendKeys("qwerty");
         Thread.sleep(3000);
-        WebElement loginButton = driver.findElement(By.xpath("//*[@type='submit']"));
+        WebElement loginButton = driver.findElement(By.xpath("//*[contains(text(), 'Log In')]"));
         loginButton.click();
         Thread.sleep(3000);
 
         String loginFormFrameRed = driver.findElement(By.xpath("//form[@data-v-e0457900]")).getAttribute("class");
 
         Assert.assertNotEquals(loginFormFrame, loginFormFrameRed);
-
 
         System.out.println("Test is passed");
     }
