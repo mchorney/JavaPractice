@@ -41,4 +41,6 @@ public class LogInTest {
         Assert.assertTrue(logInPage.isError());
 
     }
+
+    // do check of empty fields
 }

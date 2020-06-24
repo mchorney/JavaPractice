@@ -34,6 +34,5 @@ public class LogInPage {
 
     public boolean isError() {
      return getRedFrame().isDisplayed();
-
     }
 }
