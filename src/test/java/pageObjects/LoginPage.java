@@ -1,10 +1,9 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class LoginPage {
     private WebDriver driver;
@@ -13,18 +12,23 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    public MainPage loginToApp(String email, String password) {
+    public MainPage loginToApp(String email, String password){
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
         getLoginButton().click();
         return new MainPage(driver);
     }
 
-    public boolean isError() {
-        var list = getErrors();
-        return list.size()==1;
+    public boolean isError(){
+//        var errors = driver.findElements(By.xpath("//*[@class='error']"));
+//        return errors.size()==1;
+        try {
+            driver.findElement(By.xpath("//*[@class='error']"));
+        } catch (NoSuchElementException error){
+            return false;
+        }
+        return true;
     }
-
     public WebElement getEmail() {
         return driver.findElement(By.xpath("//*[@type='email']"));
     }
@@ -35,10 +39,6 @@ public class LoginPage {
 
     public WebElement getLoginButton() {
         return driver.findElement(By.xpath("//*[@type='submit']"));
-    }
-
-    public List<WebElement> getErrors() {
-        return driver.findElements(By.xpath("//*[@class=\"error\"]"));
     }
 
 

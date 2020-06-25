@@ -11,12 +11,11 @@ import pageObjects.MainPage;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest {
+public class PlaylistTests {
     WebDriver driver;
-
     @BeforeMethod
     public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("https://koelapp.testpro.io");
@@ -26,20 +25,11 @@ public class LoginTest {
         Thread.sleep(5000);
         driver.quit();
     }
-
     @Test
-    public void loginTest_CorrectCredentials_LoggedToApp(){
-
+    public void playlistTests_createPlaylist_PlaylistCreated(){
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
-        Assert.assertTrue(mainPage.isMain());
-
-    }
-    @Test
-    public void loginTest_WrongCredentials_Error(){
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.loginToApp("testpro.user03@testpro.io","1111111");
-        Assert.assertTrue(loginPage.isError());
-
+        mainPage.createPlaylist("xxxxx");
+        Assert.assertTrue(mainPage.checkPlaylist("xxxxx"));
     }
 }
