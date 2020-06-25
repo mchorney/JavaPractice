@@ -13,9 +13,10 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginTest {
     WebDriver driver;
+
     @BeforeMethod
     public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("https://koelapp.testpro.io");
@@ -25,6 +26,7 @@ public class LoginTest {
         Thread.sleep(5000);
         driver.quit();
     }
+
     @Test
     public void loginTest_CorrectCredentials_LoggedToApp(){
 
