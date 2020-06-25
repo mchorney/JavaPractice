@@ -28,6 +28,9 @@ public class KoelLogin {
         //Assertion
         String title = driver.getTitle();
         Assert.assertEquals(title, "Koel");
+        Thread.sleep(3000);
+        WebElement plusButton =
+                driver.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']"));
         driver.quit();
     }
 
