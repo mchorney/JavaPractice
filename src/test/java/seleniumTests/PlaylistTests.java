@@ -2,6 +2,7 @@ package seleniumTests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -29,7 +30,9 @@ public class PlaylistTests {
     public void playlistTests_createPlaylist_PlaylistCreated(){
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
-        mainPage.createPlaylist("xxxxx");
-        Assert.assertTrue(mainPage.checkPlaylist("xxxxx"));
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("arguments[0].click()",mainPage.getPlus());
+        mainPage.createPlaylist("V_Pl3");
+        Assert.assertTrue(mainPage.checkPlaylist());
     }
 }
