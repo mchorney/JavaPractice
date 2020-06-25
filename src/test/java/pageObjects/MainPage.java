@@ -42,14 +42,16 @@ public class MainPage {
 
     public boolean checkPlayList(String name) {
         String createdPlaylistName = name;
-        List list = driver.findElements(By.className(MainPageSelectors.createdPlaylist));
-        System.out.println(list);
+        //String realNameOfCreatedPlayList =
 
+        //Assert.assertEquals(createdPlaylistName, );
+     List list = driver.findElements(By.xpath(MainPageSelectors.createdPlaylist));
 
+     System.out.println(list); // печатает все обьекты плейлистов
 
-       //Assert.assertTrue(a, );
-
-
+     // дальше в цикле пробежаться по элементам ArrayList и вытащить тот - у которого название "PlayList3"
+        // или по ID
+       //Assert.assertTrue(a, ..);
         return true;
     }
 }

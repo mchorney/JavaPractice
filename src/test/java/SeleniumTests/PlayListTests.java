@@ -44,8 +44,9 @@ public class PlayListTests {
         MainPage mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
         Thread.sleep(3000);
-        mainPage.createPlayList("Playlist2");
-        mainPage.checkPlayList("Playlist2");
+        mainPage.createPlayList("Playlist3");
+        mainPage.checkPlayList("Playlist3");
+
     }
 }
 
