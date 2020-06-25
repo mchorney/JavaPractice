@@ -12,7 +12,14 @@ public class MainPage {
 
 
     public boolean isMain() {
-        var list =driver.findElements(By.xpath("//*[@class='fa fa-sign-out control']"));
+        var list =driver.findElements(By.cssSelector("[class='fa fa-sign-out control']"));
         return list.size()==1;
+    }
+
+    public void createPlaylist(String name){
+
+    }
+    public boolean checkPlaylist(String name){
+        return true;
     }
 }
