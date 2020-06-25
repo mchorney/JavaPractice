@@ -61,7 +61,7 @@ public class LoginTest {
         //far sibling
         isFound = driver.findElements(By.xpath("//*[@class='items']//*[contains(text(),'Opening')]/following-sibling::*[@class='album']"));
         Assert.assertEquals(isFound.size(), 1);
-        Assert.assertTrue(loginPage.isError(isFound));
+        //Assert.assertTrue(loginPage.isError(isFound));
     }
 
 }

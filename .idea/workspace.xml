@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="ююю">
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework_selenium_4/PlayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework_selenium_3/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_selenium_3/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,7 @@
       <recent name="C:\Users\olga\JavaCore3\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)">
+  <component name="RunManager" selected="TestNG.PlayList.createPlayList">
     <configuration name="LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
@@ -130,17 +132,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_2.scrollDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayList.createPlayList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_selenium_2.*" />
+          <option name="PATTERN" value="homework_selenium_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework_selenium_2" />
-      <option name="MAIN_CLASS_NAME" value="homework_selenium_2.Selenium_2" />
-      <option name="METHOD_NAME" value="scrollDown" />
+      <option name="PACKAGE_NAME" value="homework_selenium_4" />
+      <option name="MAIN_CLASS_NAME" value="homework_selenium_4.PlayList" />
+      <option name="METHOD_NAME" value="createPlayList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayList.loginTest_CorrectCredentials_LoggedToApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_selenium_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_selenium_4" />
+      <option name="MAIN_CLASS_NAME" value="homework_selenium_4.PlayList" />
+      <option name="METHOD_NAME" value="loginTest_CorrectCredentials_LoggedToApp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -166,31 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryToFindSelector.clickOnSecondSlider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simpleTest" />
-      <option name="MAIN_CLASS_NAME" value="simpleTest.TryToFindSelector" />
-      <option name="METHOD_NAME" value="clickOnSecondSlider" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PlayList.createPlayList" />
+        <item itemvalue="TestNG.PlayList.loginTest_CorrectCredentials_LoggedToApp" />
         <item itemvalue="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)" />
         <item itemvalue="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp" />
         <item itemvalue="TestNG.Selenium_2.scrollDownAndAddToCart" />
-        <item itemvalue="TestNG.TryToFindSelector.clickOnSecondSlider" />
-        <item itemvalue="TestNG.Selenium_2.scrollDown" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592956591633</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ююю">
+      <created>1593104772343</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1593104772343</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,10 +395,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2312" y="88" key="#Intentions/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1590120795662" />
-    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592961411008">
+    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1593116684662">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592961411008" />
+    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593116684662" />
     <state x="2808" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1591928522306">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -420,38 +429,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="420" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590815136914" />
-    <state width="1557" height="183" key="GridCell.Tab.0.bottom" timestamp="1592956527201">
+    <state width="1557" height="254" key="GridCell.Tab.0.bottom" timestamp="1593123084866">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527201" />
-    <state width="1557" height="183" key="GridCell.Tab.0.center" timestamp="1592956527201">
+    <state width="1557" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593123084866" />
+    <state width="1557" height="254" key="GridCell.Tab.0.center" timestamp="1593123084866">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527201" />
-    <state width="1557" height="183" key="GridCell.Tab.0.left" timestamp="1592956527200">
+    <state width="1557" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593123084866" />
+    <state width="1557" height="254" key="GridCell.Tab.0.left" timestamp="1593123084866">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527200" />
-    <state width="1557" height="183" key="GridCell.Tab.0.right" timestamp="1592956527201">
+    <state width="1557" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593123084866" />
+    <state width="1557" height="254" key="GridCell.Tab.0.right" timestamp="1593123084866">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527201" />
+    <state width="1557" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593123084866" />
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1591927759665">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591927759665" />
-    <state x="1944" y="0" key="MergeDialog" timestamp="1592090788440">
+    <state x="1944" y="0" key="MergeDialog" timestamp="1593104805496">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="1944" y="0" key="MergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592090788440" />
-    <state x="2358" y="191" key="MultipleFileMergeDialog" timestamp="1592090788445">
+    <state x="1944" y="0" key="MergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593104805496" />
+    <state x="2358" y="191" key="MultipleFileMergeDialog" timestamp="1593104805502">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2358" y="191" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592090788445" />
+    <state x="2358" y="191" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593104805502" />
     <state x="2568" y="150" key="RollbackChangesDialog" timestamp="1591914056603">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -479,10 +488,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2521" y="218" key="git4idea.merge.GitMergeDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592090762036" />
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592934231565">
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog" timestamp="1593104794807">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592934231565" />
+    <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1593104794807" />
     <state x="2563" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1592961378121">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
