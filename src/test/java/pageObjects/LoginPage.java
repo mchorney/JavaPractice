@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class LoginPage {
     private WebDriver driver;
@@ -19,8 +20,19 @@ public class LoginPage {
     }
 
     public boolean isError(){
+
         //Place some logic
-        return true;
+        WebElement errorBorder = driver.findElement(By.xpath("//*[@data-v-e0457900][@class=\"error\"]"));
+        String rgbBorder = errorBorder.getCssValue("border-color");
+        System.out.println(rgbBorder);
+
+//         Assert.assertFalse((rgbBorder == "rgb(142, 73, 71)"),"THE BORDER IS RED");
+//         Assert.assertFalse(rgbBorder.isBlank());
+        if ((rgbBorder.equals("rgb(142, 73, 71)")))
+            return  true;
+
+        else
+            return false;
     }
     public WebElement getEmail() {
         return driver.findElement(By.xpath("//*[@type='email']"));
