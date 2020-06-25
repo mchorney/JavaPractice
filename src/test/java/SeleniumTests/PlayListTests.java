@@ -38,5 +38,14 @@ public class PlayListTests {
         mainPage.createPlayList("Playlist2");
         Assert.assertTrue(mainPage.checkPlayList("Playlist2"));
     }
+    @Test
+    public void checkPlayList() throws InterruptedException {
+        LoginPage loginPage = new LoginPage(driver);
+        MainPage mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");
+        Assert.assertTrue(mainPage.isMain());
+        Thread.sleep(3000);
+        mainPage.createPlayList("Playlist4");
+       mainPage.checkPlayList("Playlist4");
+    }
 }
 
