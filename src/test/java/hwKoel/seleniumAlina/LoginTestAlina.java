@@ -1,4 +1,4 @@
-package seleniumAlina;
+package hwKoel.seleniumAlina;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

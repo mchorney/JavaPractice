@@ -1,4 +1,4 @@
-package hw34;
+package hwKoel;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

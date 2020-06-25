@@ -1,4 +1,4 @@
-package hw34;
+package hwKoel.pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,11 +15,11 @@ public class LoginPageAlina<listOfErrors> {
         this.driver = driver;
     }
 
-    public MainPage loginToApp(String email, String password) {
+    public MainPageAlina loginToApp(String email, String password) {
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
         getLoginButton().click();
-        return new MainPage(driver);
+        return new MainPageAlina(driver);
     }
 
     public boolean isError() {

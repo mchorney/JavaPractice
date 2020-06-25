@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce7f3cef-d241-4aec-aec5-887605fabd99" name="Default Changelist" comment="hw34Error">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hwKoel/pageObjects/MainPageAlina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/PlaylistTestsAlina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw34/FindElementBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwKoel/FindElementBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw34/LoginPageAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwKoel/pageObjects/LoginPageAlina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw34/MainPageAlina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumAlina/LoginTestAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/LoginTestAlina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,72 +76,18 @@
       <recent name="hw14" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestAlina.isError">
-    <configuration name="FindElementBy.FindArtistByFarSibling" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated (1)">
+    <configuration name="LoginTestAlina.isError (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw34.*" />
+          <option name="PATTERN" value="hwKoel.seleniumAlina.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hw34" />
-      <option name="MAIN_CLASS_NAME" value="hw34.FindElementBy" />
-      <option name="METHOD_NAME" value="FindArtistByFarSibling" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindElementBy.FindArtistByFolSibling" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw34.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw34" />
-      <option name="MAIN_CLASS_NAME" value="hw34.FindElementBy" />
-      <option name="METHOD_NAME" value="FindArtistByFolSibling" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindElementBy.FindArtistByPreSibling" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw34.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw34" />
-      <option name="MAIN_CLASS_NAME" value="hw34.FindElementBy" />
-      <option name="METHOD_NAME" value="FindArtistByPreSibling" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindElementBy.FindArtistBySibling" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw34.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw34" />
-      <option name="MAIN_CLASS_NAME" value="hw34.FindElementBy" />
-      <option name="METHOD_NAME" value="FindArtistBySibling" />
+      <option name="PACKAGE_NAME" value="hwKoel.seleniumAlina" />
+      <option name="MAIN_CLASS_NAME" value="hwKoel.seleniumAlina.LoginTestAlina" />
+      <option name="METHOD_NAME" value="isError" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,13 +99,67 @@
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumAlina.*" />
+          <option name="PATTERN" value="hwKoel.pageObjects.seleniumAlina.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="seleniumAlina" />
-      <option name="MAIN_CLASS_NAME" value="seleniumAlina.LoginTestAlina" />
+      <option name="MAIN_CLASS_NAME" value="hwKoel.pageObjects.seleniumAlina.LoginTestAlina" />
       <option name="METHOD_NAME" value="isError" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwKoel.seleniumAlina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hwKoel.seleniumAlina" />
+      <option name="MAIN_CLASS_NAME" value="hwKoel.seleniumAlina.PlaylistTestsAlina" />
+      <option name="METHOD_NAME" value="playlistTests_createPlaylist_PlaylistCreated" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwKoel.pageObjects.seleniumAlina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumAlina" />
+      <option name="MAIN_CLASS_NAME" value="hwKoel.pageObjects.seleniumAlina.PlaylistTestsAlina" />
+      <option name="METHOD_NAME" value="playlistTests_createPlaylist_PlaylistCreated" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.playlistTests_createPlaylist_PlaylistCreated" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.PlaylistTests" />
+      <option name="METHOD_NAME" value="playlistTests_createPlaylist_PlaylistCreated" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated (1)" />
+        <item itemvalue="TestNG.LoginTestAlina.isError (1)" />
+        <item itemvalue="TestNG.PlaylistTests.playlistTests_createPlaylist_PlaylistCreated" />
+        <item itemvalue="TestNG.PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated" />
         <item itemvalue="TestNG.LoginTestAlina.isError" />
-        <item itemvalue="TestNG.FindElementBy.FindArtistByFarSibling" />
-        <item itemvalue="TestNG.FindElementBy.FindArtistByPreSibling" />
-        <item itemvalue="TestNG.FindElementBy.FindArtistByFolSibling" />
-        <item itemvalue="TestNG.FindElementBy.FindArtistBySibling" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592962409549</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="hw34Error">
+      <created>1593107475245</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593107475245</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +343,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591911697608" />
+    <state x="644" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593114091626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593114091626" />
     <state x="258" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591823420759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,41 +359,71 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591591470970" />
-    <state width="1860" height="146" key="GridCell.Tab.0.bottom" timestamp="1592968251220">
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1593118424492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592968251220" />
-    <state width="1860" height="146" key="GridCell.Tab.0.center" timestamp="1592968251219">
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
+    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1593118424492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="146" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592968251219" />
-    <state width="1860" height="146" key="GridCell.Tab.0.left" timestamp="1592968251219">
+    <state width="1877" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
+    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1593118424492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="146" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592968251219" />
-    <state width="1860" height="146" key="GridCell.Tab.0.right" timestamp="1592968251220">
+    <state width="1877" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
+    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1593118424492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="146" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592968251220" />
-    <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1592674611996">
+    <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1593114976030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592674611996" />
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
+    <state width="1877" height="342" key="GridCell.Tab.1.center" timestamp="1593114976030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
+    <state width="1877" height="342" key="GridCell.Tab.1.left" timestamp="1593114976030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
+    <state width="1877" height="342" key="GridCell.Tab.1.right" timestamp="1593114976030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
+    <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1593107523942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593107523942" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592962415041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592962415041" />
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592853746203">
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593107520314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592853746203" />
-    <state x="236" y="244" key="run.anything.popup" timestamp="1592256057834">
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593107520314" />
+    <state x="236" y="244" key="run.anything.popup" timestamp="1593113150722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="236" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592256057834" />
+    <state x="236" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593113150722" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590808469226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590808469226" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/PlaylistTestsAlina.java</url>
+          <line>28</line>
+          <properties class="hwKoel.seleniumAlina.PlaylistTestsAlina" method="playlistTests_createPlaylist_PlaylistCreated">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
