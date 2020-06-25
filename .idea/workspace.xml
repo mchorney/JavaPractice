@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjectsHome/Loginpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjectsHome/Mainpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHome/LoginPage.java" afterDir="false" />
+    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome6_7">
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHome/PlaylistTestHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectsHome/Mainpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjectsHome/Mainpage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="home14" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPage.loginTest_WrongCredentials">
+  <component name="RunManager" selected="TestNG.PlaylistTestHome.playlistTests_createPlaylist_PlaylistCreated">
     <configuration name="LoginPage.loginTest_CorrectCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
@@ -107,17 +106,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTestH.simpleTest_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaylistTestHome.playlistTests_createPlaylist_PlaylistCreated" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simpleTestHome.*" />
+          <option name="PATTERN" value="seleniumHome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simpleTestHome" />
-      <option name="MAIN_CLASS_NAME" value="simpleTestHome.SimpleTestH" />
-      <option name="METHOD_NAME" value="simpleTest_Login" />
+      <option name="PACKAGE_NAME" value="seleniumHome" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHome.PlaylistTestHome" />
+      <option name="METHOD_NAME" value="playlistTests_createPlaylist_PlaylistCreated" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PlaylistTestHome.playlistTests_createPlaylist_PlaylistCreated" />
         <item itemvalue="TestNG.LoginPage.loginTest_WrongCredentials" />
         <item itemvalue="TestNG.LoginPage.loginTest_CorrectCredentials" />
         <item itemvalue="TestNG.WomenTest.clickOnWomen" />
         <item itemvalue="TestNG.SimpleTestH.simpleTest_wrongEmail" />
-        <item itemvalue="TestNG.SimpleTestH.simpleTest_Login" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592942153865</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="SHome6_7">
+      <created>1592953041230</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1592953041230</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +396,8 @@
     <MESSAGE value="SHome2_3" />
     <MESSAGE value="SHome2_3cor" />
     <MESSAGE value="SHome4" />
-    <option name="LAST_COMMIT_MESSAGE" value="SHome4" />
+    <MESSAGE value="SHome6_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="SHome6_7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="382" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1592951009415">
@@ -409,22 +416,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="248" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591488080660" />
-    <state width="1025" height="216" key="GridCell.Tab.0.bottom" timestamp="1592952142604">
+    <state width="1005" height="216" key="GridCell.Tab.0.bottom" timestamp="1593113215313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1025" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592952142604" />
-    <state width="1025" height="216" key="GridCell.Tab.0.center" timestamp="1592952142604">
+    <state width="1005" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593113215313" />
+    <state width="1005" height="216" key="GridCell.Tab.0.center" timestamp="1593113215313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1025" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592952142604" />
-    <state width="1025" height="216" key="GridCell.Tab.0.left" timestamp="1592952142604">
+    <state width="1005" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593113215313" />
+    <state width="1005" height="216" key="GridCell.Tab.0.left" timestamp="1593113215313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1025" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592952142604" />
-    <state width="1025" height="216" key="GridCell.Tab.0.right" timestamp="1592952142604">
+    <state width="1005" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593113215313" />
+    <state width="1005" height="216" key="GridCell.Tab.0.right" timestamp="1593113215313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1025" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592952142604" />
+    <state width="1005" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593113215313" />
     <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1592086161530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -433,14 +440,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590274521121" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592619233496">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592953043523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592619233496" />
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1592942196233">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592953043523" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593109801200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592942196233" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593109801200" />
     <state x="195" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591365751962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,8 +1,6 @@
 package pageObjectsHome;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 public class Mainpage {
     private WebDriver driver;
@@ -11,12 +9,37 @@ public class Mainpage {
         this.driver=driver;
     }
 
-//    public WebElement getLogout() {
-//        return driver.findElement(By.xpath("//*[@class='fa fa-sign-out control']"));
-//    }
 
     public boolean isMain() {
         var list=driver.findElements(By.xpath("//*[@class='fa fa-sign-out control']"));
         return list.size()==1;
+    }
+
+
+    public WebElement getPlus(){
+        return driver.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']"));
+    }
+    public WebElement getEntryFild(){
+        return driver.findElement(By.xpath("//*[@placeholder='↵ to save']"));
+    }
+    public WebElement getPlaylist(){
+        return driver.findElement(By.xpath("//*[@href='#!/playlist/4865']"));
+    }
+
+
+    public void createPlaylist(String name){
+        getPlus().click();
+        getEntryFild().sendKeys(name);
+        getPlaylist().sendKeys(Keys.ENTER);
+
+    }
+    public boolean checkPlaylist(String name){
+        try{
+            driver.findElement(By.xpath("//*[@href='#!/playlist/4865']"));
+        }catch (NoSuchElementException error){
+            return false;
+        }
+
+        return true;
     }
 }
