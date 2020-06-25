@@ -1,6 +1,7 @@
 package hw2;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,11 +28,13 @@ public class ClickCategories {
 
     @Test
     public void clickCategories() throws InterruptedException {
-        WebElement search = driver.findElement(By.xpath("//li[@class=\"last\"]/a[contains(text(), \"Women\")]"));
-        search.click();
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        driver.findElement(By.xpath("//li[@class='last']/a[contains(text(), 'Women')]")).click();
 
         Thread.sleep(5000);
-        WebElement check = driver.findElement(By.xpath("//span[@class=\"category-name\"]"));
+        WebElement check = driver.findElement(By.xpath("//span[@class='category-name']"));
         Assert.assertTrue(check.isEnabled());
     }
 }
