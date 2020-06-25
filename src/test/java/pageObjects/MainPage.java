@@ -9,13 +9,17 @@ public class MainPage {
     public MainPage(WebDriver driver) {
         this.driver=driver;
     }
-//*[@class='fa fa-plus-circle control create'] = plus button;
-// *[@placeholder='↵ to save'] = entry field;
 
 
     public boolean isMain() {
-        var list =driver.findElements(By.xpath("//*[@class='fa fa-sign-out control']"));
+        var list =driver.findElements(By.cssSelector("[class='fa fa-sign-out control']"));
         return list.size()==1;
     }
 
+    public void createPlaylist(String name){
+
+    }
+    public boolean checkPlaylist(String name){
+        return true;
+    }
 }

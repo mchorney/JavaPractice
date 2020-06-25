@@ -12,14 +12,23 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    public MainPage loginToApp(String email, String password) {
+    public MainPage loginToApp(String email, String password){
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
         getLoginButton().click();
         return new MainPage(driver);
     }
 
-
+    public boolean isError(){
+//        var errors = driver.findElements(By.xpath("//*[@class='error']"));
+//        return errors.size()==1;
+        try {
+            driver.findElement(By.xpath("//*[@class='error']"));
+        } catch (NoSuchElementException error){
+            return false;
+        }
+        return true;
+    }
     public WebElement getEmail() {
         return driver.findElement(By.xpath("//*[@type='email']"));
     }
@@ -33,20 +42,4 @@ public class LoginPage {
     }
 
 
-    //    public boolean isError() {
-//        boolean error = driver.findElement(By.xpath("//*[@class='error']")) != null;
-//        return true;
-//    }
-//    public boolean isError() {
-//        var error = driver.findElements(By.xpath("//*[@class='error']"));
-//        return error.size()==1;
-//    }
-    public boolean isError() {
-        try {
-            driver.findElement(By.xpath("//*[@class='error']"));
-        } catch (NoSuchElementException error) {
-            return false;
-        }
-            return true;
-    }
 }
