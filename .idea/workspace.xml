@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1632afa8-1802-4eee-ad58-02a7cdcb1337" name="Default Changelist" comment="ююю">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework_selenium_3/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_selenium_3/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_selenium_3/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592934213116</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ююю">
+      <created>1592956591632</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592956591633</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,10 +386,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2312" y="88" key="#Intentions/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1590120795662" />
-    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592266846478">
+    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592961411008">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592266846478" />
+    <state x="2450" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592961411008" />
     <state x="2808" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1591928522306">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -412,26 +420,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="420" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590815136914" />
-    <state width="1557" height="183" key="GridCell.Tab.0.bottom" timestamp="1592956100066">
+    <state width="1557" height="183" key="GridCell.Tab.0.bottom" timestamp="1592956527201">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100066" />
-    <state width="1557" height="183" key="GridCell.Tab.0.center" timestamp="1592956100065">
+    <state width="1557" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527201" />
+    <state width="1557" height="183" key="GridCell.Tab.0.center" timestamp="1592956527201">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100065" />
-    <state width="1557" height="183" key="GridCell.Tab.0.left" timestamp="1592956100065">
+    <state width="1557" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527201" />
+    <state width="1557" height="183" key="GridCell.Tab.0.left" timestamp="1592956527200">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100065" />
-    <state width="1557" height="183" key="GridCell.Tab.0.right" timestamp="1592956100065">
+    <state width="1557" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527200" />
+    <state width="1557" height="183" key="GridCell.Tab.0.right" timestamp="1592956527201">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1340" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590958552360" />
-    <state width="1557" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956100065" />
+    <state width="1557" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956527201" />
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1591927759665">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -453,11 +461,11 @@
     </state>
     <state x="472" y="77" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590550034317" />
     <state x="2313" y="9" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591914073308" />
-    <state x="2312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1592634512620">
+    <state x="2312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1592956607734">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590821607637" />
-    <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592634512620" />
+    <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592956607734" />
     <state x="2529" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592587022816">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -475,10 +483,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2445" y="218" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592934231565" />
-    <state x="2563" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1591578235680">
+    <state x="2563" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1592961378121">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2563" y="187" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1591578235680" />
+    <state x="2563" y="187" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1592961378121" />
     <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1590722498629">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>

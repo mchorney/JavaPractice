@@ -38,7 +38,7 @@ public class LoginTest {
 
         LoginPage loginPage = new LoginPage(driver);
         loginPage.loginToApp("testpro.user03@testpro.io","1111111");
-        Assert.assertTrue(loginPage.isError());
+        Assert.assertTrue(loginPage.isError(isFound));
 
     }
 }

@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -20,9 +21,9 @@ public class LoginPage<isFound> {
         return new MainPage(driver);
     }
 
-    public boolean isError(){
-
-        return true;
+    public boolean isError(List<WebElement> isFound){
+        var err = driver.findElements(By.xpath("//*[@class='error']"));
+        return err.size()==1;
     }
     public WebElement getEmail() {
         return driver.findElement(By.xpath("//*[@type='email']"));
