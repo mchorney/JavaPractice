@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainPage {
@@ -23,14 +24,9 @@ public class MainPage {
         return driver.findElement(By.xpath(MainPageSelectors.playListNameTextField));
     }
 
-    public WebElement getPlayListName() {
-        return driver.findElement(By.xpath(MainPageSelectors.playListNameTextField));
-    }
-
     public WebElement getCreatedPlayListName() {
         return driver.findElement(By.xpath(MainPageSelectors.createdPlaylist));
     }
-
 
     public boolean isMain() {
         List list = driver.findElements(By.xpath(MainPageSelectors.signOutControl));
@@ -45,6 +41,10 @@ public class MainPage {
     }
 
     public boolean checkPlayList(String name) {
+        String createdPlaylistName = name;
+        List list = driver.findElements(By.className(MainPageSelectors.createdPlaylist));
+        System.out.println(list);
+
 
 
        //Assert.assertTrue(a, );
