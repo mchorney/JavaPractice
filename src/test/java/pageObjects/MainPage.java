@@ -47,15 +47,17 @@ public class MainPage {
         String expectedName = name;
         return expectedName.equals(actualName);
     }
-    public boolean checkPlayListByID(String name) {
-        try{
-            driver.findElement(By.xpath(MainPageSelectors.createdPlaylistID));
-        }catch (NoSuchElementException error){
-            return false;
-        }
 
-        return true;
-    }
+
+//    public boolean checkPlayListByID(String name) {
+//        try{
+//            driver.findElement(By.xpath(MainPageSelectors.createdPlaylistID));
+//        }catch (NoSuchElementException error){
+//            return false;
+//        }
+//
+//        return true;
+//    }
 }
 
 

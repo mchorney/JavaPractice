@@ -20,7 +20,7 @@ public class LoginPage {
         return driver.findElement(By.xpath(LoginPageSelectors.password));
     }
        public WebElement getLoginButton() {
-        return driver.findElement(By.xpath("//*[@type='submit']"));
+        return driver.findElement(By.xpath(LoginPageSelectors.loginButton);
     }
 
     public MainPage loginToApp(String email, String password) {

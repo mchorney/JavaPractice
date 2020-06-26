@@ -2,8 +2,6 @@ package SeleniumTests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -35,9 +33,8 @@ public class PlayListTests {
         MainPage mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
         Thread.sleep(3000);
-        mainPage.createPlayList("Playlist4");
-        Assert.assertTrue(mainPage.checkPlayList("Playlist4"));
-        Assert.assertTrue(mainPage.checkPlayListByID("Playlist4"));
+        mainPage.createPlayList("Playlist1");
+        Assert.assertTrue(mainPage.checkPlayList("Playlist1"));
     }
 }
 
