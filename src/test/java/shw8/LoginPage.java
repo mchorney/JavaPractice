@@ -1,13 +1,13 @@
-package shw6_7;
+package shw8;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class KoelappLoginPage {
+public class LoginPage {
     private WebDriver driver;
 
-    public KoelappLoginPage (WebDriver driver) {
+    public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -23,14 +23,15 @@ public class KoelappLoginPage {
         return driver.findElement(By.xpath("//*[@type='submit']"));
     }
 
-    public KoelappMainPage loginToApp (String login, String password){
+
+    public MainPage loginToApp(String login, String password) {
         getEmail().sendKeys(login);
         getPassword().sendKeys(password);
         getLoginButton().click();
-        return new KoelappMainPage (driver);
+        return new MainPage(driver);
     }
 
-    public boolean isError(String login, String password){
+    public boolean isError (String login, String password) {
         getEmail().sendKeys(login);
         getPassword().sendKeys(password);
         getLoginButton().click();
