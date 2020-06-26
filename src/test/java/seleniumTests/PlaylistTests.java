@@ -13,23 +13,28 @@ import java.util.concurrent.TimeUnit;
 
 public class PlaylistTests {
     WebDriver driver;
+
     @BeforeMethod
-    public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+    public void startUp() {
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("https://koelapp.testpro.io");
     }
+
     @AfterMethod
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);
         driver.quit();
     }
+
     @Test
-    public void playlistTests_createPlaylist_PlaylistCreated(){
+    public void playlistTests_createPlaylist_PlaylistCreated() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
-        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
-        mainPage.createPlaylist("xxxxx");
-        Assert.assertTrue(mainPage.checkPlaylist("xxxxx"));
+        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io", "te$t$tudent");
+        mainPage.waitForPage();
+        mainPage.createPlaylist("Summer Hits");
+
+        Assert.assertTrue(mainPage.checkPlaylist("Summer Hits"), "Playlist not found");
     }
 }
