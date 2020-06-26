@@ -1,56 +1,37 @@
 package pageObjects;
 
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-import java.time.Duration;
-
-public class MainPage {
-    private WebDriver driver;
-    private FluentWait<WebDriver> fluentWait;
-
+public class MainPage extends BasePage {
     public MainPage(WebDriver driver) {
-        this.driver=driver;
-        fluentWait = new FluentWait<WebDriver>(driver)
-                .withTimeout(Duration.ofSeconds(20))
-                .pollingEvery(Duration.ofMillis(100))
-                .ignoring(StaleElementReferenceException.class)
-                .ignoring(NoSuchElementException.class);
+        super(driver);
     }
-
-
     public boolean isMain() {
         var list =driver.findElements(By.cssSelector("[class='fa fa-sign-out control']"));
         return list.size()==1;
     }
-    public WebElement getPlus(){
-        fluentWait.until(x->x.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']")));
+    public WebElement getPlusButton(){
+        fluentWait.until(x-> x.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']")).isDisplayed());
         return driver.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']"));
     }
-    public WebElement getEntryFild(){
+
+    public WebElement getNewPlaylistField(){
         return driver.findElement(By.xpath("//*[@placeholder='↵ to save']"));
     }
-    public WebElement getPlaylist(){
-        return driver.findElement(By.xpath("//*[@href='#!/playlist/4865']"));
+
+    public String createPlaylist(String name){
+        getPlusButton().click();
+        getNewPlaylistField().sendKeys(name);
+        getNewPlaylistField().sendKeys(Keys.RETURN);
+        fluentWait.until(x->x.findElement(By.xpath("//div[@class='success show']")).isDisplayed());
+        String url = driver.getCurrentUrl();
+        return url.split("/")[5];
     }
-
-
-    public void createPlaylist(String name) throws InterruptedException {
-        Thread.sleep(3000);
-        getPlus().click();
-        getEntryFild().sendKeys(name);
-        getPlaylist().sendKeys(Keys.RETURN);
-//        String url=driver.getCurrentUrl();
-//        return url.split("/")[5];
-
-
-    }
-    public boolean checkPlaylist(String name){
-
-        return true;
+    public boolean checkPlaylist(String id){
+        var list = driver.findElements(By.xpath("//*[@href='#!/playlist/"+id+"']"));
+        return list.size()==1;
     }
 }
-
-
-
-

@@ -26,10 +26,10 @@ public class PlaylistTests {
         driver.quit();
     }
     @Test
-    public void playlistTests_createPlaylist_PlaylistCreated() throws InterruptedException {
+    public void playlistTests_createPlaylist_PlaylistCreated(){
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
-        mainPage.createPlaylist("Best");
-        Assert.assertTrue(mainPage.checkPlaylist("Best"));
+        String playlistId = mainPage.createPlaylist("xxxxx");
+        Assert.assertTrue(mainPage.checkPlaylist(playlistId));
     }
 }
