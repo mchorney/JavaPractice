@@ -14,22 +14,14 @@ import org.testng.annotations.Test;
 
 public class Playlist {
     WebDriver driver;
-    LoginPage login;
-    MainPage main;
     WebDriverWait wait;
 
     @BeforeMethod
-    public void startDriver() throws InterruptedException {
+    public void startDriver(){
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io");
-
         wait = new WebDriverWait(driver, 10);
-        login = new LoginPage(driver, wait);
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
-        main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
-        Assert.assertTrue(main.isMain());
     }
 
     @AfterMethod
@@ -38,7 +30,11 @@ public class Playlist {
     }
 
     @Test
-    public void createPlaylist(){
+    public void createPlaylist() throws InterruptedException {
+        LoginPage login = new LoginPage(driver, wait);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
+        MainPage main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
+        Assert.assertTrue(main.isMain());
         main.createPlaylist("RV_Playlist1");
         Assert.assertTrue(main.checkPlaylist("RV_Playlist1"));
     }

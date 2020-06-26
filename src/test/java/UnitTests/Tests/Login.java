@@ -13,17 +13,14 @@ import org.testng.annotations.*;
 
 public class Login {
     WebDriver driver;
-    LoginPage login;
-    MainPage main;
     WebDriverWait wait;
 
     @BeforeMethod
-    public void startDriver() throws InterruptedException {
+    public void startDriver(){
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io");
         wait = new WebDriverWait(driver, 10);
-        login = new LoginPage(driver, wait);
     }
 
     @AfterMethod
@@ -33,18 +30,21 @@ public class Login {
 
     @Test
     public void testLogin() throws InterruptedException {
-        main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
+        LoginPage login = new LoginPage(driver, wait);
+        MainPage main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
         Assert.assertTrue(main.isMain());
     }
 
     @Test
     public void login_error() throws InterruptedException {
+        LoginPage login = new LoginPage(driver, wait);
         Assert.assertTrue(login.isError("koeluser03@testpro.io", "dGUkdCR0dasrtd"));
     }
 
     @Test
     public void testRelatives() throws InterruptedException {
-        main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
+        LoginPage login = new LoginPage(driver, wait);
+        MainPage main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userBadge")));
         System.out.println(main.findByParent());
         System.out.println(main.findByGrandparent());
