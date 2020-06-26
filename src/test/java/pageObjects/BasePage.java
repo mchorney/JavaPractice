@@ -13,4 +13,5 @@ public abstract class BasePage {
                 .withTimeout(Duration.ofSeconds(20))
                 .pollingEvery(Duration.ofMillis(100));
     }
+
 }
