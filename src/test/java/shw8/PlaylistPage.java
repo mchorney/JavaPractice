@@ -27,7 +27,7 @@ public class PlaylistPage {
     public void playlistPage_createPlaylist_PlaylistCreated(){
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
-        mainPage.checkPlaylist("HeyYou");
+        mainPage.createPlaylist("HeyYou");
         Assert.assertTrue(mainPage.checkPlaylist("HeyYou"));
     }
 }
