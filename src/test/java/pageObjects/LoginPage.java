@@ -3,16 +3,17 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.FluentWait;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class LoginPage {
-    private WebDriver driver;
+public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
+       super(driver);
     }
 
     public MainPage loginToApp(String email, String password){
@@ -37,6 +38,7 @@ public class LoginPage {
     }
 
     public WebElement getEmail() {
+        fluentWait.until(x->x.findElement(By.xpath("//*[@type='email']")));
         return driver.findElement(By.xpath("//*[@type='email']"));
     }
 
