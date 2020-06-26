@@ -44,7 +44,7 @@ public class MainPage {
         String actualName = getCreatedPlayListName().getText();
         System.out.println(actualName);
         String expectedName = name;
-        Assert.assertEquals(actualName, expectedName);
+        return expectedName.equals(actualName);
 //        //String realNameOfCreatedPlayList =//
 //        //Assert.assertEquals(createdPlaylistName, );
 //     List list = driver.findElements(By.xpath(MainPageSelectors.createdPlaylist));
@@ -53,7 +53,6 @@ public class MainPage {
 //     // дальше в цикле пробежаться по элементам ArrayList и вытащить тот - у которого название "PlayList3"
 //        // или по ID
 //       //Assert.assertTrue(a, ..);
-        return true;
     }
 }
 

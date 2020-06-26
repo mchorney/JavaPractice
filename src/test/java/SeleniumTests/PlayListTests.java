@@ -45,7 +45,8 @@ public class PlayListTests {
         Assert.assertTrue(mainPage.isMain());
         Thread.sleep(3000);
         mainPage.createPlayList("Playlist4");
-       mainPage.checkPlayList("Playlist4");
+        mainPage.checkPlayList("Playlist4");
+
     }
 }
 
