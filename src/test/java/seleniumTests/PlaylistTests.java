@@ -34,7 +34,6 @@ public class PlaylistTests {
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io", "te$t$tudent");
         mainPage.waitForPage();
         mainPage.createPlaylist("Summer Hits");
-
         Assert.assertTrue(mainPage.checkPlaylist("Summer Hits"), "Playlist not found");
     }
 }
