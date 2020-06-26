@@ -34,5 +34,4 @@ public class MainPage extends BasePage {
         var list = driver.findElements(By.xpath("//*[@href='#!/playlist/"+id+"']"));
         return list.size()==1;
     }
-
 }
