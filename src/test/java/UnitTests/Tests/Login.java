@@ -1,7 +1,7 @@
 package UnitTests.Tests;
 
-import UnitTests.ObjectTest.LoginPage;
-import UnitTests.ObjectTest.MainPage;
+import UnitTests.PageObjects.LoginPage;
+import UnitTests.PageObjects.MainPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 
-public class TestLogin {
+public class Login {
     WebDriver driver;
     LoginPage login;
     MainPage main;
@@ -22,8 +22,8 @@ public class TestLogin {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io");
-        login = new LoginPage(driver);
         wait = new WebDriverWait(driver, 10);
+        login = new LoginPage(driver, wait);
     }
 
     @AfterMethod
@@ -33,19 +33,18 @@ public class TestLogin {
 
     @Test
     public void testLogin() throws InterruptedException {
-        main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=", wait);
-        Thread.sleep(2000);
+        main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
         Assert.assertTrue(main.isMain());
     }
 
     @Test
     public void login_error() throws InterruptedException {
-        Assert.assertTrue(login.isError("koeluser03@testpro.io", "dGUkdCR0dasrtd", wait));
+        Assert.assertTrue(login.isError("koeluser03@testpro.io", "dGUkdCR0dasrtd"));
     }
 
     @Test
     public void testRelatives() throws InterruptedException {
-        main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=", wait);
+        main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userBadge")));
         System.out.println(main.findByParent());
         System.out.println(main.findByGrandparent());

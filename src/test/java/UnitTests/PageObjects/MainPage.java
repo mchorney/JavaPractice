@@ -1,10 +1,14 @@
-package UnitTests.ObjectTest;
+package UnitTests.PageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainPage {
     WebDriver driver;
@@ -48,5 +52,27 @@ public class MainPage {
     public String findBySibling(){
         element = driver.findElement(By.xpath("//section[@class='music']/h1/following-sibling::ul/li[1]/following-sibling::li[4]"));
         return element.getText().trim();
+    }
+
+    public void createPlaylist(String name){
+        driver.findElement(By.xpath("//i[contains(@class, 'create')]")).click();
+        element = driver.findElement(By.xpath("//form[@class='create']/input"));
+        element.sendKeys(name);
+        element.sendKeys(Keys.ENTER);
+        System.out.println("Playlist created!");
+    }
+
+    public boolean checkPlaylist(String name) {
+        // element=driver.findElements(By.xpath("//*[@id='playlists']/ul[@class='menu']/li"));
+        List<WebElement> list = driver.findElements(By.xpath("//*[@id='playlists']/ul[@class='menu']/li"));
+        List<WebElement> playlists = new ArrayList<>();
+        for (WebElement playlist : list) {
+            if (playlist.getText().trim().equals(name)) {
+                playlists.add(playlist);
+                System.out.println("Playlist found: " + name);
+            }
+
+        }
+        return playlists.size() > 0;
     }
 }
