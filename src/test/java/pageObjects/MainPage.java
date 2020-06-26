@@ -48,7 +48,6 @@ public class MainPage {
         return expectedName.equals(actualName);
     }
 
-
 //    public boolean checkPlayListByID(String name) {
 //        try{
 //            driver.findElement(By.xpath(MainPageSelectors.createdPlaylistID));
