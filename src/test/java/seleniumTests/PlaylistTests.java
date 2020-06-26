@@ -41,6 +41,17 @@ public class PlaylistTests {
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
         Thread.sleep(1000);
         var id=mainPage.createPlaylist("New");
+        System.out.println("My list id="+id);
         Assert.assertTrue(mainPage.checkPlaylist(id));
     }
+    @Test
+    public void playListTests_renamePlayList() throws InterruptedException {
+        LoginPage loginPage = new LoginPage(driver,fluentWait);
+        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
+        Thread.sleep(1000);
+        var id=mainPage.createPlaylist("New");
+        mainPage.renamePlaylist(id, "SuperNew");
+        mainPage.checkPlaylistName(id,"SuperNew");
+    }
+
 }

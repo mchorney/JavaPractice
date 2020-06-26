@@ -1,9 +1,12 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.testng.Assert;
 
 public class MainPage {
     private WebDriver driver;
@@ -50,5 +53,26 @@ public class MainPage {
             return false;
         }
 
+    }
+    public void renamePlaylist(String id, String newName) throws InterruptedException {
+        var by3=By.xpath("//*[@href='#!/playlist/" + id + "']");
+        fluentWait.until(x->x.findElement(by3));
+        var searchPlaylistNew = driver.findElement(by3);
+        Actions actions = new Actions(driver);
+        actions.doubleClick(searchPlaylistNew).perform();
+        var by4= By.xpath("//*[@href='#!/playlist/"+id+"']/../input");
+        fluentWait.until(x->x.findElement(by4));
+        var inputNew= driver.findElement(by4);
+        inputNew.sendKeys(Keys.CONTROL, "a");
+        inputNew.sendKeys(newName);
+        inputNew.sendKeys("\n");
+
+    }
+    public void checkPlaylistName(String id, String name){
+        var by3=By.xpath("//*[@href='#!/playlist/" + id + "']");
+        fluentWait.until(x->x.findElement(by3));
+        var searchPlaylistNew = driver.findElement(by3);
+        String realName= searchPlaylistNew.getText();
+        Assert.assertEquals(realName,name);
     }
 }
