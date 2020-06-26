@@ -40,8 +40,7 @@ public class PlaylistTests {
         LoginPage loginPage = new LoginPage(driver,fluentWait);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
         Thread.sleep(1000);
-        mainPage.createPlaylist("New");
-
-        Assert.assertTrue(mainPage.checkPlaylist("New"));
+        var id=mainPage.createPlaylist("New");
+        Assert.assertTrue(mainPage.checkPlaylist(id));
     }
 }

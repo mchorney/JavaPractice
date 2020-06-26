@@ -22,7 +22,7 @@ public class MainPage {
         return list.size() == 1;
     }
 
-    public void createPlaylist(String name) throws InterruptedException {
+    public String createPlaylist(String name) throws InterruptedException {
         var by1= By.xpath("//i[@class='fa fa-plus-circle control create']");
         fluentWait.until(x->x.findElement(by1));
         WebElement addPlaylistNew = driver.findElement(by1);
@@ -33,12 +33,14 @@ public class MainPage {
         WebElement inputPlaylistNew = driver.findElement(by2);
         inputPlaylistNew.sendKeys(name);
         inputPlaylistNew.sendKeys("\n");
-
-    }
-
-    public boolean checkPlaylist(String name) {
+        Thread.sleep(1000);
+        String url = driver.getCurrentUrl();
+        var parts= url.split("/");
+        return parts[parts.length-1];
+      }
+    public boolean checkPlaylist(String id) {
         try {
-            var by3=By.xpath("//*[@id=\"playlists\"]/ul/li/a[text()='" + name + "']");
+            var by3=By.xpath("//*[@href='#!/playlist/" + id + "']");
             fluentWait.until(x->x.findElement(by3));
             var searchPlaylistNew = driver.findElement(by3);
             System.out.println("Found");
