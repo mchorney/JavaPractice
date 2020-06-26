@@ -8,6 +8,7 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class MainPage {
     private WebDriver driver;
@@ -45,15 +46,20 @@ public class MainPage {
         System.out.println(actualName);
         String expectedName = name;
         return expectedName.equals(actualName);
-//        //String realNameOfCreatedPlayList =//
-//        //Assert.assertEquals(createdPlaylistName, );
-//     List list = driver.findElements(By.xpath(MainPageSelectors.createdPlaylist));
-//        System.out.println();
-////     System.out.println(list); // печатает все обьекты плейлистов//
-//     // дальше в цикле пробежаться по элементам ArrayList и вытащить тот - у которого название "PlayList3"
-//        // или по ID
-//       //Assert.assertTrue(a, ..);
+    }
+    public boolean checkPlayListByID(String name) {
+        try{
+            driver.findElement(By.xpath(MainPageSelectors.createdPlaylistID));
+        }catch (NoSuchElementException error){
+            return false;
+        }
+
+        return true;
     }
 }
+
+
+
+
 
 
