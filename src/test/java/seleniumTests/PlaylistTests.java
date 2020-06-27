@@ -35,4 +35,13 @@ public class PlaylistTests {
         mainPage.createPlaylist("V_Pl3");
         Assert.assertTrue(mainPage.checkPlaylist());
     }
+    @Test
+    public void playlistTests_renamePlaylist_PlaylistRenamed(){
+        LoginPage loginPage = new LoginPage(driver);
+        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("arguments[0].click()",mainPage.getPlus());
+        mainPage.createPlaylist("V_Pl3");
+        mainPage.renamePlaylist();
+    }
 }
