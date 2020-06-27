@@ -23,14 +23,20 @@ public class MainPage {
                 .ignoring(ElementClickInterceptedException.class)
                 .ignoring(StaleElementReferenceException.class)
                 .ignoring(NoSuchElementException.class);
-        this.wait = new WebDriverWait(driver, 10, 2500L);
+        this.wait = new WebDriverWait(driver, 5);
     }
 
     public WebElement getPlusButtonPlayListCreation() throws InterruptedException {
+        //wait.until((WebDriver dr1) -> dr1.findElement(By.xpath(MainPageSelectors.playListNameTextField)));
         //fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).isDisplayed());
-        // !!! Не один из типов Explicit waits (fluent and simply WebDriver wait) не работает - элемент находят, но кликают мимо!!! Поэтому - ждем..
+        // !!! Не один из типов Explicit waits (fluent and simply WebDriver wait) не работает - элемент находят,
+        // но кликают мимо!!! Поэтому - ждем..
+        //TODO: waits can find dynamic element "plus button", but can not wait until the page
+        // finished loading - so "side bar" element received the click.
+        // That's why I put Thread.sleep(). It needs to be improved.
+
         Thread.sleep(3000);
-        // wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
+//        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        long now = System.currentTimeMillis();
 //        wait.until(ExpectedConditions
