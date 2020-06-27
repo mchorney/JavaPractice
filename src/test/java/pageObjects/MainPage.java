@@ -99,6 +99,7 @@ public class MainPage extends BasePage{
         var js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", mostRecentCreatedPlaylistByMe);
         action.doubleClick(mostRecentCreatedPlaylistByMe).perform();
+        
         fluentWait.until(x->x.findElement(By.xpath("//*[@class = 'playlist playlist editing']//input")));
         var inputField = driver.findElement(By.xpath("//*[@class = 'playlist playlist editing']//input"));
 
