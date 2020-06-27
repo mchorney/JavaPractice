@@ -29,7 +29,7 @@ public class PlaylistTests {
     public void playlistTests_createPlaylist_PlaylistCreated(){
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
-        mainPage.createPlaylist("xxxxx");
-        Assert.assertTrue(mainPage.checkPlaylist("xxxxx"));
+        String playlistId = mainPage.createPlaylist("xxxxx");
+        Assert.assertTrue(mainPage.checkPlaylist(playlistId));
     }
 }
