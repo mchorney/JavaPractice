@@ -1,6 +1,5 @@
 package hw8;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -14,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 
 public class PlayListTest {
     WebDriver driver;
-
     @BeforeMethod
     public void startUp() {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
@@ -30,12 +28,10 @@ public class PlayListTest {
     }
 
     @Test
-    public void playlistTests_createPlaylist_PlaylistCreated() {
+    public void playlistTests_createPlaylist_PlaylistCreated(){
         LoginPage loginPage = new LoginPage(driver);
-        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io", "te$t$tudent");
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("arguments[0].click()",mainPage.getPlus());
-        mainPage.createPlaylist("Michael_JS_1");
-        Assert.assertTrue(mainPage.checkPlaylist("Michael_JS_1"));
+        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
+        mainPage.createPlaylist("Michael_JS");
+        Assert.assertTrue(mainPage.checkPlaylist("Michael_JS"));
     }
 }
