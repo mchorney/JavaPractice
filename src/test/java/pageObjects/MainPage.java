@@ -60,5 +60,7 @@ public class MainPage {
         actions.doubleClick(getPlaylistName(oldName)).perform();
         actions.click().keyDown(Keys.CONTROL).sendKeys(Keys.chord("a")).keyUp(Keys.CONTROL).perform();
         actions.doubleClick().sendKeys(newName).sendKeys(Keys.ENTER).perform();
+
     }
+
 }
