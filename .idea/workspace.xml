@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7213b090-32c1-4ea9-9fa1-908acbfb0f1c" name="Default Changelist" comment="Ideagitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cGzGKsYTiKd8Ptu1OoxNRxi4cC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FoodChain" />
+      <recent name="hw19" />
+      <recent name="hw18" />
+      <recent name="hw17" />
+      <recent name="hw16" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PlaylistTests.playlistTests_renamePlaylist_playlistRenamed">
+    <configuration name="LogInTest.loginTest_CorrectCredentials_LoggedToApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.LogInTest" />
+      <option name="METHOD_NAME" value="loginTest_CorrectCredentials_LoggedToApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInTest.loginTest_WrongCredentials_Error" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.LogInTest" />
+      <option name="METHOD_NAME" value="loginTest_WrongCredentials_Error" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.PlaylistTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.playlistTests_createPlaylist_playlistCreated" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.PlaylistTests" />
+      <option name="METHOD_NAME" value="playlistTests_createPlaylist_playlistCreated" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.playlistTests_renamePlaylist_playlistRenamed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.PlaylistTests" />
+      <option name="METHOD_NAME" value="playlistTests_renamePlaylist_playlistRenamed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PlaylistTests.playlistTests_renamePlaylist_playlistRenamed" />
+        <item itemvalue="TestNG.PlaylistTests" />
+        <item itemvalue="TestNG.PlaylistTests.playlistTests_createPlaylist_playlistCreated" />
+        <item itemvalue="TestNG.LogInTest.loginTest_WrongCredentials_Error" />
+        <item itemvalue="TestNG.LogInTest.loginTest_CorrectCredentials_LoggedToApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7213b090-32c1-4ea9-9fa1-908acbfb0f1c" name="Default Changelist" comment="" />
+      <created>1590169620459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590169620459</updated>
+      <workItem from="1590169623599" duration="1784000" />
+      <workItem from="1590176711866" duration="1031000" />
+      <workItem from="1590178324364" duration="8151000" />
+      <workItem from="1590280262187" duration="15281000" />
+      <workItem from="1590606352865" duration="152000" />
+      <workItem from="1590717627619" duration="4775000" />
+      <workItem from="1590760895644" duration="6796000" />
+      <workItem from="1590868758232" duration="6650000" />
+      <workItem from="1590887508806" duration="12100000" />
+      <workItem from="1591147830869" duration="5831000" />
+      <workItem from="1591200929753" duration="13645000" />
+      <workItem from="1591473444863" duration="19612000" />
+      <workItem from="1591754410030" duration="15612000" />
+      <workItem from="1591989596528" duration="4548000" />
+      <workItem from="1592078457534" duration="493000" />
+      <workItem from="1592080306451" duration="5420000" />
+      <workItem from="1592104336798" duration="2532000" />
+      <workItem from="1592149937659" duration="8626000" />
+      <workItem from="1592347256621" duration="90000" />
+    </task>
+    <task id="LOCAL-00001" summary="Homework7">
+      <created>1590178406647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590178406647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homework7">
+      <created>1590178617954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590178617954</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson8_9">
+      <created>1590271496368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590271496368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hw8">
+      <created>1590284673387</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590284673387</updated>
+    </task>
+    <task id="LOCAL-00005" summary="les10">
+      <created>1590548954884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590548954884</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HW10">
+      <created>1590601058714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590601058714</updated>
+    </task>
+    <task id="LOCAL-00007" summary="les11">
+      <created>1590722407743</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590722407743</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hw11">
+      <created>1590768532787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590768532787</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hw12_13">
+      <created>1590945291782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590945291782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hw14">
+      <created>1591208160565</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591208160565</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hw15">
+      <created>1591410021551</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591410021551</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hw16">
+      <created>1591548343217</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591548343217</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hw17">
+      <created>1591554427274</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591554427275</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hw18">
+      <created>1591563438007</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591563438007</updated>
+    </task>
+    <task id="LOCAL-00015" summary="les18">
+      <created>1591757692526</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591757692526</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hw19">
+      <created>1591808354352</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591808354352</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FoodChain">
+      <created>1591818064880</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591818064880</updated>
+    </task>
+    <task id="LOCAL-00018" summary="SeleniumHW1">
+      <created>1592189889445</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1592189889445</updated>
+    </task>
+    <task id="LOCAL-00019" summary="hw19">
+      <created>1592190236570</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1592190236570</updated>
+    </task>
+    <task id="LOCAL-00020" summary="HWScrollDown">
+      <created>1592619020571</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592619020571</updated>
+    </task>
+    <task id="LOCAL-00021" summary="HWScrollDown">
+      <created>1592704786839</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1592704786839</updated>
+    </task>
+    <task id="LOCAL-00022" summary="LogInTest">
+      <created>1592773475113</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1592773475113</updated>
+    </task>
+    <task id="LOCAL-00023" summary="HW">
+      <created>1593031722691</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1593031722691</updated>
+    </task>
+    <task id="LOCAL-00024" summary="HWrenamePlaylist">
+      <created>1593239242649</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1593239242649</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Ideagitignore">
+      <created>1593282142045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1593282142045</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Ideagitignore">
+      <created>1593282210974</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1593282210974</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework7" />
+    <MESSAGE value="lesson8_9" />
+    <MESSAGE value="hw8" />
+    <MESSAGE value="les10" />
+    <MESSAGE value="HW10" />
+    <MESSAGE value="les11" />
+    <MESSAGE value="hw11" />
+    <MESSAGE value="hw12_13" />
+    <MESSAGE value="hw14" />
+    <MESSAGE value="hw15" />
+    <MESSAGE value="hw16" />
+    <MESSAGE value="hw17" />
+    <MESSAGE value="hw18" />
+    <MESSAGE value="les18" />
+    <MESSAGE value="FoodChain" />
+    <MESSAGE value="SeleniumHW1" />
+    <MESSAGE value="hw19" />
+    <MESSAGE value="HWScrollDown" />
+    <MESSAGE value="LogInTest" />
+    <MESSAGE value="HW" />
+    <MESSAGE value="HWrenamePlaylist" />
+    <MESSAGE value="Ideagitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ideagitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593187524499">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1593187524499" />
+    <state x="879" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1593140192810">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="879" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1593140192810" />
+    <state x="209" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591806193162">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="209" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1591806193162" />
+    <state x="458" y="204" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1591553244484">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.900@0.0.1440.900" timestamp="1591553244484" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1592190236340">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592190236340" />
+    <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1590178617799" />
+    <state x="327" y="23" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1590284673118" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1593270136748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593270136748" />
+    <state width="1358" height="190" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1590177748285" />
+    <state width="1396" height="141" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1590284633589" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1593270136746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593270136746" />
+    <state width="1358" height="190" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1590177748283" />
+    <state width="1396" height="141" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1590284633588" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1593270136746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593270136746" />
+    <state width="1358" height="190" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1590177748282" />
+    <state width="1396" height="141" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1590284633587" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1593270136747">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593270136747" />
+    <state width="1358" height="190" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1590177748284" />
+    <state width="1396" height="141" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1590284633588" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1593239527114">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593239527114" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1593239527113">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1593239527113" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1593239527113">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1593239527113" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1593239527114">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1593239527114" />
+    <state x="976" y="324" key="MultipleFileMergeDialog" timestamp="1591808382124">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="976" y="324" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1591808382124" />
+    <state x="416" y="31" key="SettingsEditor" timestamp="1592006635592">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="416" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592006635592" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1593282212633">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593282212633" />
+    <state x="320" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1590178619995" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1590284688403" />
+    <state x="888" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590717678529">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="888" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1590717678529" />
+    <state x="497" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1592190170343">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="497" y="218" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1592190170343" />
+    <state x="497" y="216" key="git4idea.merge.GitMergeDialog/0.23.1440.795@0.23.1440.795" timestamp="1590175340549" />
+    <state x="497" y="217" key="git4idea.merge.GitMergeDialog/0.23.1440.801@0.23.1440.801" timestamp="1591989677244" />
+    <state x="433" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592190243982">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="433" y="218" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1592190243982" />
+    <state x="433" y="216" key="git4idea.merge.GitPullDialog/0.23.1440.795@0.23.1440.795" timestamp="1590175035094" />
+    <state x="551" y="233" key="refactoring.ChangeSignatureDialog" timestamp="1590939055295">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="551" y="233" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1590939055295" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1593194069308">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1593194069308" />
+  </component>
+</project>
