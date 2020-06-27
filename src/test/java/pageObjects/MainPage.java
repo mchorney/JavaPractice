@@ -58,9 +58,6 @@ public class MainPage {
     public void renamePlaylist(String oldName, String newName) {
         Actions actions = new Actions(driver);
         actions.doubleClick(getPlaylistName(oldName)).perform();
-//        getPlaylistName(oldName).sendKeys(Keys.CONTROL + "a");
-//        getPlaylistName(oldName).sendKeys(Keys.BACK_SPACE);
-        actions.pause(1000).perform();
         actions.click().keyDown(Keys.CONTROL).sendKeys(Keys.chord("a")).keyUp(Keys.CONTROL).perform();
         actions.doubleClick().sendKeys(newName).sendKeys(Keys.ENTER).perform();
     }
