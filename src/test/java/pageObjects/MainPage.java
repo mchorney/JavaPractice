@@ -10,7 +10,7 @@ import java.util.List;
 public class MainPage extends BasePage{
 
     public MainPage(WebDriver driver) {
-        super(driver);
+       super(driver);
     }
 
 

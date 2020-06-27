@@ -25,7 +25,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7213b090-32c1-4ea9-9fa1-908acbfb0f1c" name="Default Changelist" comment="Ideagitignore" />
+    <list default="true" id="7213b090-32c1-4ea9-9fa1-908acbfb0f1c" name="Default Changelist" comment="Ideagitignore">
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +87,7 @@
       <recent name="hw16" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PlaylistTests.playlistTests_renamePlaylist_playlistRenamed">
+  <component name="RunManager" selected="TestNG.PlaylistTests.playlistTests_createPlaylist_playlistCreated">
     <configuration name="LogInTest.loginTest_CorrectCredentials_LoggedToApp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
@@ -171,9 +179,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PlaylistTests.playlistTests_createPlaylist_playlistCreated" />
         <item itemvalue="TestNG.PlaylistTests.playlistTests_renamePlaylist_playlistRenamed" />
         <item itemvalue="TestNG.PlaylistTests" />
-        <item itemvalue="TestNG.PlaylistTests.playlistTests_createPlaylist_playlistCreated" />
         <item itemvalue="TestNG.LogInTest.loginTest_WrongCredentials_Error" />
         <item itemvalue="TestNG.LogInTest.loginTest_CorrectCredentials_LoggedToApp" />
       </list>
@@ -412,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593282813319</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Ideagitignore">
+      <created>1593282996192</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1593282996192</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,6 +475,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1593187524499" />
+    <state x="822" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593290458170">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="822" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1593290458170" />
     <state x="879" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1593140192810">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -518,28 +537,40 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1593239527114" />
-    <state x="976" y="324" key="MultipleFileMergeDialog" timestamp="1591808382124">
+    <state x="0" y="158" key="MergeDialog" timestamp="1593289680905">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="976" y="324" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1591808382124" />
+    <state x="0" y="158" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1593289680905" />
+    <state x="723" y="324" key="MultipleFileMergeDialog" timestamp="1593289693131">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="723" y="324" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1593289693131" />
     <state x="416" y="31" key="SettingsEditor" timestamp="1592006635592">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="416" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592006635592" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1593282823748">
+    <state x="276" y="294" key="Vcs.Multiple.Commit.Info.Dialog.Key" timestamp="1593289668369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593282823748" />
+    <state x="276" y="294" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.0.1440.900@0.0.1440.900" timestamp="1593289668369" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1593283000040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593283000040" />
     <state x="320" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1590178619995" />
     <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1590284688403" />
     <state x="888" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590717678529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="888" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1590717678529" />
-    <state x="497" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1592190170343">
+    <state x="792" y="82" width="586" height="735" key="find.popup" timestamp="1593290622079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="497" y="218" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1592190170343" />
+    <state x="792" y="82" width="586" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593290622079" />
+    <state x="497" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1593290585126">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="497" y="218" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1593290585126" />
     <state x="497" y="216" key="git4idea.merge.GitMergeDialog/0.23.1440.795@0.23.1440.795" timestamp="1590175340549" />
     <state x="497" y="217" key="git4idea.merge.GitMergeDialog/0.23.1440.801@0.23.1440.801" timestamp="1591989677244" />
     <state x="433" y="218" key="git4idea.merge.GitPullDialog" timestamp="1592190243982">
@@ -547,6 +578,10 @@
     </state>
     <state x="433" y="218" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1592190243982" />
     <state x="433" y="216" key="git4idea.merge.GitPullDialog/0.23.1440.795@0.23.1440.795" timestamp="1590175035094" />
+    <state x="872" y="356" key="git4idea.ui.GitStashDialog" timestamp="1593290571487">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="872" y="356" key="git4idea.ui.GitStashDialog/0.0.1440.900@0.0.1440.900" timestamp="1593290571487" />
     <state x="551" y="233" key="refactoring.ChangeSignatureDialog" timestamp="1590939055295">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
