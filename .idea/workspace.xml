@@ -21,12 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectsHome/Loginpage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjectsHome/Mainpage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumHome/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumHome/PlaylistTestHome.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTest/Sync.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593113619569</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="SHome8">
+      <created>1593140586615</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1593140586615</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,26 +433,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="248" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591488080660" />
-    <state width="1005" height="216" key="GridCell.Tab.0.bottom" timestamp="1593139443074">
+    <state width="981" height="111" key="GridCell.Tab.0.bottom" timestamp="1593201116050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1005" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593139443074" />
-    <state width="1005" height="216" key="GridCell.Tab.0.center" timestamp="1593139443074">
+    <state width="981" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116050" />
+    <state width="981" height="111" key="GridCell.Tab.0.center" timestamp="1593201116050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1005" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593139443074" />
-    <state width="1005" height="216" key="GridCell.Tab.0.left" timestamp="1593139443074">
+    <state width="981" height="111" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116050" />
+    <state width="981" height="111" key="GridCell.Tab.0.left" timestamp="1593201116049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1005" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593139443074" />
-    <state width="1005" height="216" key="GridCell.Tab.0.right" timestamp="1593139443074">
+    <state width="981" height="111" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116049" />
+    <state width="981" height="111" key="GridCell.Tab.0.right" timestamp="1593201116050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1005" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593139443074" />
-    <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1592086161530">
+    <state width="981" height="111" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116050" />
+    <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1593140616237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592086161530" />
+    <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593140616237" />
     <state x="747" y="222" key="RollbackChangesDialog" timestamp="1590274521121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -460,10 +465,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="138" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593113971441" />
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593109801200">
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593140611743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593109801200" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593140611743" />
     <state x="195" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591365751962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -28,8 +28,8 @@ public class Sync {
         fluentWait = new FluentWait<WebDriver>(driver)
                 .withTimeout(Duration.ofSeconds(20))
                 .pollingEvery(Duration.ofMillis(100))
-//                .ignoring(ElementClickInterceptedException.class)
-//                .ignoring(StaleElementReferenceException.class)
+                .ignoring(ElementClickInterceptedException.class)
+                .ignoring(StaleElementReferenceException.class)
                 .ignoring(NoSuchElementException.class);
     }
     @AfterMethod
