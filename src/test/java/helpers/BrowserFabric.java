@@ -8,7 +8,7 @@ import org.openqa.selenium.opera.OperaDriver;
 
 public class BrowserFabric {
     public static WebDriver getDriver(Browsers browser) throws NoSuchFieldException {
-        switch(browser) {
+        switch (browser) {
             case FIREFOX:
                 return getFirefoxDriver();
             case OPERA:
@@ -17,19 +17,23 @@ public class BrowserFabric {
                 return getChromeDriver();
             default:
                 throw new NoSuchFieldException("No such browser");
-        }
 
-        private static WebDriver getFirefoxDriver(){
-            System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-            return new FirefoxDriver();
         }
-        private static WebDriver getOperaDriver(){
-            System.setProperty("webdriver.opera.driver", "operadriver.exe");
-            return new OperaDriver();
-        }
-        private static WebDriver getChromeDriver(){
-            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-            return new ChromeDriver();        }
+    }
 
+    private static WebDriver getChromeDriver() {
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        return new ChromeDriver();
+
+    }
+
+    private static WebDriver getOperaDriver() {
+        System.setProperty("webdriver.opera.driver", "operadriver.exe");
+        return new OperaDriver();
+    }
+
+    private static WebDriver getFirefoxDriver() {
+        System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+        return new FirefoxDriver();
     }
 }
