@@ -2,7 +2,10 @@ package pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -10,6 +13,7 @@ import java.util.List;
 public class MainPage {
     private WebDriver driver;
     private FluentWait<WebDriver> fluentWait;
+    private WebDriverWait wait;
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -19,13 +23,14 @@ public class MainPage {
                 .ignoring(ElementClickInterceptedException.class)
                 .ignoring(StaleElementReferenceException.class)
                 .ignoring(NoSuchElementException.class);
+        this.wait = new WebDriverWait(driver, 10, 2500L);
     }
 
     public WebElement getPlusButtonPlayListCreation() throws InterruptedException {
-        fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).isDisplayed());
+        //fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).isDisplayed());
         // !!! Не один из типов Explicit waits (fluent and simply WebDriver wait) не работает - элемент находят, но кликают мимо!!! Поэтому - ждем..
         Thread.sleep(3000);
-//        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
+        // wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        long now = System.currentTimeMillis();
 //        wait.until(ExpectedConditions
@@ -68,7 +73,7 @@ public class MainPage {
         return list.size()==1;
     }
 
-    public String replacePlayList(String firstName, String secondName) throws InterruptedException{
+    public String replacePlayList(String firstName, String secondName){
         WebElement playlist = driver.findElement(By.xpath(getOldPlaylistXpath(firstName)));
         Actions actions = new Actions(driver);
         actions.doubleClick(playlist).perform();
