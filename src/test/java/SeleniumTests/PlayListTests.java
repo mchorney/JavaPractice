@@ -41,9 +41,9 @@ public class PlayListTests {
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
-        String playlistId = mainPage.createPlayList("Playlist1");
+        String playlistId = mainPage.createPlayList("Playlist34");
         Assert.assertTrue(mainPage.checkPlayList(playlistId));
-        String renamedPlaylistName = mainPage.replacePlayList("Playlist1", "Replaced Playlist1");
+        String renamedPlaylistName = mainPage.replacePlayList("Playlist34", "Replaced Playlist34");
         System.out.println(renamedPlaylistName);
         String replacedPlaylistID = "";
 

@@ -54,7 +54,6 @@ public class MainPage {
         return "//a[text()='"+name+"']";
     }
 
-
     public String createPlayList(String playListName) throws InterruptedException {
         getPlusButtonPlayListCreation().click();
         getPlayListNameTextField().sendKeys(playListName);
@@ -83,7 +82,6 @@ public class MainPage {
         return createdplaylistName;
         // get String from alert window)
     }
-
 }
 
 
