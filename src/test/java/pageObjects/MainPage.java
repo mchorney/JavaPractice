@@ -6,9 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import javax.swing.*;
+import java.util.concurrent.TimeUnit;
 
 
 public class MainPage {
@@ -23,9 +26,13 @@ public class MainPage {
     }
 
     private WebElement getPlaylistName(String playlistName) {
-        return driver.findElement(By.linkText("//*[contains(text(),'"+playlistName+"'][1]"));
+        return driver.findElement(By.xpath("//*[contains(text(),'"+playlistName+"')][1]"));
     }
+//*[contains(text(),'Hii my friend')][1]
 
+    private WebElement getInputPlaylistName() {
+        return driver.findElement(By.xpath("//*[@class='active']"));
+    }
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -48,4 +55,14 @@ public class MainPage {
         var list = driver.findElements(By.linkText(name));
         return (list.size()==1);
     }
+    public void renamePlaylist(String oldName, String newName) {
+        Actions actions = new Actions(driver);
+        actions.doubleClick(getPlaylistName(oldName)).perform();
+//        getPlaylistName(oldName).sendKeys(Keys.CONTROL + "a");
+//        getPlaylistName(oldName).sendKeys(Keys.BACK_SPACE);
+        actions.pause(1000).perform();
+        actions.click().keyDown(Keys.CONTROL).sendKeys(Keys.chord("a")).keyUp(Keys.CONTROL).perform();
+        actions.doubleClick().sendKeys(newName).sendKeys(Keys.ENTER).perform();
+    }
+
 }

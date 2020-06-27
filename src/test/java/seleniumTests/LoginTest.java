@@ -48,7 +48,16 @@ public class LoginTest {
         public void playlistTests_createPlaylist_PlaylistCreated() {
             LoginPage loginPage = new LoginPage(driver);
             MainPage mainPage = loginPage.loginToApp("koeluser66@testpro.io","te$t$tudent");
-            mainPage.createPlaylist("Hello my friend");
-            Assert.assertTrue(mainPage.checkPlaylist("Hello my friend"));
-    }
+            mainPage.createPlaylist("girlfriend girlfriend girlfriend");
+            Assert.assertTrue(mainPage.checkPlaylist("girlfriend girlfriend girlfriend"));
+        }
+
+        @Test
+        public void playlistTest_renamePlaylist_playlistRenamed() {
+            LoginPage loginPage = new LoginPage(driver);
+            MainPage mainPage = loginPage.loginToApp("koeluser66@testpro.io","te$t$tudent");
+            mainPage.renamePlaylist("girlfriend girlfriend girlfriend", "girlfriend ");
+            Assert.assertTrue(mainPage.checkPlaylist("girlfriend"));
+        }
+
 }
