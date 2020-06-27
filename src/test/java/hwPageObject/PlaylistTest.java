@@ -29,10 +29,14 @@ public class PlaylistTest {
         driver.quit();
     }
     @Test
-    public void playlistTests_createPlaylist_PlaylistCreated(){
+    public void playlistTests_createPlaylist_PlaylistCreated_renameTest(){
         pageObjects.LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
-        mainPage.createPlaylist("Top10");
-        Assert.assertTrue(mainPage.checkPlaylist("Top 10"));
+        String playlistid = mainPage.createPlaylist("Top10");
+        String renameClickOnTop10 =mainPage.createPlaylist("King");
+
+        Assert.assertTrue(mainPage.checkPlaylist(playlistid));
     }
+
+
 }

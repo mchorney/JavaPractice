@@ -1,42 +1,43 @@
 package hwPageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.FluentWait;
+
+import java.time.Duration;
 
 
-public class LoginPage {
-    private WebDriver driver;
-
-
-    public WebElement getButtonCreatePlaylist() {
-        return driver.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']"));
-    }
-
-    public WebElement getWindowToSave() {
-        return driver.findElement(By.xpath("//*[@class=\"create\"]"));
-    }
-
-    public WebElement getClickOnTop10() {
-        return driver.findElement(By.xpath("//*[@href=\"#!/playlist/4843\"]"));
-    }
-
+public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
-
+        super(driver);
     }
 
-    public void createPlaylist(String name) {
+    public MainPage loginToApp (String email, String password){
+            getEmail().sendKeys(email);
+            getPassword().sendKeys(password);
+            getLoginButton().click();
+            return new MainPage(driver);
 
-        getButtonCreatePlaylist().click();
-        getWindowToSave().click();
-        getClickOnTop10().click();
+        }
+        public WebElement getEmail() {
+        fluentWait.until(x->x.findElement(By.xpath("[type='email']")));
+        return driver.findElement(By.xpath("[type='email']"));
     }
+    public WebElement getPassword() { return driver.findElement(By.xpath("[type='password']"));}
+    public WebElement getLoginButton () { return driver.findElement(By.xpath("//*[contains(@type,'subm')]"));}
 
-    public boolean checkPlaylist(String name) {
-        getButtonCreatePlaylist().click();
-        getWindowToSave().click();
-        getClickOnTop10().click();
+
+//
+    public boolean isError(){
+//        var errors = driver.findElements(By.xpath("//*[@class='error']"));
+//        return errors.size()==1;
+        try {
+            driver.findElement(By.xpath("//*[@class='error']"));
+        } catch (NoSuchElementException error){
+            return false;
+        }
         return true;
     }
-}
+        }
