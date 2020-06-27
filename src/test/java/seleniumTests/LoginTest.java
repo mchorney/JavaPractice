@@ -27,7 +27,7 @@ public class LoginTest {
     }
 
     @Test
-    public void loginTest_CorrecCredantials_LoggedToApp(){
+    public void loginTest_CorrecCredantials_LoggedToApp() throws InterruptedException {
         //driver.get("https://koelapp.testpro.io/");
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io", "te$t$tudent");
@@ -38,7 +38,7 @@ public class LoginTest {
 
     @Test
 
-    public void loginTest_WrongCredentials_Error(){
+    public void loginTest_WrongCredentials_Error() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.loginToApp("testpro.user03@testpro.io","1111111");
         Assert.assertTrue(loginPage.isError());

@@ -21,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class PlaylistTest {
     WebDriver driver;
     private FluentWait<WebDriver> fluentWait;
+    //LoginPage loginPage = new LoginPage(driver);
     @BeforeMethod
     void startUp(){
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
@@ -39,6 +40,10 @@ public class PlaylistTest {
         Thread.sleep(2000);
         driver.quit();
     }
+//    public MainPage loginMainPage() throws InterruptedException {
+//        //LoginPage loginPage = new LoginPage(driver);
+//        return loginPage.loginToApp("testpro.user03@testpro.io", "te$t$tudent");
+//    }
     @Test
     public void playlistTest_createplaylist() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
@@ -48,8 +53,33 @@ public class PlaylistTest {
         By plusBy = By.xpath(plusX);
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='fa fa-plus-circle control create']")));
-        mainPage.createPlayList("newlist1");
-        Assert.assertTrue(mainPage.checkPlaylist("newlist1"));
-
+        mainPage.createPlayList("newlist");
+        Assert.assertTrue(mainPage.checkPlaylist("newlist"));
     }
+
+    @Test
+    public void renamePlaylistTest() throws InterruptedException {
+        LoginPage loginPage = new LoginPage(driver);
+        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io", "te$t$tudent");
+        Assert.assertTrue(loginPage.isError());
+        String oldName = "newlist";
+        String newName = "newPlaylistName";
+        mainPage.renamePlaylist(oldName, newName);
+    }
+
+    @Test
+    public void renameAllPlaylistsTest() throws InterruptedException {
+        LoginPage loginPage = new LoginPage(driver);
+        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io", "te$t$tudent");
+        Assert.assertTrue(loginPage.isError());
+        mainPage.renameAllPlaylists();
+    }
+
+//    @Test
+//    public void deleteAllPlaylistsTest() throws InterruptedException {
+//        LoginPage loginPage = new LoginPage(driver);
+//        MainPage mainPage = loginPage.loginToApp("testpro.user08@testpro.io", "te$t$tudent");
+//        Assert.assertTrue(loginPage.isError());
+//        mainPage.deleteAllPlaylists();
+//    }
 }

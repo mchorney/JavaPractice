@@ -26,7 +26,7 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    public MainPage loginToApp(String email, String password){
+    public MainPage loginToApp(String email, String password) throws InterruptedException {
         fluentWait = new FluentWait<WebDriver>(driver)
                 .withTimeout(Duration.ofSeconds(20))
                 .pollingEvery(Duration.ofMillis(100))
@@ -34,6 +34,7 @@ public class LoginPage {
 //                .ignoring(StaleElementReferenceException.class)
                 .ignoring(NoSuchElementException.class);
         fluentWait.until(x->x.findElement(By.xpath("//input[@type='email']")));
+        Thread.sleep(1000);
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
         getLoginButton().click();
