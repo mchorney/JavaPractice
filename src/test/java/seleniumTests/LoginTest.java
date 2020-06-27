@@ -59,6 +59,4 @@ public class LoginTest {
             mainPage.renamePlaylist("girlfriend girlfriend girlfriend", "girlfriend ");
             Assert.assertTrue(mainPage.checkPlaylist("girlfriend"));
         }
-
-
 }
