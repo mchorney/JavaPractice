@@ -45,11 +45,8 @@ public class PlayListTests {
         Assert.assertTrue(mainPage.checkPlayList(playlistId));
         String renamedPlaylistName = mainPage.replacePlayList("Playlist34", "Replaced Playlist34");
         System.out.println(renamedPlaylistName);
-        String replacedPlaylistID = "";
-
-
-        Assert.assertNotEquals(playlistId, replacedPlaylistID);
-
+        //String replacedPlaylistID = "";
+        //Assert.assertNotEquals(playlistId, replacedPlaylistID);
     }
 }
 
