@@ -3,12 +3,22 @@ package hw4;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.FluentWait;
+
+import java.time.Duration;
 
 public class LoginPage {
     private WebDriver driver;
+    private FluentWait<WebDriver> fluentWait;
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
+    }
+    public void MainPage(WebDriver driver) {
+        this.driver=driver;
+        fluentWait = new FluentWait<WebDriver>(driver)
+                .withTimeout(Duration.ofSeconds(20))
+                .pollingEvery(Duration.ofSeconds(20));
     }
 
     public WebElement getEmail() {

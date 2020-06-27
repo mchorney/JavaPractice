@@ -26,12 +26,13 @@ public class MyPlaylistTests {
                 .withTimeout(Duration.ofSeconds(20))
                 .pollingEvery(Duration.ofMillis(100))
                 .ignoring(NoSuchElementException.class);
+
         driver.get("https://koelapp.testpro.io/");
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+
     }
     @AfterMethod
-    public void tearDown(){
-        driver.quit();
+    public void tearDown() throws InterruptedException{
+        Thread.sleep(5000);driver.quit();
     }
 
     @Test

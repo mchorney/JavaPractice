@@ -2,28 +2,28 @@ package hw4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 public class MainPage {
     private WebDriver driver;
-    private FluentWait<WebDriver> fluentWait;
+    private WebDriverWait wait;
 
     public MainPage(WebDriver driver) {
         this.driver=driver;
-    }
-
-    public MainPage(FluentWait<WebDriver> fluentWait) {
-        this.fluentWait = fluentWait;
+        wait = new WebDriverWait(driver,20);
     }
 
     public boolean isMain (){
         driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
         var list = driver.findElements(By.xpath("//*[@class='fa fa-sign-out control']"));
-
         return list.size()==1;
     }
+
 
     public void createPlaylist (String name) {
         driver.findElement(By.xpath("//i[@class='fa fa-plus-circle control create']")).click();
