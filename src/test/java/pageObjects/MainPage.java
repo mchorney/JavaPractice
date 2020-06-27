@@ -1,17 +1,10 @@
 package pageObjects;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
 import java.time.Duration;
-import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import javax.lang.model.element.Element;
 
 
 public class MainPage {
@@ -27,10 +20,12 @@ public class MainPage {
                 .ignoring(StaleElementReferenceException.class)
                 .ignoring(NoSuchElementException.class);
     }
+
     public WebElement getPlusButtonPlayListCreation() throws InterruptedException {
         fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).isDisplayed());
-        // !!! Не один из типов Explicit waits не работает - элемент находят, но кликают мимо!!! Поэтому - ждем..
+        // !!! Не один из типов Explicit waits (fluent and simply WebDriver wait) не работает - элемент находят, но кликают мимо!!! Поэтому - ждем..
         Thread.sleep(3000);
+//        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        long now = System.currentTimeMillis();
 //        wait.until(ExpectedConditions
@@ -47,10 +42,16 @@ public class MainPage {
     public WebElement getCreatedPlayListName() {
         return driver.findElement(By.xpath(MainPageSelectors.createdPlaylist));
     }
+    public WebElement getRemanedPlayListName() {
+        return driver.findElement(By.xpath(MainPageSelectors.renamedPlaylistName));
+    }
 
     public boolean isMain() {
         List list = driver.findElements(By.xpath(MainPageSelectors.signOutControl));
         return list.size() == 1;
+    }
+    private String getOldPlaylistXpath(String name){
+        return "//a[text()='"+name+"']";
     }
 
     public String createPlayList(String playListName) throws InterruptedException {
@@ -66,7 +67,23 @@ public class MainPage {
         List list = driver.findElements(By.xpath("//*[@href='#!/playlist/"+id+"']"));
         return list.size()==1;
     }
+
+    public String replacePlayList(String firstName, String secondName) throws InterruptedException{
+        WebElement playlist = driver.findElement(By.xpath(getOldPlaylistXpath(firstName)));
+        Actions actions = new Actions(driver);
+        actions.doubleClick(playlist).perform();
+        WebElement textField = driver.findElement(By.xpath(MainPageSelectors.editingPlaylistName));
+        textField.sendKeys(Keys.CONTROL + "a");
+        textField.sendKeys(secondName);
+        textField.sendKeys(Keys.ENTER);
+        fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.renamedPlaylistName)).isDisplayed());
+        String createdplaylistName = getRemanedPlayListName().getText();
+        return createdplaylistName;
+    }
 }
+
+
+
 
 
 
