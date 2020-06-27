@@ -54,6 +54,7 @@ public class MainPage {
         return "//a[text()='"+name+"']";
     }
 
+
     public String createPlayList(String playListName) throws InterruptedException {
         getPlusButtonPlayListCreation().click();
         getPlayListNameTextField().sendKeys(playListName);
@@ -77,9 +78,12 @@ public class MainPage {
         textField.sendKeys(secondName);
         textField.sendKeys(Keys.ENTER);
         fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.renamedPlaylistName)).isDisplayed());
+        // id))) , not name
         String createdplaylistName = getRemanedPlayListName().getText();
         return createdplaylistName;
+        // get String from alert window)
     }
+
 }
 
 
