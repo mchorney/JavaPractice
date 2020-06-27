@@ -30,7 +30,13 @@ public class Playlist {
         MainPage main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
         String playlist = main.createPlaylist("RV_Playlist4");
         Assert.assertTrue(main.checkPlaylistByURL(playlist));
-        Assert.assertEquals(main.renamePlaylist(playlist, "Test"), "Test");
     }
 
+    @Test
+    public void renamePlaylist(){
+        LoginPage login = new LoginPage(driver);
+        MainPage main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
+        String playlist = main.createPlaylist("RV_Playlist4");
+        Assert.assertEquals(main.renamePlaylist(playlist, "Test"), "Test");
+    }
 }
