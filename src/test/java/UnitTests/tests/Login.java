@@ -1,26 +1,21 @@
-package UnitTests.Tests;
+package UnitTests.tests;
 
-import UnitTests.PageObjects.LoginPage;
-import UnitTests.PageObjects.MainPage;
-import org.openqa.selenium.By;
+import UnitTests.pageObjects.LoginPage;
+import UnitTests.pageObjects.MainPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 
 public class Login {
     WebDriver driver;
-    WebDriverWait wait;
 
     @BeforeMethod
     public void startDriver(){
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io");
-        wait = new WebDriverWait(driver, 10);
     }
 
     @AfterMethod
@@ -29,23 +24,23 @@ public class Login {
     }
 
     @Test
-    public void testLogin() throws InterruptedException {
-        LoginPage login = new LoginPage(driver, wait);
+    public void testLogin(){
+        LoginPage login = new LoginPage(driver);
         MainPage main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
         Assert.assertTrue(main.isMain());
     }
 
     @Test
-    public void login_error() throws InterruptedException {
-        LoginPage login = new LoginPage(driver, wait);
+    public void login_error(){
+        LoginPage login = new LoginPage(driver);
         Assert.assertTrue(login.isError("koeluser03@testpro.io", "dGUkdCR0dasrtd"));
     }
 
     @Test
-    public void testRelatives() throws InterruptedException {
-        LoginPage login = new LoginPage(driver, wait);
+    public void testRelatives(){
+        LoginPage login = new LoginPage(driver);
         MainPage main = login.login("koeluser03@testpro.io", "dGUkdCR0dWRlbnQ=");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userBadge")));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userBadge")));
         System.out.println(main.findByParent());
         System.out.println(main.findByGrandparent());
         System.out.println(main.findByFollowingSibling());

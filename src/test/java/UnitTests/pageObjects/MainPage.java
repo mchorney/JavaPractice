@@ -1,39 +1,34 @@
-package UnitTests.PageObjects;
+package UnitTests.pageObjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainPage {
-    WebDriver driver;
-    WebDriverWait wait ;
-    WebElement element;
+public class MainPage extends BasePage{
+    JavascriptExecutor je;
 
-    public MainPage(WebDriver driver, WebDriverWait wait) {
+    public MainPage(WebDriver driver) {
         this.driver=driver;
-        this.wait=wait;
+        wait = new WebDriverWait(driver, 10);
+        je = (JavascriptExecutor) driver;
     }
 
     public boolean isMain(){
-       wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userBadge")));
+       wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='logout']")));
        return driver.getCurrentUrl().equals("https://koelapp.testpro.io/#!/home");
     }
 
     public String findByParent(){
-        wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//section[@id='playlists']/h1")));
         element = driver.findElement(By.xpath("//section[@id='playlists']/h1"));
         return element.getText().trim();
     }
 
     public String findByGrandparent(){
-        wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//section[@id='playlists']/h1")));
         element = driver.findElement(By.xpath("//nav[@id='sidebar']//h1"));
         return element.getText().trim();
@@ -54,16 +49,18 @@ public class MainPage {
         return element.getText().trim();
     }
 
-    public void createPlaylist(String name){
+    public String createPlaylist(String name){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@class, 'create')]")));
         driver.findElement(By.xpath("//i[contains(@class, 'create')]")).click();
         element = driver.findElement(By.xpath("//form[@class='create']/input"));
         element.sendKeys(name);
         element.sendKeys(Keys.ENTER);
         System.out.println("Playlist created!");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='success show']")));
+        return driver.getCurrentUrl().split("/")[5];
     }
 
     public boolean checkPlaylist(String name) {
-        // element=driver.findElements(By.xpath("//*[@id='playlists']/ul[@class='menu']/li"));
         List<WebElement> list = driver.findElements(By.xpath("//*[@id='playlists']/ul[@class='menu']/li"));
         List<WebElement> playlists = new ArrayList<>();
         for (WebElement playlist : list) {
@@ -71,8 +68,38 @@ public class MainPage {
                 playlists.add(playlist);
                 System.out.println("Playlist found: " + name);
             }
-
         }
         return playlists.size() > 0;
+    }
+
+
+    public boolean checkPlaylistByURL(String id) {
+        List<WebElement> list = driver.findElements(By.xpath("//*[@id='playlists']/ul[@class='menu']/li"));
+        List<WebElement> playlists = new ArrayList<>();
+        for (WebElement playlist : list) {
+            element = playlist.findElement(By.xpath("./a"));
+            if (element.getAttribute("href").equals("https://koelapp.testpro.io/#!/playlist/" +id)){
+                playlists.add(playlist);
+                System.out.println("Playlist found: " + id);
+            }
+        }
+        return playlists.size() == 1;
+    }
+
+    public String renamePlaylist(String id, String name){
+        element = driver.findElement(By.xpath("//a[@href='#!/playlist/" +id+ "']"));
+        je.executeScript("arguments[0].scrollIntoView(true);", element);
+        Actions action = new Actions(driver);
+        action.moveToElement(element).doubleClick(element).build().perform();
+        WebElement input  = driver.findElement(By.xpath("//a[@href='#!/playlist/" +id+ "']/following-sibling::input"));
+        input.sendKeys(Keys.CONTROL + "a");
+        input.sendKeys(Keys.DELETE);
+        input.sendKeys(name);
+        input.sendKeys(Keys.ENTER);
+        System.out.println(element.getText());
+
+        return element.getText();
+
+
     }
 }
