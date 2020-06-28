@@ -45,6 +45,7 @@ public class MainPage extends BasePage {
         return driver.findElement(By.xpath(MainPageSelectors.renamedPlaylistName));
     }
 
+
     public boolean isMain() {
         List list = driver.findElements(By.xpath(MainPageSelectors.signOutControl));
         return list.size() == 1;
@@ -54,7 +55,13 @@ public class MainPage extends BasePage {
         return "//a[text()='" + name + "']";
     }
 
-    public String createPlayList(String playListName) throws InterruptedException {
+
+    public String getPlaylistHeadingName(String playlistHeaderName) {
+        return
+                "//span[contains(.,'" + playlistHeaderName + "')]";
+    }
+
+        public String createPlayList(String playListName) throws InterruptedException {
         getPlusButton().click();
         getPlayListNameTextField().sendKeys(playListName);
         getPlayListNameTextField().sendKeys(Keys.ENTER);
@@ -68,19 +75,14 @@ public class MainPage extends BasePage {
         return list.size() == 1;
     }
 
-    public String replacePlayList(String firstName, String secondName) {
-        WebElement playlist = driver.findElement(By.xpath(getOldPlaylistXpath(firstName)));
+    public void replacePlayList(String playlistId, String newName) {
+        WebElement playlist = driver.findElement(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"));
         Actions actions = new Actions(driver);
         actions.doubleClick(playlist).perform();
-        WebElement textField = driver.findElement(By.xpath(MainPageSelectors.editingPlaylistName));
-        textField.sendKeys(Keys.CONTROL + "a");
-        textField.sendKeys(secondName);
-        textField.sendKeys(Keys.ENTER);
-        fluentWait.until(x -> x.findElement(By.xpath(MainPageSelectors.renamedPlaylistName)).isDisplayed());
-        // id))) , not name
-        String createdplaylistName = getRemanedPlayListName().getText();
-        return createdplaylistName;
-        // get String from alert window)
+        WebElement editField = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input"));
+        editField.sendKeys(Keys.CONTROL+"a");
+        editField.sendKeys(newName);
+        editField.sendKeys(Keys.RETURN);
     }
 }
 
