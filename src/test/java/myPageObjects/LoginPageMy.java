@@ -1,4 +1,4 @@
-package pageObjects;
+package myPageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -6,17 +6,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-public class LoginPage extends BasePage{
+public class LoginPageMy extends BasePageMy {
 
-    public LoginPage(WebDriver driver) {
+    public LoginPageMy(WebDriver driver) {
         super(driver);
     }
 
-    public MainPage loginToApp(String email, String password){
+    public MainPageMy loginToApp(String email, String password){
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
         getLoginButton().click();
-        return new MainPage(driver);
+        return new MainPageMy(driver);
     }
 
     public boolean isError(){
