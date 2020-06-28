@@ -58,7 +58,7 @@ public class MainPage extends BasePage {
         getPlusButton().click();
         getPlayListNameTextField().sendKeys(playListName);
         getPlayListNameTextField().sendKeys(Keys.ENTER);
-        fluentWait.until(x -> x.findElement(By.xpath("//div[@class='success show']")).isDisplayed());
+        fluentWait.until(x -> x.findElement(By.xpath(MainPageSelectors.renamedPlaylistName)).isDisplayed());
         String url = driver.getCurrentUrl();
         return url.split("/")[5];
     }

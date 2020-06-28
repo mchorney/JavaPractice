@@ -32,7 +32,7 @@ public class PlayListTests {
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
-        String playlistId = mainPage.createPlayList("Playlist7");
+        String playlistId = mainPage.createPlayList("Playlist71");
         Assert.assertTrue(mainPage.checkPlayList(playlistId));
     }
 
@@ -41,9 +41,9 @@ public class PlayListTests {
         LoginPage loginPage = new LoginPage(driver);
         MainPage mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
-        String playlistId = mainPage.createPlayList("Playlist3");
+        String playlistId = mainPage.createPlayList("Playlist2");
         Assert.assertTrue(mainPage.checkPlayList(playlistId));
-        String renamedPlaylistName = mainPage.replacePlayList("Playlist3", "Replaced Playlist2");
+        String renamedPlaylistName = mainPage.replacePlayList("Playlist2", "Renamed Playlist2");
         System.out.println(renamedPlaylistName);
         //String replacedPlaylistID = "";
         //Assert.assertNotEquals(playlistId, replacedPlaylistID);
