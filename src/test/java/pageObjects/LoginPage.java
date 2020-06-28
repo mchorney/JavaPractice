@@ -3,31 +3,24 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.FluentWait;
-
-import java.time.Duration;
-import java.util.List;
 import java.util.NoSuchElementException;
 
-public class LoginPage {
-    private WebDriver driver;
-    private FluentWait<WebDriver> fluentWait;
+public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
-        this.fluentWait = new FluentWait<WebDriver>(driver)
-                .withTimeout(Duration.ofSeconds(20))
-                .pollingEvery(Duration.ofMillis(100));
+        super(driver);
     }
 
     public WebElement getEmail() {
-        fluentWait.until(x->x.findElement(By.xpath(LoginPageSelectors.email)));
+        fluentWait.until(x -> x.findElement(By.xpath(LoginPageSelectors.email)));
         return driver.findElement(By.xpath(LoginPageSelectors.email));
     }
+
     public WebElement getPassword() {
         return driver.findElement(By.xpath(LoginPageSelectors.password));
     }
-       public WebElement getLoginButton() {
+
+    public WebElement getLoginButton() {
         return driver.findElement(By.xpath(LoginPageSelectors.loginButton));
     }
 
@@ -37,6 +30,7 @@ public class LoginPage {
         getLoginButton().click();
         return new MainPage(driver);
     }
+
     public boolean isError() {
         // наличие "красной рамки":
 //        String border_color = getError().getCssValue("border-color");
@@ -48,9 +42,9 @@ public class LoginPage {
 //        return errors.size()==1;
 
 // лучше всего для подтверждения наличия/отсутсыия элемента на странице
-        try{
+        try {
             driver.findElement(By.xpath(LoginPageSelectors.errorElement));
-        } catch(NoSuchElementException e) {
+        } catch (NoSuchElementException e) {
             return false;
         }
         return true;
