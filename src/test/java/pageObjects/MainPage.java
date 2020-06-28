@@ -2,6 +2,8 @@ package pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+
+import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -73,6 +75,13 @@ public class MainPage extends BasePage {
     public boolean checkPlayList(String id) {
         List list = driver.findElements(By.xpath("//*[@href='#!/playlist/" + id + "']"));
         return list.size() == 1;
+    }
+    public boolean checkPlaylist(String id, String name){
+        List<WebElement> list = driver.findElements(By.xpath("//*[@href='#!/playlist/"+id+"']"));
+        if(list.size()==0){
+            return false;
+        };
+        return name.equals(list.get(0).getText());
     }
 
     public void replacePlayList(String playlistId, String newName) {
