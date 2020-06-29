@@ -1,4 +1,4 @@
-package enums;
+package lessons.enums;
 
 public enum Browsers {
     CHROME,

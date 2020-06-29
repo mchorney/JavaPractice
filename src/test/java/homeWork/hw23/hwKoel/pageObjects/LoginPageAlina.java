@@ -1,9 +1,8 @@
-package hwKoel.pageObjects;
+package homeWork.hw23.hwKoel.pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pageObjects.MainPage;
 
 import java.util.ArrayList;
 import java.util.List;

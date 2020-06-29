@@ -1,12 +1,12 @@
-package seleniumTests;
+package lessons.enums.seleniumTests;
 
-import enums.Browsers;
-import helpers.BrowserFabric;
+import lessons.enums.Browsers;
+import lessons.enums.helpers.BrowserFabric;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import pageObjects.LoginPage;
-import pageObjects.MainPage;
+import lessons.enums.pageObjects.LoginPage;
+import lessons.enums.pageObjects.MainPage;
 
 import java.util.concurrent.TimeUnit;
 

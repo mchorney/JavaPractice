@@ -1,4 +1,4 @@
-package hwKoel.pageObjects;
+package homeWork.hw23.hwKoel.pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

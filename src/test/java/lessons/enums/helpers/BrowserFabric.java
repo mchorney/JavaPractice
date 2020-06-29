@@ -1,6 +1,6 @@
-package helpers;
+package lessons.enums.helpers;
 
-import enums.Browsers;
+import lessons.enums.Browsers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -1,4 +1,4 @@
-package UnitTests;
+package lessons.enums.UnitTests;
 
 import l18.Doctor;
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package pageObjects;
+package lessons.enums.pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;

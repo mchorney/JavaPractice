@@ -19,14 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7f3cef-d241-4aec-aec5-887605fabd99" name="Default Changelist" comment="hw34Error">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hwKoel/pageObjects/MainPageAlina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/PlaylistTestsAlina.java" afterDir="false" />
+    <list default="true" id="ce7f3cef-d241-4aec-aec5-887605fabd99" name="Default Changelist" comment="hw8CreatePlaylist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw34/FindElementBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwKoel/FindElementBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw34/LoginPageAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwKoel/pageObjects/LoginPageAlina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw34/MainPageAlina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumAlina/LoginTestAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/LoginTestAlina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Test_Lesson_18_Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/UnitTests/Test_Lesson_18_Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/enums/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/Browsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/BrowserFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/helpers/BrowserFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw23/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/homeWork2_3/Part1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw23/Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/homeWork2_3/Part2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hwKoel/FindElementBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/homeWork2_3/FindElementBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hwKoel/pageObjects/LoginPageAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/pageObjects/LoginPageAlina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hwKoel/pageObjects/MainPageAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/pageObjects/MainPageAlina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/LoginTestAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/seleniumAlina/LoginTestAlina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/PlaylistTestsAlina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/seleniumAlina/PlaylistTestsAlina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/pageObjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/pageObjects/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/seleniumTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/seleniumTests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/seleniumTests/PlaylistTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/simpleTest/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/simpleTest/Sync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/Sync1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/simpleTest/Sync1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/TryToFindSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessons/enums/simpleTest/TryToFindSelector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,16 +91,16 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated (1)">
-    <configuration name="LoginTestAlina.isError (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestAlina.isError" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hwKoel.seleniumAlina.*" />
+          <option name="PATTERN" value="homeWork.hw23.hwKoel.seleniumAlina.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hwKoel.seleniumAlina" />
-      <option name="MAIN_CLASS_NAME" value="hwKoel.seleniumAlina.LoginTestAlina" />
+      <option name="MAIN_CLASS_NAME" value="homeWork.hw23.hwKoel.seleniumAlina.LoginTestAlina" />
       <option name="METHOD_NAME" value="isError" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -113,16 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaylistTestsAlina.playlistTests_createPlaylist_PlaylistCreated" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hwKoel.seleniumAlina.*" />
+          <option name="PATTERN" value="homeWork.hw23.hwKoel.seleniumAlina.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hwKoel.seleniumAlina" />
-      <option name="MAIN_CLASS_NAME" value="hwKoel.seleniumAlina.PlaylistTestsAlina" />
+      <option name="MAIN_CLASS_NAME" value="homeWork.hw23.hwKoel.seleniumAlina.PlaylistTestsAlina" />
       <option name="METHOD_NAME" value="playlistTests_createPlaylist_PlaylistCreated" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -153,7 +167,7 @@
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="PATTERN" value="lessons.enums.seleniumTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593107475245</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hw8CreatePlaylist">
+      <created>1593118836816</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593118836816</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +349,8 @@
     <MESSAGE value="HW19" />
     <MESSAGE value="hw23" />
     <MESSAGE value="hw34Error" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw34Error" />
+    <MESSAGE value="hw8CreatePlaylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw8CreatePlaylist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="138" key="#App_(2)" timestamp="1590982646047">
@@ -339,14 +361,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="272" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592857667106" />
+    <state x="699" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593455655993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593455655993" />
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1591911697608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591911697608" />
-    <state x="644" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593114091626">
+    <state x="644" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593458891754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593114091626" />
+    <state x="644" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593458891754" />
     <state x="258" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591823420759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -359,50 +385,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591591470970" />
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1593118424492">
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1593191031056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
-    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1593118424492">
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593191031056" />
+    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1593191031056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
-    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1593118424492">
+    <state width="1877" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593191031056" />
+    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1593191031055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
-    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1593118424492">
+    <state width="1877" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593191031055" />
+    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1593191031056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593118424492" />
-    <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1593114976030">
+    <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593191031056" />
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1593119165761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
-    <state width="1877" height="342" key="GridCell.Tab.1.center" timestamp="1593114976030">
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593119165761" />
+    <state width="1877" height="342" key="GridCell.Tab.1.center" timestamp="1593119165761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
-    <state width="1877" height="342" key="GridCell.Tab.1.left" timestamp="1593114976030">
+    <state width="1877" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593119165761" />
+    <state width="1877" height="342" key="GridCell.Tab.1.left" timestamp="1593119165761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
-    <state width="1877" height="342" key="GridCell.Tab.1.right" timestamp="1593114976030">
+    <state width="1877" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593119165761" />
+    <state width="1877" height="342" key="GridCell.Tab.1.right" timestamp="1593119165761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593114976030" />
+    <state width="1877" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593119165761" />
     <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1593107523942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593107523942" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592962415041">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593118843426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592962415041" />
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593107520314">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593118843426" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593455549945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593107520314" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593455549945" />
     <state x="236" y="244" key="run.anything.popup" timestamp="1593113150722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -416,7 +442,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/hwKoel/seleniumAlina/PlaylistTestsAlina.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/homeWork/hw23/hwKoel/seleniumAlina/PlaylistTestsAlina.java</url>
           <line>28</line>
           <properties class="hwKoel.seleniumAlina.PlaylistTestsAlina" method="playlistTests_createPlaylist_PlaylistCreated">
             <option name="EMULATED" value="true" />

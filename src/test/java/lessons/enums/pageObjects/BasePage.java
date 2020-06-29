@@ -1,4 +1,4 @@
-package pageObjects;
+package lessons.enums.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.FluentWait;

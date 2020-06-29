@@ -1,4 +1,4 @@
-package hw23;
+package homeWork.hw23.hwKoel.homeWork2_3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
