@@ -34,7 +34,7 @@ public class MainPage extends BasePage {
 
 //        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='success show']")));
         String url = driver.getCurrentUrl();
-        return url.split("/")[5];
+        return url.split("/")[3];
     }
     public boolean checkPlaylist(String id){
         var list = driver.findElements(By.xpath("//*[@href='#!/playlist/"+id+"']"));
