@@ -8,7 +8,7 @@ public class PlayListTests extends BaseTest {
     @Test
     public void createPlayList_PlayListCreated() throws InterruptedException {
         String playlistId = mainPage.createPlayList("Playlist1");
-        //Assert.assertTrue(mainPage.checkPlayList(playlistId));
+        Assert.assertTrue(mainPage.checkPlayList(playlistId));
     }
 
     @Test

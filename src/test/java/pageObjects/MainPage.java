@@ -70,10 +70,9 @@ public class MainPage extends BasePage {
         clickPlusButton();
         getPlayListNameTextField().sendKeys(playListName);
         getPlayListNameTextField().sendKeys(Keys.ENTER);
-//        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(MainPageSelectors.PlaylistHeadingName)));
-//        String url = driver.getCurrentUrl();
-        return  "";
-        //url.split("/")[5];
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='success show']")));
+        String url = driver.getCurrentUrl();
+        return url.split("/")[5];
     }
 
 
