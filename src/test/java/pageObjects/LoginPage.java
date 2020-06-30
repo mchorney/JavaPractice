@@ -3,13 +3,25 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-
 
 public class LoginPage {
     private WebDriver driver;
 
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public MainPage loginToApp(String email, String password){
+        getEmail().sendKeys(email);
+        getPassword().sendKeys(password);
+        getLoginButton().click();
+        return new MainPage(driver);
+    }
+
+    public boolean isError(){
+        //Place some logic
+        return true;
+    }
     public WebElement getEmail() {
         return driver.findElement(By.xpath("//*[@type='email']"));
     }
@@ -22,23 +34,5 @@ public class LoginPage {
         return driver.findElement(By.xpath("//*[@type='submit']"));
     }
 
-    public LoginPage(WebDriver driver) {
-        this.driver = driver;
-    }
 
-    public MainPage loginToApp(String email, String password) {
-        getEmail().sendKeys(email);
-        getPassword().sendKeys(password);
-        getLoginButton().click();
-        return new MainPage(driver);
-    }
-
-    public boolean isError(String email, String password) {
-        getEmail().sendKeys(email);
-        getPassword().sendKeys(password);
-        getLoginButton().click();
-        var list = driver.findElements(By.xpath("//form[@class='error']"));
-        return list.size()==1;
-
-    }
 }
