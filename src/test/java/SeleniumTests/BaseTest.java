@@ -15,11 +15,10 @@ public class BaseTest {
     protected MainPage mainPage;
     @BeforeMethod
     public void startUp() {
-        System.setProperty("webdriver.geko.driver", "geckodriver");
-        driver = new FirefoxDriver();
-        //System.setProperty("webdriver.chrome.driver", "chromedriver");
-        //driver = new ChromeDriver();
-        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//        System.setProperty("webdriver.geko.driver", "geckodriver");
+//        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        driver = new ChromeDriver();
         driver.get("https://koelapp.testpro.io/");
         LoginPage loginPage = new LoginPage(driver);
         mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");

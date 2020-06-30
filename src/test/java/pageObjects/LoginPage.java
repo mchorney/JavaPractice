@@ -1,6 +1,8 @@
+
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,6 +28,7 @@ public class LoginPage extends BasePage {
         return driver.findElement(By.xpath(LoginPageSelectors.loginButton));
     }
 
+
     public MainPage loginToApp(String email, String password) {
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
@@ -33,22 +36,4 @@ public class LoginPage extends BasePage {
         return new MainPage(driver);
     }
 
-    public boolean isError() {
-        // наличие "красной рамки":
-//        String border_color = getError().getCssValue("border-color");
-//        String expected_border_color = "rgb(142, 73, 71)";
-//        return expected_border_color.equals(border_color);
-
-//        Размер массива с этими элементами равен 1:
-//        List errors = driver.findElements(By.xpath("//*[@class='error']"));
-//        return errors.size()==1;
-
-// лучше всего для подтверждения наличия/отсутсыия элемента на странице
-        try {
-            driver.findElement(By.xpath(LoginPageSelectors.errorElement));
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-        return true;
-    }
 }

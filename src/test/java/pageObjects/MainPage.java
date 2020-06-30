@@ -2,12 +2,9 @@ package pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import java.util.ArrayList;
+
 import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
 import java.util.NoSuchElementException;
 
 
@@ -16,8 +13,7 @@ public class MainPage extends BasePage {
         super(driver);
     }
 
-    public WebElement getPlusButton()  {
-//        wait.until((WebDriver dr1) -> dr1.findElement(By.xpath(MainPageSelectors.playListNameTextField)));
+//            wait.until((WebDriver dr1) -> dr1.findElement(By.xpath(MainPageSelectors.playListNameTextField)));
 //        fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).isDisplayed());
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        long now = System.currentTimeMillis();
@@ -26,14 +22,20 @@ public class MainPage extends BasePage {
 //        System.out.println("Elapsed time: " + (System.currentTimeMillis() - now));
 //        System.out.println(driver.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 
-        // !!! Не один из типов Explicit waits (fluent and simply WebDriver wait) не работает - элемент находят,
-        // но кликают мимо!!! Поэтому - ждем..
-        //TODO: all used waits can found dynamic element "plus button", but can not wait until the page
-        // loading - and in this acse the "side bar" element received the click.
-        // That's why I put Thread.sleep(). It needs to be improve.
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
-        return driver.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation));
+    // Click on "Plus" button doesn't work, using any of Explicit waits
+   public void clickPlusButton() throws InterruptedException {
+        for (int i = 0; i < 50; i++){
+            try {
+                driver.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']")).click();
+                return;
+            } catch (org.openqa.selenium.NoSuchElementException nsee) {
+                Thread.sleep(100);
+            } catch (ElementClickInterceptedException ignored) {
+                Thread.sleep(100);
+            }
+        }
+        throw new ElementClickInterceptedException("Element not reachable");
     }
 
     public WebElement getPlayListNameTextField() {
@@ -64,6 +66,17 @@ public class MainPage extends BasePage {
         return true;
     }
 
+    public String createPlayList(String playListName) throws InterruptedException {
+        clickPlusButton();
+        getPlayListNameTextField().sendKeys(playListName);
+        getPlayListNameTextField().sendKeys(Keys.ENTER);
+//        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(MainPageSelectors.PlaylistHeadingName)));
+//        String url = driver.getCurrentUrl();
+        return  "";
+        //url.split("/")[5];
+    }
+
+
     private String getOldPlaylistXpath(String name) {
         return "//a[text()='" + name + "']";
     }
@@ -74,14 +87,6 @@ public class MainPage extends BasePage {
                 "//span[contains(.,'" + playlistHeaderName + "')]";
     }
 
-    public String createPlayList(String playListName) {
-        getPlusButton().click();
-        getPlayListNameTextField().sendKeys(playListName);
-        getPlayListNameTextField().sendKeys(Keys.ENTER);
-        String url = driver.getCurrentUrl();
-
-        return url.split("/")[5];
-    }
 
     public boolean checkPlayList(String id) {
         List list = driver.findElements(By.xpath("//*[@href='#!/playlist/" + id + "']"));
