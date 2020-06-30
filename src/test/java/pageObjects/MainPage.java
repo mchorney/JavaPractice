@@ -21,6 +21,8 @@ public class MainPage extends BasePage {
 //        System.out.println("Elapsed time: " + (System.currentTimeMillis() - now));
 //        System.out.println(driver.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 
+    // JavascriptExecutor jse = (JavascriptExecutor)driver;
+    // jse.executeScript("arguments[0].click()",mainPage.getPlus());
 
     // Click on "Plus" button doesn't work, using any of the Explicit waits
     public void clickPlusButton() throws InterruptedException {
