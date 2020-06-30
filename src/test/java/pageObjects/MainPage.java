@@ -2,11 +2,8 @@ package pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-
 import java.util.List;
-
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import java.util.NoSuchElementException;
 
 
@@ -15,7 +12,7 @@ public class MainPage extends BasePage {
         super(driver);
     }
 
-//            wait.until((WebDriver dr1) -> dr1.findElement(By.xpath(MainPageSelectors.playListNameTextField)));
+//        wait.until((WebDriver dr1) -> dr1.findElement(By.xpath(MainPageSelectors.playListNameTextField)));
 //        fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).isDisplayed());
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 //        long now = System.currentTimeMillis();
@@ -25,7 +22,7 @@ public class MainPage extends BasePage {
 //        System.out.println(driver.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
 
 
-    // Click on "Plus" button doesn't work, using any of Explicit waits
+    // Click on "Plus" button doesn't work, using any of the Explicit waits
     public void clickPlusButton() throws InterruptedException {
         for (int i = 0; i < 50; i++) {
             try {
@@ -43,7 +40,6 @@ public class MainPage extends BasePage {
     public WebElement getPlayListNameTextField() {
         return driver.findElement(By.xpath(MainPageSelectors.playListNameTextField));
     }
-
 
     public boolean isMain() {
         // wait until "SignOut" element will be clickable
@@ -91,11 +87,11 @@ public class MainPage extends BasePage {
 //                "//span[contains(.,'" + playlistHeaderName + "')]";
 //    }
 
-    public void replacePlayList(String playlistId, String newName) {
+    public void renamePlayList(String playlistId, String newName) {
         WebElement playlist = driver.findElement(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"));
         Actions actions = new Actions(driver);
         actions.doubleClick(playlist).perform();
-        WebElement editField = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input"));
+        WebElement editField = driver.findElement(By.xpath(MainPageSelectors.editingPlaylistName));
         editField.sendKeys(Keys.CONTROL + "a");
         editField.sendKeys(newName);
         editField.sendKeys(Keys.RETURN);

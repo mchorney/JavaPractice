@@ -12,9 +12,9 @@ public class PlayListTests extends BaseTest {
     }
 
     @Test
-    public void replacePlayList_PlayListCreated() throws InterruptedException {
+    public void renamePlayList_PlayListCreated() throws InterruptedException {
         String playlistId = mainPage.createPlayList("Playlist7");
-        mainPage.replacePlayList(playlistId, "newName");
+        mainPage.renamePlayList(playlistId, "newName");
         Assert.assertTrue(mainPage.checkPlayList(playlistId), "newName");
     }
 }

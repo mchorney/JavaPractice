@@ -2,12 +2,10 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.NoSuchElementException;
 
 public class LoginPage extends BasePage {
 
@@ -35,5 +33,4 @@ public class LoginPage extends BasePage {
         getLoginButton().click();
         return new MainPage(driver);
     }
-
 }

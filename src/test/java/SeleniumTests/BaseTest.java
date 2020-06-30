@@ -8,11 +8,10 @@ import org.testng.annotations.BeforeMethod;
 import pageObjects.LoginPage;
 import pageObjects.MainPage;
 
-import java.util.concurrent.TimeUnit;
-
 public class BaseTest {
     protected WebDriver driver;
     protected MainPage mainPage;
+
     @BeforeMethod
     public void startUp() {
 //        System.setProperty("webdriver.geko.driver", "geckodriver");
@@ -29,8 +28,4 @@ public class BaseTest {
         Thread.sleep(4000);
         driver.quit();
     }
-
-
-
-
 }
