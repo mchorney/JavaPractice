@@ -3,6 +3,8 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import java.util.NoSuchElementException;
 
 public class LoginPage extends BasePage {
@@ -12,7 +14,7 @@ public class LoginPage extends BasePage {
     }
 
     public WebElement getEmail() {
-        fluentWait.until(x -> x.findElement(By.xpath(LoginPageSelectors.email)));
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(LoginPageSelectors.email)));
         return driver.findElement(By.xpath(LoginPageSelectors.email));
     }
 

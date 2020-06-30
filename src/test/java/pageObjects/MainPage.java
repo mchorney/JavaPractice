@@ -2,13 +2,13 @@ package pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-
 import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import java.util.NoSuchElementException;
 
 
 public class MainPage extends BasePage {
@@ -16,7 +16,7 @@ public class MainPage extends BasePage {
         super(driver);
     }
 
-    public WebElement getPlusButton() throws InterruptedException {
+    public WebElement getPlusButton()  {
 //        wait.until((WebDriver dr1) -> dr1.findElement(By.xpath(MainPageSelectors.playListNameTextField)));
 //        fluentWait.until(x->x.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).isDisplayed());
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
@@ -31,7 +31,8 @@ public class MainPage extends BasePage {
         //TODO: all used waits can found dynamic element "plus button", but can not wait until the page
         // loading - and in this acse the "side bar" element received the click.
         // That's why I put Thread.sleep(). It needs to be improve.
-        Thread.sleep(3000);
+
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.plusButtonPlayListCreation)));
         return driver.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation));
     }
 
@@ -49,8 +50,18 @@ public class MainPage extends BasePage {
 
 
     public boolean isMain() {
-        List list = driver.findElements(By.xpath(MainPageSelectors.signOutControl));
-        return list.size() == 1;
+        // wait until "SignOut" element will be clickable
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(MainPageSelectors.signOutControl)));
+        // print the "SignOut" element
+        WebElement signOut = driver.findElement(By.xpath(MainPageSelectors.signOutControl));
+        System.out.println(signOut);
+        // validation of "SignOut" element presence on the page
+        try {
+            driver.findElement(By.xpath(MainPageSelectors.signOutControl));
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+        return true;
     }
 
     private String getOldPlaylistXpath(String name) {
@@ -63,12 +74,12 @@ public class MainPage extends BasePage {
                 "//span[contains(.,'" + playlistHeaderName + "')]";
     }
 
-        public String createPlayList(String playListName) throws InterruptedException {
+    public String createPlayList(String playListName) {
         getPlusButton().click();
         getPlayListNameTextField().sendKeys(playListName);
         getPlayListNameTextField().sendKeys(Keys.ENTER);
-        fluentWait.until(x -> x.findElement(By.xpath(MainPageSelectors.renamedPlaylistName)).isDisplayed());
         String url = driver.getCurrentUrl();
+
         return url.split("/")[5];
     }
 
@@ -76,11 +87,12 @@ public class MainPage extends BasePage {
         List list = driver.findElements(By.xpath("//*[@href='#!/playlist/" + id + "']"));
         return list.size() == 1;
     }
-    public boolean checkPlaylist(String id, String name){
-        List<WebElement> list = driver.findElements(By.xpath("//*[@href='#!/playlist/"+id+"']"));
-        if(list.size()==0){
+
+    public boolean checkPlaylist(String id, String name) {
+        List<WebElement> list = driver.findElements(By.xpath("//*[@href='#!/playlist/" + id + "']"));
+        if (list.size() == 0) {
             return false;
-        };
+        };        ;
         return name.equals(list.get(0).getText());
     }
 
@@ -89,7 +101,7 @@ public class MainPage extends BasePage {
         Actions actions = new Actions(driver);
         actions.doubleClick(playlist).perform();
         WebElement editField = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input"));
-        editField.sendKeys(Keys.CONTROL+"a");
+        editField.sendKeys(Keys.CONTROL + "a");
         editField.sendKeys(newName);
         editField.sendKeys(Keys.RETURN);
     }
