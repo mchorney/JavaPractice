@@ -4,7 +4,9 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import java.util.NoSuchElementException;
 
 
@@ -24,10 +26,10 @@ public class MainPage extends BasePage {
 
 
     // Click on "Plus" button doesn't work, using any of Explicit waits
-   public void clickPlusButton() throws InterruptedException {
-        for (int i = 0; i < 50; i++){
+    public void clickPlusButton() throws InterruptedException {
+        for (int i = 0; i < 50; i++) {
             try {
-                driver.findElement(By.xpath("//*[@class='fa fa-plus-circle control create']")).click();
+                driver.findElement(By.xpath(MainPageSelectors.plusButtonPlayListCreation)).click();
                 return;
             } catch (org.openqa.selenium.NoSuchElementException nsee) {
                 Thread.sleep(100);
@@ -40,14 +42,6 @@ public class MainPage extends BasePage {
 
     public WebElement getPlayListNameTextField() {
         return driver.findElement(By.xpath(MainPageSelectors.playListNameTextField));
-    }
-
-    public WebElement getCreatedPlayListName() {
-        return driver.findElement(By.xpath(MainPageSelectors.createdPlaylist));
-    }
-
-    public WebElement getRemanedPlayListName() {
-        return driver.findElement(By.xpath(MainPageSelectors.renamedPlaylistName));
     }
 
 
@@ -70,22 +64,10 @@ public class MainPage extends BasePage {
         clickPlusButton();
         getPlayListNameTextField().sendKeys(playListName);
         getPlayListNameTextField().sendKeys(Keys.ENTER);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='success show']")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(MainPageSelectors.successPlaylistCreated)));
         String url = driver.getCurrentUrl();
         return url.split("/")[5];
     }
-
-
-    private String getOldPlaylistXpath(String name) {
-        return "//a[text()='" + name + "']";
-    }
-
-
-    public String getPlaylistHeadingName(String playlistHeaderName) {
-        return
-                "//span[contains(.,'" + playlistHeaderName + "')]";
-    }
-
 
     public boolean checkPlayList(String id) {
         List list = driver.findElements(By.xpath("//*[@href='#!/playlist/" + id + "']"));
@@ -96,9 +78,18 @@ public class MainPage extends BasePage {
         List<WebElement> list = driver.findElements(By.xpath("//*[@href='#!/playlist/" + id + "']"));
         if (list.size() == 0) {
             return false;
-        };        ;
+        }
         return name.equals(list.get(0).getText());
     }
+
+//    private String getOldPlaylistXpath(String name) {
+//        return "//a[text()='" + name + "']";
+//    }
+//
+//    public String getPlaylistHeadingName(String playlistHeaderName) {
+//        return
+//                "//span[contains(.,'" + playlistHeaderName + "')]";
+//    }
 
     public void replacePlayList(String playlistId, String newName) {
         WebElement playlist = driver.findElement(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"));

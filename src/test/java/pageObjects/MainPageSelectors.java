@@ -8,6 +8,5 @@ public class MainPageSelectors {
     public static final String createdPlaylist = "//*[@class='active']";
     public static final String deletePlaylistButton = "//*[@title='Delete this playlist']";
     public static final String editingPlaylistName = "//*[@class='playlist playlist editing']/input";
-    public static final String renamedPlaylistName = "//div[@class='success show']";
-    public static final String PlaylistHeadingName = "//div[@class='success show']";
+    public static final String successPlaylistCreated = "//div[@class='success show']";
 }
