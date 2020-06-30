@@ -14,40 +14,18 @@ import pageObjects.MainPage;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest {
-    WebDriver driver;
-    private FluentWait<WebDriver> fluentWait;
-    @BeforeMethod
-    public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver();
-        fluentWait = new FluentWait<WebDriver>(driver)
-                .withTimeout(Duration.ofSeconds(20))
-                .pollingEvery(Duration.ofMillis(100))
-//                .ignoring(ElementClickInterceptedException.class)
-//                .ignoring(StaleElementReferenceException.class)
-                .ignoring(NoSuchElementException.class);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("https://koelapp.testpro.io");
-    }
-    @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
-        driver.quit();
-    }
-    @Test
-    public void loginTest_CorrectCredentials_LoggedToApp () throws InterruptedException{
+public class LoginTest extends  BasedTest{
 
-        LoginPage loginPage = new LoginPage(driver,fluentWait);
-        MainPage mainPage = loginPage.loginToApp("testpro.user03@testpro.io","te$t$tudent");
+    @Test
+    public void loginTest_CorrectCredentials_LoggedToApp() throws InterruptedException {
+
         Assert.assertTrue(mainPage.isMain());
 
     }
-    @Test
-    public void loginTest_WrongCredentials_Error(){
-        LoginPage loginPage = new LoginPage(driver,fluentWait);
-        loginPage.loginToApp("testpro.user03@testpro.io","1111111");
-        Assert.assertTrue(loginPage.isError());
 
-    }
+//    @Test
+//    public void loginTest_WrongCredentials_Error() {
+//        Assert.assertTrue(loginPage.isError());
+//
+//    }
 }

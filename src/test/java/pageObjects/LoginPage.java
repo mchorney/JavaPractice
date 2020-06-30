@@ -6,20 +6,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.FluentWait;
 
-public class LoginPage {
-    private WebDriver driver;
-    private FluentWait<WebDriver> fluentWait;
+public class LoginPage extends BasePage {
 
-    public LoginPage(WebDriver driver, FluentWait<WebDriver> fluentWait) {
-        this.driver = driver;
-        this.fluentWait=fluentWait;
+    public LoginPage(WebDriver driver) {
+        super(driver);
+
     }
 
     public MainPage loginToApp(String email, String password){
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
         getLoginButton().click();
-        return new MainPage(driver, fluentWait);
+        return new MainPage(driver);
     }
 
     public boolean isError(){
