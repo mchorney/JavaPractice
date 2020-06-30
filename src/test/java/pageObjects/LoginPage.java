@@ -26,7 +26,6 @@ public class LoginPage extends BasePage {
         return driver.findElement(By.xpath(LoginPageSelectors.loginButton));
     }
 
-
     public MainPage loginToApp(String email, String password) {
         getEmail().sendKeys(email);
         getPassword().sendKeys(password);
