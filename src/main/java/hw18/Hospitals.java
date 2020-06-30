@@ -8,11 +8,11 @@ import java.util.Map;
 public class Hospitals {
     private String hospitalName;
     private Address address;
-    private ArrayList<Doctors> doctors;
-    private ArrayList<InsuranceCompanies> insuranceCompanies;
-    private HashMap<Integer,String> rooms;
+    private List<Doctors> doctors;
+    private List<InsuranceCompanies> insuranceCompanies;
+    private Map<Integer,String> rooms;
 
-    public Hospitals(String hospitalName, Address address, ArrayList<Doctors> doctors, ArrayList<InsuranceCompanies> insuranceCompanies, HashMap<Integer, String> rooms) {
+    public Hospitals(String hospitalName, Address address, List<Doctors> doctors, List<InsuranceCompanies> insuranceCompanies, Map<Integer, String> rooms) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.doctors = doctors;
@@ -39,27 +39,27 @@ public class Hospitals {
         this.address = address;
     }
 
-    public ArrayList<Doctors> getDoctors() {
+    public List<Doctors> getDoctors() {
         return doctors;
     }
 
-    public void setDoctors(ArrayList<Doctors> doctors) {
+    public void setDoctors(List<Doctors> doctors) {
         this.doctors = doctors;
     }
 
-    public ArrayList<InsuranceCompanies> getInsuranceCompanies() {
+    public List<InsuranceCompanies> getInsuranceCompanies() {
         return insuranceCompanies;
     }
 
-    public void setInsuranceCompanies(ArrayList<InsuranceCompanies> insuranceCompanies) {
+    public void setInsuranceCompanies(List<InsuranceCompanies> insuranceCompanies) {
         this.insuranceCompanies = insuranceCompanies;
     }
 
-    public HashMap<Integer, String> getRooms() {
+    public Map<Integer, String> getRooms() {
         return rooms;
     }
 
-    public void setRooms(HashMap<Integer, String> rooms) {
+    public void setRooms(Map<Integer, String> rooms) {
         this.rooms = rooms;
     }
 
@@ -67,7 +67,7 @@ public class Hospitals {
     public void printInfo() {
         System.out.println("Hospital: " +
                 hospitalName + '\'' +
-                ", address:  " + address.getStreetAddress() +
+                ", address:  " + address.toString()+
                 ". Doctors: "+doctors.toString()+
                 "; acceptedInsurance: " + insuranceCompanies.toString() +
                 " ");

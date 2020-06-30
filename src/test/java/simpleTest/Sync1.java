@@ -18,7 +18,7 @@ public class Sync1 {
     private WebDriver driver;
     @BeforeMethod
     public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }

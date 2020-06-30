@@ -59,11 +59,11 @@ public class App {
 
 
 //
-//        hospital.printInfo();
+
         hospital.getInsuranceCompanies();
         hospitalAddress.printAddress();
         System.out.println(iCompanies);
-
+        hospital.printInfo();
 
 
 
