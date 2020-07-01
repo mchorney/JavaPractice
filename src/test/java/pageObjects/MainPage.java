@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class MainPage extends BasePage {
     public MainPage(WebDriver driver) {
@@ -32,7 +33,7 @@ public class MainPage extends BasePage {
         getNewPlaylistField().sendKeys(name);
         getNewPlaylistField().sendKeys(Keys.RETURN);
 
-//        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='success show']")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='success show']")));
         String url = driver.getCurrentUrl();
         return url.split("/")[5];
     }
