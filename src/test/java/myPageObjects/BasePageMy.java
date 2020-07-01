@@ -14,13 +14,12 @@ public abstract class BasePageMy {
 
     public BasePageMy(WebDriver driver) {
         this.driver = driver;
-        fluentWait = new FluentWait<>(driver)
+        this.fluentWait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(20))
                 .pollingEvery(Duration.ofMillis(100))
-                .ignoring(ElementClickInterceptedException.class)
+                .ignoring(ElementClickInterceptedException.class);
 //                .ignoring(StaleElementReferenceException.class)
-                .ignoring(org.openqa.selenium.NoSuchElementException.class);
-        wait = new WebDriverWait(driver,20);
-
+//                .ignoring(org.openqa.selenium.NoSuchElementException.class);
+        this.wait = new WebDriverWait(this.driver,20);
     }
 }

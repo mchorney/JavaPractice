@@ -20,8 +20,6 @@ public class LoginPage extends BasePage{
     }
 
     public boolean isError(){
-//        var errors = driver.findElements(By.xpath("//*[@class='error']"));
-//        return errors.size()==1;
         try {
             driver.findElement(By.xpath("//*[@class='error']"));
         } catch (NoSuchElementException error){
@@ -30,7 +28,7 @@ public class LoginPage extends BasePage{
         return true;
     }
     public WebElement getEmail() {
-        fluentWait.until(x->x.findElement(By.xpath("//*[@type='email']")));
+        fluentWait.until(x->x.findElement(By.xpath("//*[@type='email']")).isDisplayed());
         return driver.findElement(By.xpath("//*[@type='email']"));
     }
 

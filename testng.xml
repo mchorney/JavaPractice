@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DK91">
+    <test name="All Tests" parallel="classes" thread-count="4" verbose="1">
+        <classes>
+            <class name="mySeleniumTests.LoginTest">
+                <methods>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp1"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp2"/>
+                    <exclude name="loginTest_WrongCredentials_Error">
+
+                    </exclude>
+                    
+                </methods>
+            </class>
+            <class name="mySeleniumTests.PlaylistTests">
+                <methods>
+                    <include name="playlistTests_createPlaylist_PlaylistCreated"/>
+                    <include name="playlistTests_renamePlaylist_PlaylistRenamed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
