@@ -3,7 +3,7 @@ package SeleniumTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PlayListTests extends BaseTest {
+public class PlayListTestsNew extends BaseTest {
 
     @Test
     public void createPlayList_PlayListCreated() throws InterruptedException {

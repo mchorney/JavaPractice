@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+    <test name="All tests">
+        <classes>
+            <class name="SeleniumTests.LoginTest">
+                <methods>
+                    <include name="loginTestCorrectCredentialsLoggedToApp()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp1()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp2()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp3()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp4()" />
+                </methods>
+            </class>
+            <class name="SeleniumTests.LoginTestNew">
+                <methods>
+                    <include name="loginTestCorrectCredentialsLoggedToApp()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp1()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp2()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp3()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp4()" />
+                </methods>
+            </class>
+            <class name="SeleniumTests.PlayListTests">
+                <methods>
+                    <include name="createPlayList_PlayListCreated()" />
+                    <include name="createPlayList_PlayListCreated1()" />
+                    <include name="renamePlayList_PlayListCreated()" />
+                    <include name="renamePlayList_PlayListCreated1() "/>
+                </methods>
+            </class>
+            <class name="SeleniumTests.PlayListTestsNew">
+                <methods>
+                    <include name="createPlayList_PlayListCreated()" />
+                    <include name="createPlayList_PlayListCreated1()" />
+                    <include name="renamePlayList_PlayListCreated()" />
+                    <include name="renamePlayList_PlayListCreated1() "/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
