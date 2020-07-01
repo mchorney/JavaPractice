@@ -13,7 +13,7 @@ public class PlayListTests extends BaseTest {
 
     @Test
     public void renamePlayList_PlayListCreated() throws InterruptedException {
-        String playlistId = mainPage.createPlayList("Playlist7");
+        String playlistId = mainPage.createPlayList("Playlist12");
         mainPage.renamePlayList(playlistId, "newName");
         Assert.assertTrue(mainPage.checkPlayList(playlistId), "newName");
     }
