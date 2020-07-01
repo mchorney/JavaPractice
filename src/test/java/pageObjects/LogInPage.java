@@ -4,12 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 
-public class LogInPage extends BasePage {
+public class LogInPage extends BasePage{
 
     public LogInPage(WebDriver driver) {
         super(driver);
@@ -31,15 +28,17 @@ public class LogInPage extends BasePage {
 
 
     public MainPage logInToApp(String username, String passcode){
-       getEmail().sendKeys(username);
-       getPassword().sendKeys(passcode);
-       getLoginButton().click();
-       return new MainPage(driver);
+        getEmail().sendKeys(username);
+        getPassword().sendKeys(passcode);
+        getLoginButton().click();
+        return new MainPage(driver);
     }
 
     public WebElement getRedFrame(){ return driver.findElement(By.xpath("//*[@class=\"error\"]")); }
 
     public boolean isError() {
-     return getRedFrame().isDisplayed();
+        return getRedFrame().isDisplayed();
     }
+
+
 }

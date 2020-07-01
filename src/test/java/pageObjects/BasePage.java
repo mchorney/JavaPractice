@@ -7,18 +7,19 @@ import org.openqa.selenium.support.ui.FluentWait;
 import java.time.Duration;
 
 class BasePage {
-
-
     protected WebDriver driver;
     protected FluentWait<WebDriver> fluentWait;
 
-    public void BasePage(WebDriver driver) {
+    public BasePage(WebDriver driver) {
+        this.driver=driver;
         fluentWait = new FluentWait<WebDriver>(driver)
                 .withTimeout(Duration.ofSeconds(20))
                 .pollingEvery(Duration.ofMillis(100))
                 .ignoring(NoSuchElementException.class);
-        this.driver = driver;
+
     }
+
+
 
 
     }

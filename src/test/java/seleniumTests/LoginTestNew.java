@@ -2,9 +2,8 @@ package seleniumTests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.LogInPage;
 
-public class LoginTest extends BaseTest{
+public class LoginTestNew extends BaseTest{
 
     @Test
     public void loginTest_CorrectCredentials_LoggedToApp(){
