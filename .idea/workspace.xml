@@ -19,12 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome8">
+    <list default="true" id="72692456-67ca-4102-9e15-2b5dda22de04" name="Default Changelist" comment="SHome8(1)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects2/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects2/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects2/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumTests2/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumTests2/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumTests2/PlaylistTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/PlaylistTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simpleTest/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpleTest/Sync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,26 +67,30 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/seleniumTests2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\filim\IdeaProjects\JavaCore3\src\test\java\seleniumTests2" />
+      <recent name="C:\Users\filim\IdeaProjects\JavaCore3\src\test\java\pageObjects2" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="home15" />
       <recent name="home14" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PlaylistTests.playlistTests_createPlaylist_PlaylistCreated">
-    <configuration name="LoginPage.loginTest_CorrectCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PlaylistTests.playlistTests_createPlaylist_PlaylistCreated (1)">
+    <configuration name="LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHome.*" />
+          <option name="PATTERN" value="seleniumTests2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHome" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHome.LoginPage" />
-      <option name="METHOD_NAME" value="loginTest_CorrectCredentials" />
+      <option name="PACKAGE_NAME" value="seleniumTests2" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests2.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest_CorrectCredentials_LoggedToApp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,43 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPage.loginTest_WrongCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumHome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumHome" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHome.LoginPage" />
-      <option name="METHOD_NAME" value="loginTest_WrongCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaylistTestHome.playlistTests_createPlaylist_PlaylistCreated" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaCore3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumHome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumHome" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHome.PlaylistTestHome" />
-      <option name="METHOD_NAME" value="playlistTests_createPlaylist_PlaylistCreated" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaylistTests.playlistTests_createPlaylist_PlaylistCreated" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginTest_CorrectCredentials_LoggedToApp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +107,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="seleniumTests" />
-      <option name="MAIN_CLASS_NAME" value="seleniumTests.PlaylistTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest_CorrectCredentials_LoggedToApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest_WrongCredentialsError" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests2" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests2.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest_WrongCredentialsError" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaylistTests.playlistTests_createPlaylist_PlaylistCreated (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaCore3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests2" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests2.PlaylistTests" />
       <option name="METHOD_NAME" value="playlistTests_createPlaylist_PlaylistCreated" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -144,17 +152,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WomenTest.clickOnWomen" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaylistTests.playlistTests_renamePlaylist_PlaylistRenamed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaCore3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simpleTestHome.*" />
+          <option name="PATTERN" value="seleniumTests2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simpleTestHome" />
-      <option name="MAIN_CLASS_NAME" value="simpleTestHome.WomenTest" />
-      <option name="METHOD_NAME" value="clickOnWomen" />
+      <option name="PACKAGE_NAME" value="seleniumTests2" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests2.PlaylistTests" />
+      <option name="METHOD_NAME" value="playlistTests_renamePlaylist_PlaylistRenamed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PlaylistTests.playlistTests_createPlaylist_PlaylistCreated" />
-        <item itemvalue="TestNG.PlaylistTestHome.playlistTests_createPlaylist_PlaylistCreated" />
-        <item itemvalue="TestNG.LoginPage.loginTest_WrongCredentials" />
-        <item itemvalue="TestNG.LoginPage.loginTest_CorrectCredentials" />
-        <item itemvalue="TestNG.WomenTest.clickOnWomen" />
+        <item itemvalue="TestNG.PlaylistTests.playlistTests_createPlaylist_PlaylistCreated (1)" />
+        <item itemvalue="TestNG.LoginTest.loginTest_WrongCredentialsError" />
+        <item itemvalue="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp (1)" />
+        <item itemvalue="TestNG.PlaylistTests.playlistTests_renamePlaylist_PlaylistRenamed" />
+        <item itemvalue="TestNG.LoginTest.loginTest_CorrectCredentials_LoggedToApp" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593140586615</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="SHome8(1)">
+      <created>1593288221664</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1593288221664</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,9 +429,14 @@
     <MESSAGE value="SHome4" />
     <MESSAGE value="SHome6_7" />
     <MESSAGE value="SHome8" />
-    <option name="LAST_COMMIT_MESSAGE" value="SHome8" />
+    <MESSAGE value="SHome8(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="SHome8(1)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="259" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593570087796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="259" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593570087796" />
     <state x="382" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1592951009415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -433,42 +453,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="248" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591488080660" />
-    <state width="981" height="111" key="GridCell.Tab.0.bottom" timestamp="1593201116050">
+    <state width="1037" height="307" key="GridCell.Tab.0.bottom" timestamp="1593548413668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="981" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116050" />
-    <state width="981" height="111" key="GridCell.Tab.0.center" timestamp="1593201116050">
+    <state width="1037" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593548413668" />
+    <state width="1037" height="307" key="GridCell.Tab.0.center" timestamp="1593548413668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="981" height="111" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116050" />
-    <state width="981" height="111" key="GridCell.Tab.0.left" timestamp="1593201116049">
+    <state width="1037" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593548413668" />
+    <state width="1037" height="307" key="GridCell.Tab.0.left" timestamp="1593548413668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="981" height="111" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116049" />
-    <state width="981" height="111" key="GridCell.Tab.0.right" timestamp="1593201116050">
+    <state width="1037" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593548413668" />
+    <state width="1037" height="307" key="GridCell.Tab.0.right" timestamp="1593548413668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="981" height="111" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593201116050" />
-    <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1593140616237">
+    <state width="1037" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593548413668" />
+    <state x="848" y="387" key="MultipleFileMergeDialog" timestamp="1593295600345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593140616237" />
+    <state x="848" y="387" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593295600345" />
     <state x="747" y="222" key="RollbackChangesDialog" timestamp="1590274521121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590274521121" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593113622862">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593288240211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593113622862" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593288240211" />
     <state x="138" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593113971441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="138" y="124" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593113971441" />
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593140611743">
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1593295595301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593140611743" />
+    <state x="761" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593295595301" />
     <state x="195" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591365751962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

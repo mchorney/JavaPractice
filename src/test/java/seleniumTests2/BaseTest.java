@@ -1,4 +1,4 @@
-package seleniumTests;
+package seleniumTests2;
 
 import enums.Browsers;
 import helpers.BrowserFabric;

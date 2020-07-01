@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite"http://testing.org/testing-1.0.dtd">
+<suite name="Master Suite">
+    <test name="All tests">
+        <classes>
+            <class name="seleniumTests.LoginTest">
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
