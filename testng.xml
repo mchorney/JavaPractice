@@ -14,11 +14,11 @@
             </class>
             <class name="SeleniumTests.LoginTestNew">
                 <methods>
-                    <include name="loginTestCorrectCredentialsLoggedToApp()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp1()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp2()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp3()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp4()" />
+                    <exclude name="loginTestCorrectCredentialsLoggedToApp()" />
+                    <exclude name="loginTestCorrectCredentialsLoggedToApp1()" />
+                    <exclude name="loginTestCorrectCredentialsLoggedToApp2()" />
+                    <exclude name="loginTestCorrectCredentialsLoggedToApp3()" />
+                    <exclude name="loginTestCorrectCredentialsLoggedToApp4()" />
                 </methods>
             </class>
             <class name="SeleniumTests.PlayListTests">
@@ -31,10 +31,10 @@
             </class>
             <class name="SeleniumTests.PlayListTestsNew">
                 <methods>
-                    <include name="createPlayList_PlayListCreated()" />
-                    <include name="createPlayList_PlayListCreated1()" />
-                    <include name="renamePlayList_PlayListCreated()" />
-                    <include name="renamePlayList_PlayListCreated1() "/>
+                    <exclude name="createPlayList_PlayListCreated()" />
+                    <exclude name="createPlayList_PlayListCreated1()" />
+                    <exclude name="renamePlayList_PlayListCreated()" />
+                    <exclude name="renamePlayList_PlayListCreated1() "/>
                 </methods>
             </class>
         </classes>
