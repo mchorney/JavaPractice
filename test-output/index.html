@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Master_Suite">
+              <span class="suite-name border-passed">Master Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Master_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Master_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Master_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Master_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Master_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Master_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Master_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods passed suite-Master_Suite"> (hide)</a> <!-- hide-methods passed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods passed suite-Master_Suite"> (show)</a> <!-- show-methods passed suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Master_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.PlayListTests" hash-for-method="createPlayList_PlayListCreated">createPlayList_PlayListCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.PlayListTestsNew" hash-for-method="createPlayList_PlayListCreated">createPlayList_PlayListCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.PlayListTests" hash-for-method="createPlayList_PlayListCreated1">createPlayList_PlayListCreated1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.PlayListTestsNew" hash-for-method="createPlayList_PlayListCreated1">createPlayList_PlayListCreated1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTest" hash-for-method="loginTestCorrectCredentialsLoggedToApp">loginTestCorrectCredentialsLoggedToApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTestNew" hash-for-method="loginTestCorrectCredentialsLoggedToApp">loginTestCorrectCredentialsLoggedToApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTest" hash-for-method="loginTestCorrectCredentialsLoggedToApp1">loginTestCorrectCredentialsLoggedToApp1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTestNew" hash-for-method="loginTestCorrectCredentialsLoggedToApp1">loginTestCorrectCredentialsLoggedToApp1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTest" hash-for-method="loginTestCorrectCredentialsLoggedToApp2">loginTestCorrectCredentialsLoggedToApp2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTestNew" hash-for-method="loginTestCorrectCredentialsLoggedToApp2">loginTestCorrectCredentialsLoggedToApp2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTest" hash-for-method="loginTestCorrectCredentialsLoggedToApp3">loginTestCorrectCredentialsLoggedToApp3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTestNew" hash-for-method="loginTestCorrectCredentialsLoggedToApp3">loginTestCorrectCredentialsLoggedToApp3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTest" hash-for-method="loginTestCorrectCredentialsLoggedToApp4">loginTestCorrectCredentialsLoggedToApp4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.LoginTestNew" hash-for-method="loginTestCorrectCredentialsLoggedToApp4">loginTestCorrectCredentialsLoggedToApp4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.PlayListTests" hash-for-method="renamePlayList_PlayListCreated">renamePlayList_PlayListCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Master_Suite" title="SeleniumTests.PlayListTestsNew" hash-for-method="renamePlayList_PlayListCreated">renamePlayList_PlayListCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Master_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Master_Suite" class="panel Master_Suite">
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumTests.LoginTestNew</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp1">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp1 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp2">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp2 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp3">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp3 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp4">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp4 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumTests.PlayListTestsNew</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPlayList_PlayListCreated">
+                  </a> <!-- createPlayList_PlayListCreated -->
+                  <span class="method-name">createPlayList_PlayListCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPlayList_PlayListCreated1">
+                  </a> <!-- createPlayList_PlayListCreated1 -->
+                  <span class="method-name">createPlayList_PlayListCreated1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="renamePlayList_PlayListCreated">
+                  </a> <!-- renamePlayList_PlayListCreated -->
+                  <span class="method-name">renamePlayList_PlayListCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumTests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp1">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp1 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp2">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp2 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp3">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp3 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestCorrectCredentialsLoggedToApp4">
+                  </a> <!-- loginTestCorrectCredentialsLoggedToApp4 -->
+                  <span class="method-name">loginTestCorrectCredentialsLoggedToApp4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumTests.PlayListTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPlayList_PlayListCreated">
+                  </a> <!-- createPlayList_PlayListCreated -->
+                  <span class="method-name">createPlayList_PlayListCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPlayList_PlayListCreated1">
+                  </a> <!-- createPlayList_PlayListCreated1 -->
+                  <span class="method-name">createPlayList_PlayListCreated1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="renamePlayList_PlayListCreated">
+                  </a> <!-- renamePlayList_PlayListCreated -->
+                  <span class="method-name">renamePlayList_PlayListCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+        </div> <!-- panel Master_Suite -->
+        <div panel-name="test-xml-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/anya/IdeaProjects/JavaCore3/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Master Suite&quot; parallel=&quot;classes&quot;&gt;
+  &lt;test name=&quot;All tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumTests.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp1()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp2()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp3()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp4()&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- SeleniumTests.LoginTest --&gt;
+      &lt;class name=&quot;SeleniumTests.LoginTestNew&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp1()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp2()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp3()&quot;/&gt;
+          &lt;include name=&quot;loginTestCorrectCredentialsLoggedToApp4()&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- SeleniumTests.LoginTestNew --&gt;
+      &lt;class name=&quot;SeleniumTests.PlayListTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createPlayList_PlayListCreated()&quot;/&gt;
+          &lt;include name=&quot;createPlayList_PlayListCreated1()&quot;/&gt;
+          &lt;include name=&quot;renamePlayList_PlayListCreated()&quot;/&gt;
+          &lt;include name=&quot;renamePlayList_PlayListCreated1() &quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- SeleniumTests.PlayListTests --&gt;
+      &lt;class name=&quot;SeleniumTests.PlayListTestsNew&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createPlayList_PlayListCreated()&quot;/&gt;
+          &lt;include name=&quot;createPlayList_PlayListCreated1()&quot;/&gt;
+          &lt;include name=&quot;renamePlayList_PlayListCreated()&quot;/&gt;
+          &lt;include name=&quot;renamePlayList_PlayListCreated1() &quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- SeleniumTests.PlayListTestsNew --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All tests --&gt;
+&lt;/suite&gt; &lt;!-- Master Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Master_Suite');
+function tableData_Master_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'renamePlayList_PlayListCreated')
+data.setCell(0, 2, 'SeleniumTests.PlayListTests')
+data.setCell(0, 3, 3430);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'renamePlayList_PlayListCreated')
+data.setCell(1, 2, 'SeleniumTests.PlayListTestsNew')
+data.setCell(1, 3, 3424);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createPlayList_PlayListCreated')
+data.setCell(2, 2, 'SeleniumTests.PlayListTests')
+data.setCell(2, 3, 2758);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createPlayList_PlayListCreated')
+data.setCell(3, 2, 'SeleniumTests.PlayListTestsNew')
+data.setCell(3, 3, 2749);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createPlayList_PlayListCreated1')
+data.setCell(4, 2, 'SeleniumTests.PlayListTests')
+data.setCell(4, 3, 2503);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createPlayList_PlayListCreated1')
+data.setCell(5, 2, 'SeleniumTests.PlayListTestsNew')
+data.setCell(5, 3, 2500);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTestCorrectCredentialsLoggedToApp3')
+data.setCell(6, 2, 'SeleniumTests.LoginTest')
+data.setCell(6, 3, 831);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTestCorrectCredentialsLoggedToApp')
+data.setCell(7, 2, 'SeleniumTests.LoginTest')
+data.setCell(7, 3, 824);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTestCorrectCredentialsLoggedToApp')
+data.setCell(8, 2, 'SeleniumTests.LoginTestNew')
+data.setCell(8, 3, 813);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTestCorrectCredentialsLoggedToApp3')
+data.setCell(9, 2, 'SeleniumTests.LoginTestNew')
+data.setCell(9, 3, 752);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginTestCorrectCredentialsLoggedToApp4')
+data.setCell(10, 2, 'SeleniumTests.LoginTestNew')
+data.setCell(10, 3, 721);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTestCorrectCredentialsLoggedToApp4')
+data.setCell(11, 2, 'SeleniumTests.LoginTest')
+data.setCell(11, 3, 688);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTestCorrectCredentialsLoggedToApp1')
+data.setCell(12, 2, 'SeleniumTests.LoginTestNew')
+data.setCell(12, 3, 677);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTestCorrectCredentialsLoggedToApp2')
+data.setCell(13, 2, 'SeleniumTests.LoginTest')
+data.setCell(13, 3, 641);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginTestCorrectCredentialsLoggedToApp1')
+data.setCell(14, 2, 'SeleniumTests.LoginTest')
+data.setCell(14, 3, 635);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginTestCorrectCredentialsLoggedToApp2')
+data.setCell(15, 2, 'SeleniumTests.LoginTestNew')
+data.setCell(15, 3, 627);
+window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Master_Suite">
+              </div> <!-- times-div-Master_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">SeleniumTests.PlayListTestsNew</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">renamePlayList_PlayListCreated1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">SeleniumTests.PlayListTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">renamePlayList_PlayListCreated1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp</span>
+                <span class="method-start">3473 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp</span>
+                <span class="method-start">3473 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPlayList_PlayListCreated</span>
+                <span class="method-start">3474 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPlayList_PlayListCreated</span>
+                <span class="method-start">3492 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4287 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4297 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6232 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6241 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">7360 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">7420 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">9297 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">9306 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp1</span>
+                <span class="method-start">9689 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp1</span>
+                <span class="method-start">9768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10367 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10403 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPlayList_PlayListCreated1</span>
+                <span class="method-start">11522 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPlayList_PlayListCreated1</span>
+                <span class="method-start">11591 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">13435 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">13570 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14025 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14091 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp2</span>
+                <span class="method-start">15839 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp2</span>
+                <span class="method-start">15857 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16480 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16485 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">17093 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">17158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">renamePlayList_PlayListCreated</span>
+                <span class="method-start">19525 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">renamePlayList_PlayListCreated</span>
+                <span class="method-start">19545 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">19639 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">19739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp3</span>
+                <span class="method-start">22364 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp3</span>
+                <span class="method-start">22739 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTestsNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.PlayListTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22976 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23196 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23491 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">26267 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp</span>
+                <span class="method-start">26710 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp4</span>
+                <span class="method-start">28973 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTestCorrectCredentialsLoggedToApp4</span>
+                <span class="method-start">29359 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29661 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumTests.LoginTestNew</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30081 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

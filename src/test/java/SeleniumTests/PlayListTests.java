@@ -11,7 +11,8 @@ public class PlayListTests extends BaseTest {
         Assert.assertTrue(mainPage.checkPlayList(playlistId));
     }
 
-    @Test
+    // skip the test locally
+    @Test//(enabled = false)
     public void renamePlayList_PlayListCreated() throws InterruptedException {
         String playlistId = mainPage.createPlayList("Playlist12");
         mainPage.renamePlayList(playlistId, "newName");

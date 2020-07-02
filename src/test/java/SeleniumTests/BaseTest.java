@@ -3,9 +3,6 @@ package SeleniumTests;
 import enums.Browsers;
 import helpers.BrowserFabric;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pageObjects.LoginPage;
@@ -17,7 +14,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void startUp() throws NoSuchFieldException {
-        driver = BrowserFabric.getDriver(Browsers.FIREFOX);
+        driver = BrowserFabric.getDriver(Browsers.CHROME);
         driver.get("https://koelapp.testpro.io/");
         LoginPage loginPage = new LoginPage(driver);
         mainPage = loginPage.loginToApp("koeluser21@testpro.io", "te$t$tudent");
