@@ -2,210 +2,210 @@
 <testng-results skipped="0" failed="0" ignored="2" total="18" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Master Suite" duration-ms="31668" started-at="2020-07-02T00:26:14Z" finished-at="2020-07-02T00:26:46Z">
+  <suite name="Master Suite" duration-ms="52377" started-at="2020-07-02T01:03:40Z" finished-at="2020-07-02T01:04:32Z">
     <groups>
     </groups>
-    <test name="All tests" duration-ms="31668" started-at="2020-07-02T00:26:14Z" finished-at="2020-07-02T00:26:46Z">
+    <test name="All tests" duration-ms="52377" started-at="2020-07-02T01:03:40Z" finished-at="2020-07-02T01:04:32Z">
       <class name="SeleniumTests.LoginTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="2936" started-at="2020-07-01T17:26:14Z" finished-at="2020-07-01T17:26:17Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="6820" started-at="2020-07-01T18:03:40Z" finished-at="2020-07-01T18:03:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp" duration-ms="686" started-at="2020-07-01T17:26:17Z" finished-at="2020-07-01T17:26:18Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp" duration-ms="793" started-at="2020-07-01T18:03:47Z" finished-at="2020-07-01T18:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3070" started-at="2020-07-01T17:26:18Z" finished-at="2020-07-01T17:26:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3122" started-at="2020-07-01T18:03:48Z" finished-at="2020-07-01T18:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="2161" started-at="2020-07-01T17:26:21Z" finished-at="2020-07-01T17:26:23Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="5567" started-at="2020-07-01T18:03:51Z" finished-at="2020-07-01T18:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp1()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp1" duration-ms="691" started-at="2020-07-01T17:26:23Z" finished-at="2020-07-01T17:26:24Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp1()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp1" duration-ms="1005" started-at="2020-07-01T18:03:56Z" finished-at="2020-07-01T18:03:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3166" started-at="2020-07-01T17:26:24Z" finished-at="2020-07-01T17:26:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3220" started-at="2020-07-01T18:03:57Z" finished-at="2020-07-01T18:04:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="2421" started-at="2020-07-01T17:26:27Z" finished-at="2020-07-01T17:26:29Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="7002" started-at="2020-07-01T18:04:01Z" finished-at="2020-07-01T18:04:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp2()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp2" duration-ms="638" started-at="2020-07-01T17:26:29Z" finished-at="2020-07-01T17:26:30Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp2()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp2" duration-ms="648" started-at="2020-07-01T18:04:08Z" finished-at="2020-07-01T18:04:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3066" started-at="2020-07-01T17:26:30Z" finished-at="2020-07-01T17:26:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3120" started-at="2020-07-01T18:04:08Z" finished-at="2020-07-01T18:04:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="2683" started-at="2020-07-01T17:26:33Z" finished-at="2020-07-01T17:26:36Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="7695" started-at="2020-07-01T18:04:11Z" finished-at="2020-07-01T18:04:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp3()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp3" duration-ms="629" started-at="2020-07-01T17:26:36Z" finished-at="2020-07-01T17:26:36Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp3()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp3" duration-ms="713" started-at="2020-07-01T18:04:19Z" finished-at="2020-07-01T18:04:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3080" started-at="2020-07-01T17:26:36Z" finished-at="2020-07-01T17:26:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3196" started-at="2020-07-01T18:04:20Z" finished-at="2020-07-01T18:04:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="1998" started-at="2020-07-01T17:26:39Z" finished-at="2020-07-01T17:26:41Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="startUp" is-config="true" duration-ms="4777" started-at="2020-07-01T18:04:23Z" finished-at="2020-07-01T18:04:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp4()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp4" duration-ms="645" started-at="2020-07-01T17:26:41Z" finished-at="2020-07-01T17:26:42Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp4()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="loginTestCorrectCredentialsLoggedToApp4" duration-ms="678" started-at="2020-07-01T18:04:28Z" finished-at="2020-07-01T18:04:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3065" started-at="2020-07-01T17:26:42Z" finished-at="2020-07-01T17:26:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="3068" started-at="2020-07-01T18:04:28Z" finished-at="2020-07-01T18:04:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTests.LoginTest -->
       <class name="SeleniumTests.PlayListTests">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="startUp" is-config="true" duration-ms="2773" started-at="2020-07-01T17:26:14Z" finished-at="2020-07-01T17:26:17Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="startUp" is-config="true" duration-ms="7050" started-at="2020-07-01T18:03:40Z" finished-at="2020-07-01T18:03:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="createPlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="createPlayList_PlayListCreated" duration-ms="2672" started-at="2020-07-01T17:26:17Z" finished-at="2020-07-01T17:26:20Z">
+        <test-method status="PASS" signature="createPlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="createPlayList_PlayListCreated" duration-ms="3034" started-at="2020-07-01T18:03:47Z" finished-at="2020-07-01T18:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPlayList_PlayListCreated -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="tearDown" is-config="true" duration-ms="3065" started-at="2020-07-01T17:26:20Z" finished-at="2020-07-01T17:26:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="tearDown" is-config="true" duration-ms="3487" started-at="2020-07-01T18:03:50Z" finished-at="2020-07-01T18:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="startUp" is-config="true" duration-ms="2822" started-at="2020-07-01T17:26:23Z" finished-at="2020-07-01T17:26:25Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="startUp" is-config="true" duration-ms="6576" started-at="2020-07-01T18:03:54Z" finished-at="2020-07-01T18:04:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="createPlayList_PlayListCreated1()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="createPlayList_PlayListCreated1" duration-ms="2524" started-at="2020-07-01T17:26:25Z" finished-at="2020-07-01T17:26:28Z">
+        <test-method status="PASS" signature="createPlayList_PlayListCreated1()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="createPlayList_PlayListCreated1" duration-ms="2744" started-at="2020-07-01T18:04:00Z" finished-at="2020-07-01T18:04:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPlayList_PlayListCreated1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="tearDown" is-config="true" duration-ms="3203" started-at="2020-07-01T17:26:28Z" finished-at="2020-07-01T17:26:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="tearDown" is-config="true" duration-ms="3502" started-at="2020-07-01T18:04:03Z" finished-at="2020-07-01T18:04:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="startUp" is-config="true" duration-ms="3294" started-at="2020-07-01T17:26:31Z" finished-at="2020-07-01T17:26:34Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="startUp" is-config="true" duration-ms="7895" started-at="2020-07-01T18:04:07Z" finished-at="2020-07-01T18:04:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="renamePlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="renamePlayList_PlayListCreated" duration-ms="2870" started-at="2020-07-01T17:26:34Z" finished-at="2020-07-01T17:26:37Z">
+        <test-method status="PASS" signature="renamePlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="renamePlayList_PlayListCreated" duration-ms="4453" started-at="2020-07-01T18:04:14Z" finished-at="2020-07-01T18:04:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- renamePlayList_PlayListCreated -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="tearDown" is-config="true" duration-ms="3066" started-at="2020-07-01T17:26:37Z" finished-at="2020-07-01T17:26:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTests@33a10788]" name="tearDown" is-config="true" duration-ms="3221" started-at="2020-07-01T18:04:19Z" finished-at="2020-07-01T18:04:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTests.PlayListTests -->
-      <class name="SeleniumTests.PlayListTestsNew">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="startUp" is-config="true" duration-ms="2936" started-at="2020-07-01T17:26:14Z" finished-at="2020-07-01T17:26:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="createPlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="createPlayList_PlayListCreated" duration-ms="2549" started-at="2020-07-01T17:26:17Z" finished-at="2020-07-01T17:26:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPlayList_PlayListCreated -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="tearDown" is-config="true" duration-ms="3066" started-at="2020-07-01T17:26:20Z" finished-at="2020-07-01T17:26:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="startUp" is-config="true" duration-ms="2782" started-at="2020-07-01T17:26:23Z" finished-at="2020-07-01T17:26:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="createPlayList_PlayListCreated1()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="createPlayList_PlayListCreated1" duration-ms="2570" started-at="2020-07-01T17:26:25Z" finished-at="2020-07-01T17:26:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPlayList_PlayListCreated1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="tearDown" is-config="true" duration-ms="3168" started-at="2020-07-01T17:26:28Z" finished-at="2020-07-01T17:26:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="startUp" is-config="true" duration-ms="3238" started-at="2020-07-01T17:26:31Z" finished-at="2020-07-01T17:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="renamePlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="renamePlayList_PlayListCreated" duration-ms="2976" started-at="2020-07-01T17:26:34Z" finished-at="2020-07-01T17:26:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- renamePlayList_PlayListCreated -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="tearDown" is-config="true" duration-ms="3221" started-at="2020-07-01T17:26:37Z" finished-at="2020-07-01T17:26:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTests.PlayListTestsNew -->
       <class name="SeleniumTests.LoginTestNew">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="2954" started-at="2020-07-01T17:26:14Z" finished-at="2020-07-01T17:26:17Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="6517" started-at="2020-07-01T18:03:40Z" finished-at="2020-07-01T18:03:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp" duration-ms="687" started-at="2020-07-01T17:26:17Z" finished-at="2020-07-01T17:26:18Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp" duration-ms="761" started-at="2020-07-01T18:03:47Z" finished-at="2020-07-01T18:03:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3180" started-at="2020-07-01T17:26:18Z" finished-at="2020-07-01T17:26:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3171" started-at="2020-07-01T18:03:47Z" finished-at="2020-07-01T18:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="2045" started-at="2020-07-01T17:26:21Z" finished-at="2020-07-01T17:26:23Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="5767" started-at="2020-07-01T18:03:51Z" finished-at="2020-07-01T18:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp1()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp1" duration-ms="683" started-at="2020-07-01T17:26:23Z" finished-at="2020-07-01T17:26:24Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp1()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp1" duration-ms="1049" started-at="2020-07-01T18:03:56Z" finished-at="2020-07-01T18:03:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3065" started-at="2020-07-01T17:26:24Z" finished-at="2020-07-01T17:26:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3258" started-at="2020-07-01T18:03:57Z" finished-at="2020-07-01T18:04:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="2437" started-at="2020-07-01T17:26:27Z" finished-at="2020-07-01T17:26:29Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="6501" started-at="2020-07-01T18:04:01Z" finished-at="2020-07-01T18:04:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp2()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp2" duration-ms="618" started-at="2020-07-01T17:26:29Z" finished-at="2020-07-01T17:26:30Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp2()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp2" duration-ms="654" started-at="2020-07-01T18:04:07Z" finished-at="2020-07-01T18:04:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3070" started-at="2020-07-01T17:26:30Z" finished-at="2020-07-01T17:26:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3646" started-at="2020-07-01T18:04:08Z" finished-at="2020-07-01T18:04:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="3094" started-at="2020-07-01T17:26:33Z" finished-at="2020-07-01T17:26:36Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="7739" started-at="2020-07-01T18:04:11Z" finished-at="2020-07-01T18:04:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp3()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp3" duration-ms="740" started-at="2020-07-01T17:26:36Z" finished-at="2020-07-01T17:26:37Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp3()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp3" duration-ms="763" started-at="2020-07-01T18:04:19Z" finished-at="2020-07-01T18:04:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3072" started-at="2020-07-01T17:26:37Z" finished-at="2020-07-01T17:26:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3419" started-at="2020-07-01T18:04:20Z" finished-at="2020-07-01T18:04:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="2144" started-at="2020-07-01T17:26:40Z" finished-at="2020-07-01T17:26:42Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="startUp" is-config="true" duration-ms="5021" started-at="2020-07-01T18:04:23Z" finished-at="2020-07-01T18:04:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp4()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp4" duration-ms="630" started-at="2020-07-01T17:26:42Z" finished-at="2020-07-01T17:26:43Z">
+        <test-method status="PASS" signature="loginTestCorrectCredentialsLoggedToApp4()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="loginTestCorrectCredentialsLoggedToApp4" duration-ms="652" started-at="2020-07-01T18:04:28Z" finished-at="2020-07-01T18:04:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCorrectCredentialsLoggedToApp4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3230" started-at="2020-07-01T17:26:43Z" finished-at="2020-07-01T17:26:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.LoginTestNew@7bb11784]" name="tearDown" is-config="true" duration-ms="3433" started-at="2020-07-01T18:04:29Z" finished-at="2020-07-01T18:04:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTests.LoginTestNew -->
+      <class name="SeleniumTests.PlayListTestsNew">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="startUp" is-config="true" duration-ms="6801" started-at="2020-07-01T18:03:40Z" finished-at="2020-07-01T18:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="createPlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="createPlayList_PlayListCreated" duration-ms="3034" started-at="2020-07-01T18:03:47Z" finished-at="2020-07-01T18:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlayList_PlayListCreated -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="tearDown" is-config="true" duration-ms="3349" started-at="2020-07-01T18:03:50Z" finished-at="2020-07-01T18:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="startUp" is-config="true" duration-ms="6978" started-at="2020-07-01T18:03:53Z" finished-at="2020-07-01T18:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="createPlayList_PlayListCreated1()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="createPlayList_PlayListCreated1" duration-ms="2669" started-at="2020-07-01T18:04:00Z" finished-at="2020-07-01T18:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlayList_PlayListCreated1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="tearDown" is-config="true" duration-ms="3158" started-at="2020-07-01T18:04:03Z" finished-at="2020-07-01T18:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="startUp" is-config="true" duration-ms="7668" started-at="2020-07-01T18:04:06Z" finished-at="2020-07-01T18:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="renamePlayList_PlayListCreated()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="renamePlayList_PlayListCreated" duration-ms="4236" started-at="2020-07-01T18:04:14Z" finished-at="2020-07-01T18:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renamePlayList_PlayListCreated -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.PlayListTestsNew@7006c658]" name="tearDown" is-config="true" duration-ms="3194" started-at="2020-07-01T18:04:18Z" finished-at="2020-07-01T18:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTests.PlayListTestsNew -->
     </test> <!-- All tests -->
   </suite> <!-- Master Suite -->
 </testng-results>
