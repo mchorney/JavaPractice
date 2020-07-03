@@ -14,11 +14,11 @@
             </class>
             <class name="SeleniumTests.LoginTestNew">
                 <methods>
-                    <include name="loginTestCorrectCredentialsLoggedToApp()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp1()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp2()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp3()" />
-                    <include name="loginTestCorrectCredentialsLoggedToApp4()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp5()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp6()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp7()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp8()" />
+                    <include name="loginTestCorrectCredentialsLoggedToApp9()" />
                 </methods>
             </class>
             <class name="SeleniumTests.PlayListTests">
