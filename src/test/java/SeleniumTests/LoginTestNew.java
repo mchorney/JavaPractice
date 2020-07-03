@@ -5,23 +5,23 @@ import org.testng.annotations.Test;
 
 public class LoginTestNew extends BaseTest {
     @Test
-    public void loginTestCorrectCredentialsLoggedToApp() {
+    public void loginTestCorrectCredentialsLoggedToApp5() {
         Assert.assertTrue(mainPage.isMain());
     }
     @Test
-    public void loginTestCorrectCredentialsLoggedToApp1() {
+    public void loginTestCorrectCredentialsLoggedToApp6() {
         Assert.assertTrue(mainPage.isMain());
     }
     @Test
-    public void loginTestCorrectCredentialsLoggedToApp2() {
+    public void loginTestCorrectCredentialsLoggedToApp7() {
         Assert.assertTrue(mainPage.isMain());
     }
     @Test
-    public void loginTestCorrectCredentialsLoggedToApp3() {
+    public void loginTestCorrectCredentialsLoggedToApp8() {
         Assert.assertTrue(mainPage.isMain());
     }
     @Test
-    public void loginTestCorrectCredentialsLoggedToApp4() {
+    public void loginTestCorrectCredentialsLoggedToApp9() {
         Assert.assertTrue(mainPage.isMain());
     }
 }
