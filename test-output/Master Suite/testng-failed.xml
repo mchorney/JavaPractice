@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="All Tests(failed)">
+    <classes>
+      <class name="seleniumTest.LoginTestNew">
+        <methods>
+          <include name="loginTest_CorrectCredentials_LoggedToApp3"/>
+          <include name="loginTest_CorrectCredentials_LoggedToApp"/>
+          <include name="startUp"/>
+          <include name="loginTest_CorrectCredentials_LoggedToApp1"/>
+          <include name="tearDown"/>
+          <include name="loginTest_CorrectCredentials_LoggedToApp2"/>
+        </methods>
+      </class> <!-- seleniumTest.LoginTestNew -->
+      <class name="seleniumTest.LoginTest">
+        <methods>
+          <include name="loginTest_CorrectCredentials_LoggedToApp1"/>
+          <include name="loginTest_CorrectCredentials_LoggedToApp2"/>
+          <include name="startUp"/>
+          <include name="loginTest_CorrectCredentials_LoggedToApp"/>
+          <include name="tearDown"/>
+          <include name="loginTest_CorrectCredentials_LoggedToApp3"/>
+        </methods>
+      </class> <!-- seleniumTest.LoginTest -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->

@@ -1,39 +1,59 @@
 package seleniumTest;
 
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import pageObjects.LoginPage;
-import pageObjects.MainPage;
 
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
+public class PlayListTest extends RefactoringOverallMethods {
 
-public class PlayListTest {
-    WebDriver driver;
+    @Test
+    public void playlistTests_createPlaylist_PlaylistCreated() {
 
-    @BeforeMethod
-    public void startUp() {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("https://koelapp.testpro.io");
-    }
-
-    @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
-        driver.quit();
+        mainPage.createPlaylist("dgsreger");
+        Assert.assertTrue(mainPage.checkPlaylist("dgsreger"));
     }
 
     @Test
-    public void playlistTests_createPlaylist_PlaylistCreated() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-        MainPage mainPage = loginPage.loginToApp("koeluser03@testpro.io", "te$t$tudent");
-        mainPage.createPlaylist("mr111");
-        //Assert.assertTrue(mainPage.checkPlaylist("mr11"));
+    public void renamePlaylist_toTest() throws InterruptedException {
+        mainPage.renamePlayList("dgsreger", "newestOne");
+        Assert.assertTrue(mainPage.checkPlaylist("newestOne"));
+    }
+
+    @Test
+    public void playlistTests_createPlaylist_PlaylistCreated1() {
+
+        mainPage.createPlaylist("dgsreger");
+        Assert.assertTrue(mainPage.checkPlaylist("dgsreger"));
+    }
+
+    @Test
+    public void renamePlaylist_toTest1() throws InterruptedException {
+        mainPage.renamePlayList("dgsreger", "newestOneMore");
+        Assert.assertTrue(mainPage.checkPlaylist("newestOneMore"));
+    }
+
+    public static class LoginTest extends RefactoringOverallMethods {
+
+        @Test
+        public void loginTest_CorrectCredentials_LoggedToApp() {
+            Assert.assertTrue(mainPage.isMain());
+        }
+        /*@Test
+        public void loginTest_WrongCredentials_Error() {
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.loginToApp("testpro.user03@testpro.io", "1111111");
+            Assert.assertTrue(loginPage.isError());
+        }*/
+        @Test
+        public void loginTest_CorrectCredentials_LoggedToApp1() {
+            Assert.assertTrue(mainPage.isMain());
+        }
+        @Test
+        public void loginTest_CorrectCredentials_LoggedToApp2() {
+            Assert.assertTrue(mainPage.isMain());
+        }
+        @Test
+        public void loginTest_CorrectCredentials_LoggedToApp3() {
+            Assert.assertTrue(mainPage.isMain());
+        }
     }
 }

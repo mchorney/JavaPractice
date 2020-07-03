@@ -12,33 +12,28 @@ import pageObjects.MainPage;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest {
-    public WebDriver driver;
+public class LoginTest extends RefactoringOverallMethods{
 
-
-
-    @BeforeMethod
-    public void startUp() {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("https://koelapp.testpro.io");
-
-    }
-    @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
-        driver.quit();
-    }
     @Test
     public void loginTest_CorrectCredentials_LoggedToApp() {
-        LoginPage loginPage = new LoginPage(driver);
-        MainPage mainPage = loginPage.loginToApp("koeluser03@testpro.io", "te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
     }
-    @Test
+    /*@Test
     public void loginTest_WrongCredentials_Error() {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.loginToApp("testpro.user03@testpro.io", "1111111");
         Assert.assertTrue(loginPage.isError());
+    }*/
+    @Test
+    public void loginTest_CorrectCredentials_LoggedToApp1() {
+        Assert.assertTrue(mainPage.isMain());
+    }
+    @Test
+    public void loginTest_CorrectCredentials_LoggedToApp2() {
+        Assert.assertTrue(mainPage.isMain());
+    }
+    @Test
+    public void loginTest_CorrectCredentials_LoggedToApp3() {
+        Assert.assertTrue(mainPage.isMain());
     }
 }

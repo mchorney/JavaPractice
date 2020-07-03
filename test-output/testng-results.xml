@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="0" failed="0" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-02T20:51:52 PDT" name="Master Suite" finished-at="2020-07-02T20:51:52 PDT" duration-ms="153">
+    <groups>
+    </groups>
+    <test started-at="2020-07-02T20:51:52 PDT" name="All Tests" finished-at="2020-07-02T20:51:52 PDT" duration-ms="153">
+      <class name="seleniumTest.LoginTest">
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312289" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312321" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312322" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp1()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp1" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312327" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312331" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp2()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp2" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312333" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312334" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp3()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp3" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTest@57f23557]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312335" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumTest.LoginTest -->
+      <class name="seleniumTest.LoginTestNew">
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312289" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312320" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312332" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp1()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp1" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312334" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312337" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp2()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp2" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312345" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest_CorrectCredentials_LoggedToApp3()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="loginTest_CorrectCredentials_LoggedToApp3" finished-at="2020-07-02T20:51:52 PDT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method startUp but has not been marked @Optional or defined
+in C:\Users\12068\IdeaProjects\JavaCore3\testngParallelThreads.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_LoggedToApp3 -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="startUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312347" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumTest.LoginTestNew@3d0f8e03]" started-at="2020-07-02T20:51:52 PDT" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1593748312348" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumTest.LoginTestNew -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Master Suite -->
+</testng-results>

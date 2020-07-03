@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite" parallel="classes" thread-count="2">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://koelapp.testpro.io"/>
+    <test name="firstCrossBrowsing">
+        <classes>
+            <class name="seleniumTest.LoginTest">
+                <methods>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp1"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp2"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp3"/>
+                </methods>
+            </class>
+            <!--<class name="seleniumTest.LoginTestNew">
+                <methods>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp1"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp2"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp3"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://koelapp.testpro.io"/>
+    <test name="crossBrowsing">
+        <classes>
+            <class name="seleniumTest.LoginTest">
+                <methods>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp1"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp2"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp3"/>
+                </methods>
+            </class>
+            <!--<class name="seleniumTest.LoginTestNew">
+                <methods>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp1"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp2"/>
+                    <include name="loginTest_CorrectCredentials_LoggedToApp3"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>

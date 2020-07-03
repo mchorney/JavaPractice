@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,9 +16,11 @@ public class SeleniumTestFirst {
 
     @BeforeMethod
     public void startUp() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        driver = new FirefoxDriver();
+        Thread.sleep(3000);
         driver.get("https://koelapp.testpro.io/#!/home");
+        //driver.navigate().to("https://koelapp.testpro.io/#!/home");
         Thread.sleep(3000);
 
     }
