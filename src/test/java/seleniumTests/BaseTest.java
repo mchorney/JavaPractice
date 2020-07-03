@@ -16,7 +16,7 @@ public class BaseTest {
     @BeforeMethod
     public void startUp() throws NoSuchFieldException {
 
-        driver= BrowserFabric.getDriver(Browsers.FIREFOX);
+        driver= BrowserFabric.getDriver(Browsers.CHROME);
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 

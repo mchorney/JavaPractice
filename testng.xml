@@ -14,11 +14,11 @@
             </class>
             <class name="seleniumTests.LoginTestNew">
                 <methods>
-                    <include name="loginTest_CorrectCredentials_LoggedToApp" />
-                    <include name="loginTest_CorrectCredentials_LoggedToApp1" />
-                    <include name="loginTest_CorrectCredentials_LoggedToApp2" />
-                    <include name="loginTest_CorrectCredentials_LoggedToApp3" />
-                    <include name="loginTest_CorrectCredentials_LoggedToApp4" />
+                    <include name="loginTest_CorrectCredentials_LoggedToApp5" />
+                    <include name="loginTest_CorrectCredentials_LoggedToApp6" />
+                    <include name="loginTest_CorrectCredentials_LoggedToApp7" />
+                    <include name="loginTest_CorrectCredentials_LoggedToApp8" />
+                    <include name="loginTest_CorrectCredentials_LoggedToApp9" />
                 </methods>
             </class>
             <class name="seleniumTests.PlaylistTests">
@@ -31,10 +31,10 @@
             </class>
             <class name="seleniumTests.PlaylistTestsNew">
                 <methods>
-                    <include name="playlistTests_createPlaylist_PlaylistCreated" />
-                    <include name="playlistTests_renamePlaylist_PlaylistRenamed" />
-                    <include name="playlistTests_createPlaylist_PlaylistCreated1" />
-                    <include name="playlistTests_renamePlaylist_PlaylistRenamed1" />
+                    <include name="playlistTests_createPlaylist_PlaylistCreated2" />
+                    <include name="playlistTests_renamePlaylist_PlaylistRenamed2" />
+                    <include name="playlistTests_createPlaylist_PlaylistCreated3" />
+                    <include name="playlistTests_renamePlaylist_PlaylistRenamed3" />
                 </methods>
             </class>
         </classes>
